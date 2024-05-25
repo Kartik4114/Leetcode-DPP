@@ -1,36 +1,35 @@
 class Solution {
 public:
+    // RECURSIVE APPROACH
     int dp[301];
-    bool solve(string s, unordered_set<string> &st,int i){
-        if(i>=s.size()){
-            return true;
-        }
+    bool helper(string s, int i, unordered_set<string> &wordDict) {
+        if (i == s.size()) return true;
+        string temp;
 
-        if(dp[i]!=-1){
-            return dp[i];
-        }
-        int j=i;
-        string temp="";
-        while(j<s.size()){
-            temp+=s[j];
+        if (dp[i] != -1) return dp[i];
 
-            if(st.find(temp)!=st.end()){
-                if(solve(s,st,j+1)) return dp[i]=1;
+        for (int j = i; j < s.size(); j++) {
+            temp += s[j];
+
+            if (wordDict.find(temp) != wordDict.end()) {
+                if (helper(s, j + 1, wordDict)) {
+                   return dp[i] = 1;
+                    // return true;
+                }
             }
-            j++;
         }
-        
-        return dp[i]=0;
+
+        return dp[i] = 0;
     }
-    bool wordBreak(string s, vector<string>& wordDict) {
-        
-        unordered_set<string> st;
-        memset(dp,-1,sizeof(dp));
 
-        for(auto s:wordDict){
-            st.insert(s);
+    bool wordBreak(string s, vector<string>& wordDict) {
+        unordered_set<string> st;
+
+        for (int i = 0; i < wordDict.size(); i++) {
+            st.insert(wordDict[i]);
         }
 
-        return solve(s,st,0);
+        memset(dp, -1, sizeof(dp));
+        return helper(s, 0, st);
     }
 };
