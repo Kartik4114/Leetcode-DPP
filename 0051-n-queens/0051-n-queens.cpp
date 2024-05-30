@@ -2,6 +2,11 @@ class Solution {
 public:
     vector<vector<string>> result;
 
+    // for approach 2:
+    unordered_set<int> cols;
+    unordered_set<int> diag;
+    unordered_set<int> antiDiag;
+
     bool isSafe(vector<string> &board,int row,int col){
 
         // checking row wise
@@ -22,7 +27,39 @@ public:
         }
         return true;
     }
-    void helper(vector<string> &board,int row){
+    void a2(vector<string> &board,int row){
+        
+        int n=board.size();
+        if(row>=n){
+            result.push_back(board);
+            return;
+        }
+
+        for(int col=0;col<n;col++){
+            
+            int diagConstant =row+col;
+            int antiDiagConstant =row-col;
+            if(cols.find(col)!=cols.end() || diag.find(diagConstant)!=diag.end() || 
+                antiDiag.find(antiDiagConstant)!=antiDiag.end()){
+                continue;
+            }
+                cols.insert(col);
+                diag.insert(diagConstant);
+                antiDiag.insert(antiDiagConstant);
+
+                board[row][col]='Q';
+
+                a2(board,row+1);
+
+                cols.erase(col);
+                diag.erase(diagConstant);
+                antiDiag.erase(antiDiagConstant);
+                board[row][col]='.';
+            }
+        }
+
+
+        void a1(vector<string> &board,int row){
         
         int n=board.size();
         if(row>=n){
@@ -35,18 +72,26 @@ public:
             if(isSafe(board,row,col)){
                 board[row][col]='Q';
 
-                helper(board,row+1);
+                a1(board,row+1);
                 board[row][col]='.';
             }
         }
     }
     vector<vector<string>> solveNQueens(int n) {
         
-        // APPROACH 1:- 
+        // APPROACH 1:- using separate code for checking isSafe
+        //  T.C :-  Approx.O(N!)
+        // S.C :- O(N) system stack
 
         vector<string> board(n,string(n,'.'));
 
-        helper(board,0);
+        // a1(board,0);
+
+        // APPROACH 2:- using unordered_set for checking isSafe
+        //  T.C :-  Approx.O(N!)
+        // S.C :- O(N) auxillary space
+
+        a2(board,0);
         return result;
     }
 };
