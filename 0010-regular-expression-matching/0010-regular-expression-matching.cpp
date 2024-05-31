@@ -60,6 +60,8 @@ public:
 
         // APPROACH 2:- USING i and j pointer
         // here we are doing memoization also
+
+        // T.C:- O(m*n) , S.C:- O(m*n)
         memset(memo,-1,sizeof(memo));
         return a2(s,p,0,0);
     }
