@@ -39,7 +39,7 @@ public:
             first_char_matched=true;
         }
 
-        if(p[j+1]=='*'){
+        if(j+1<p.length() && p[j+1]=='*'){
 
             bool not_take=a2(s,p,i,j+2);
             bool take=first_char_matched && a2(s,p,i+1,j);
