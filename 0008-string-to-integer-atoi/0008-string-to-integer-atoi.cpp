@@ -8,17 +8,13 @@ public:
             return;
         }
         
-        
         num=num*10+(temp[idx]-'0');
         if(num>=INT_MAX && sign==false){
             num= INT_MAX;
-                        cout<<"b"<<endl;
-
             return;
         }
         if(-num<=INT_MIN && sign==true){
             num= INT_MIN;
-            cout<<"a"<<endl;
             return;
         }
 
@@ -53,20 +49,13 @@ public:
 
 
 
-        if(sign==true)
-        cout<<"True"<<endl;
-        else cout<<"False"<<endl;
-
         if(num==INT_MIN && sign==true) return INT_MIN;
         if(num==INT_MAX && sign ==false) return INT_MAX;
+
         if(sign==true){
-            // num=-num;
-            // if(num<INT_MIN)  return INT_MIN ;
-            cout<<"sign"<<endl;
             return -num;
         }
-    
-        // if(num>INT_MAX) return INT_MAX;
+
         return num;
     }
 };
