@@ -24,15 +24,37 @@ public:
         return max(skip, take);
     }
 
+    int a2(vector<int> &nums){
+        int n=nums.size();
+
+        vector<int> dp(n,1);
+        int maxLIS=1;
+
+        for(int i=0;i<n;i++){
+            for(int j=0;j<i;j++){
+
+                if(nums[j]<nums[i]){
+                    dp[i]=max(dp[i],dp[j]+1);
+                    maxLIS=max(maxLIS,dp[i]);
+                }
+            }
+        }
+        return maxLIS;
+
+    }
     int lengthOfLIS(vector<int>& nums) {
 
         // APPROACH 1:- USING RECURSION+MEMOISATION
         // FOR RECURSION :- T.C:- O(2^N)
-        // FOR MEMOIZATION T.C :- O(N*N) , S.C :- O(N*N);
-        
-        // Initialize memo array with -1
+        // FOR MEMOIZATION T.C :- O(N^2) , S.C :- O(N^2);
         memset(memo, -1, sizeof(memo));
-        // Start recursion with the first element and -1 as the previous index
-        return a1(nums, 0, -1);
+
+        // return a1(nums, 0, -1);
+
+        // // APPROACH 2:- USING DYNAMIC PROGRAMMING
+        // FOR DYNAMIC PROGRAMMING T.C :- O(N^2) , S.C :- O(N^2);
+
+        return a2(nums);
+
     }
 };
