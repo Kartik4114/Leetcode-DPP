@@ -35,14 +35,41 @@ public:
         return dp[n];
 
     }
+
+    int a3(vector<int> &nums){
+        int n=nums.size();
+
+        if(n==1) return nums[0];
+
+        int prevPrev=0;
+        int prev=nums[0];
+
+        for(int i=2;i<=n;i++){
+            int skip=prev;
+            int steal=prevPrev+nums[i-1];
+
+            int temp=max(skip,steal);
+            
+            prevPrev=prev;
+            prev=temp;
+        }
+
+        return prev;
+    }
     int rob(vector<int>& nums) {
         
         // APPROACH 1:- USING RECURSION +MEMOIZATION
+        // T.C :- O(n) , S.c:- O(n)
         memset(memo,-1,sizeof(memo));
         // return a1(nums,0);
 
         // APPROACH 2:- USING DYNAMIC PROGRAMMING 
-        return a2(nums);
+        // T.C :- O(n) , S.c:- O(n)
+        // return a2(nums);
+
+        // APPROACH 3:- USING CONSTANT SPACE
+        // T.C :- O(n) , S.c:- O(1)
+        return a3(nums);
         
     }
 };
