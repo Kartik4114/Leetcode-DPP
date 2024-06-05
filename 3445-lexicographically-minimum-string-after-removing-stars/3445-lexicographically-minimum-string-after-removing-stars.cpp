@@ -1,65 +1,40 @@
 class Solution {
 public:
-    
-    class Compare {
-public:
-    bool operator()(pair<char,int> below, pair<char,int> above)
-    {
-        if (below.first > above.first) {
-            return true;
-        }
-        else if (below.first == above.first
-                 && below.second < above.second) {
-            return true;
-        }
- 
-        return false;
-    }
+    typedef pair<char,int> P;
+    struct comp{
+        bool operator()(P &p1,P &p2){
+
+            if(p1.first==p2.first){
+                return p1.second < p2.second;
+            } else{
+                return p1.first > p2.first;
+            }
+        } 
     };
     string clearStars(string s) {
-        
         int n=s.size();
-        
-        int cnt=0;
-         priority_queue<pair<char,int>,vector<pair<char,int>>, Compare> pq;
+
+        priority_queue<P,vector<P>, comp> pq;
+
         for(int i=0;i<n;i++){
-            
+
             if(s[i]!='*'){
                 pq.push({s[i],i});
+            } else {
+                int idx=pq.top().second;
+
+                pq.pop();
+                s[idx]='*';
             }
-            if(s[i]=='*'){
-                
-                // while(!pq.empty() && cnt>0){
-                //     pq.pop();
-                //     cnt--;
-                // }
-                if(!pq.empty()){
-                    pq.pop();
-                } 
-            }   
         }
-        
-        
-        
-        unordered_set<int> st;
-        
-        while(!pq.empty()){
-            st.insert(pq.top().second);
-            pq.pop();
-        }
-        
-        string ans="";
-        
+
+        string result="";
         for(int i=0;i<n;i++){
-            if(st.find(i)!=st.end()){
-                ans+=s[i];
+            if(s[i]!='*'){
+                result+=s[i];
             }
         }
-        
-        return ans;
-        
-        
-    
-        
+
+        return result;
     }
 };
