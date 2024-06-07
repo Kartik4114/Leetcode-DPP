@@ -1,22 +1,26 @@
 class Solution {
 public:
-    string root(unordered_set<string> &st,string &word){
+    string findRoot(unordered_set<string> &st,string &word){
 
-        for(int l=0;l<word.size();l++){
+        for(int l=0;l<word.size();l++){ // O(l*l)
+            string root=word.substr(0,l); // O(l)
 
-            string root=word.substr(0,l);
-            if(st.count(root)){
-                return root;
-            }
+            if(st.count(root)) return root;
         }
         return word;
     }
     string replaceWords(vector<string>& dictionary, string sentence) {
         
-        int n=sentence.size();
-        unordered_set<string> st;
+        //T.C : o(n*l + m*l^2) , n = number of words in the dictionary,
+        //  m be the number of words in the sentence, 
+        // and l be the average length of each word.
 
-        for(auto &s:dictionary){
+        //S.C : O(n*l)
+        
+        int n=dictionary.size();
+
+        unordered_set<string> st; // O(w*l)
+        for(auto &s: dictionary){
             st.insert(s);
         }
 
@@ -24,12 +28,12 @@ public:
         string word;
 
         string result;
-        while(getline(ss,word,' ')){
 
-            result+=root(st,word)+" ";
+        while(getline(ss,word,' ')){ // O(w*l*l)
+            result+=findRoot(st,word)+" ";
         }
-        result.pop_back();
 
+        result.pop_back();
         return result;
     }
 };
