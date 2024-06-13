@@ -28,6 +28,9 @@ public:
         int i=0,j=0;
         int moves=0;
 
+        // here instead of going till 100 we can find max number of seats 
+        // and students first then go till that max value.
+        
         while(i<=100 && j<=100){
 
             if(position_seats[i]==0) i++;
@@ -49,7 +52,7 @@ public:
     
     // APPROACH 1:- USING SORTING 
     // T.C:- O(nlogn) , S.C :- O(1)
-        // return a1(seats,students);
+        return a1(seats,students);
 
     // APPROACH 2:- USING COUNT SORT
     // T.C :- O(N) , S.C :- O(N)
