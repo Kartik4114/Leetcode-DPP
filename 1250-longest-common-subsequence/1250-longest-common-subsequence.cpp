@@ -40,7 +40,28 @@ public:
                 }
             }
         }
+
         return dp[m][n];
+
+        // Just printing the LCS for revision
+        string lcs="";
+
+        int i=m,j=n;
+        while(i>0 && j>0){
+            if(dp[i-1]==dp[j-1]){
+                lcs+=s1[i-1];
+                i--;
+                j--;
+            } else {
+
+                if(dp[i-1][j]>dp[i][j-1]) i--;
+                else j--;
+            }
+        }
+
+        reverse(lcs.begin(),lcs.end());
+        cout<<lcs<<endl;
+
     }
     int longestCommonSubsequence(string text1, string text2) {
         
@@ -49,6 +70,7 @@ public:
         // return a1(text1,text2,0,0);
 
         // approach 2:- using dp
+        // here we will also do the printing of the LCS
         return a2(text1,text2);
 
     }
