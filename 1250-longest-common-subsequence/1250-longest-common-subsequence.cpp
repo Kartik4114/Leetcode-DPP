@@ -8,12 +8,15 @@ public:
         if(i>=m || j>=n) return 0;
         if(memo[i][j]!=-1) return memo[i][j];
 
-        // int take=0;
+        int take=0;
         // int skip=0;
         if(text1[i]==text2[j]){
-            return memo[i][j]= 1+a1(text1,text2,i+1,j+1);
+            take= 1+a1(text1,text2,i+1,j+1);
         } 
-            return memo[i][j]=max(a1(text1,text2,i,j+1),a1(text1,text2,i+1,j));
+            int skip=max(a1(text1,text2,i,j+1),a1(text1,text2,i+1,j));
+        
+        return memo[i][j]=max(take,skip);
+
     }
     int longestCommonSubsequence(string text1, string text2) {
         
