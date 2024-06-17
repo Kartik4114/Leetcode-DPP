@@ -32,6 +32,26 @@ int helper(int i, int j) {
         }
         return dp[m-1][n-1];
     }
+
+    int a4(int m,int n){
+        vector<int> prev(n,0);
+        for(int i=0;i<n;i++){
+            vector<int> curr(m,0);
+            for(int j=0;j<n;j++){
+                if(i==0 && j==0) curr[j]=1;
+                else {
+                    int up=0;
+                    int left=0;
+
+                    if(i> 0) up=prev[j];
+                    if(j>0) left=curr[j-1];
+                    curr[j]=up+left;
+                }
+            }
+            prev=curr;
+        }
+        return prev[n-1];
+    }
     int uniquePaths(int m, int n) {
         
         // T.C :- FOR RECURSION O(2^(M*N))
@@ -45,6 +65,10 @@ int helper(int i, int j) {
         // approach 3:- using dynamic programming
         // T.C:- O(M*N), S.C :- O(M*N)
         return a3(m,n);
+
+        // APPROACH 4:- USING SPACE OPTIMIZATION
+        // T.C :- O(M*N) ,S.C :- O(N)
+        return a4(m,n);
 
 
         
