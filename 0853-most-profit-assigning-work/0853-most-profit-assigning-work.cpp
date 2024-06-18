@@ -1,7 +1,6 @@
 class Solution {
 public:
-    int maxProfitAssignment(vector<int>& difficulty, vector<int>& profit, vector<int>& worker) {
-        
+    int a1(vector<int>& difficulty, vector<int>& profit, vector<int>& worker){
         int n=profit.size();
         int m=worker.size();
 
@@ -27,5 +26,44 @@ public:
         }
         return maxProfit;
         
+    }
+
+    int a2(vector<int>& difficulty, vector<int>& profit, vector<int>& worker){
+        int n=difficulty.size();
+        int m=worker.size();
+
+        priority_queue<pair<int,int>> pq;
+
+        for(int i=0;i<n;i++){
+            pq.push({profit[i],difficulty[i]});
+        }
+
+        sort(worker.begin(),worker.end(),greater<int>()); // in descending order
+
+        int i=0;
+        int totalProfit=0;
+
+        while(i<m && !pq.empty()){
+            if(pq.top().second > worker[i]){
+                pq.pop();
+            } else {
+                totalProfit+=pq.top().first;
+                i++;
+            }
+
+        }
+        
+        return totalProfit;
+
+    }
+    int maxProfitAssignment(vector<int>& difficulty, vector<int>& profit, vector<int>& worker) {
+        
+        // APPROACH 1:- USING SIMPLE ARRAY FOR STORING ELEMENT
+        // return a1(difficulty, profit,worker);
+
+        // APPROACH 2:- USING PRIORITY QUEUE FOR GETTING MAX ELEMENT
+        return a2(difficulty, profit,worker);
+
+
     }
 };
