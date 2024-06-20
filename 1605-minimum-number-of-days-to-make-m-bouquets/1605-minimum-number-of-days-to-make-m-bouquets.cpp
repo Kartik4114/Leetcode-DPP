@@ -1,44 +1,45 @@
 class Solution {
 public:
-    int minDays(vector<int>& bloomDay, int m, int k) {
-        if ((long long)m * k > bloomDay.size()) {
-            return -1;
-        }
+    bool makeBouquet(vector<int> &bloomDay,int mid,int k,int m){
 
-        int low = 1, high = 1e9;
-        while (low < high) {
-            int mid = low + (high - low) / 2;
+        int countDays=0;
+        int bouq_count=0;
+        int n=bloomDay.size();
+        for(int i=0;i<n;i++){
 
-            if (canMakeBouquets(bloomDay, m, k, mid)) {
-                high = mid;
-            } else {
-                low = mid + 1;
+            if(bloomDay[i]<=mid){
+                countDays++;
+            } else countDays=0;
+
+            if(countDays==k){
+                bouq_count++;
+                countDays=0;
             }
+            if(bouq_count==m) break;
         }
 
-        return low;
+        return bouq_count==m;
     }
+    int minDays(vector<int>& bloomDay, int m, int k) {
+        
+        // it is the question on binary search on answer
 
-private:
-    bool canMakeBouquets(vector<int>& bloomDay, int m, int k, int day) {
-        int total = 0;
-        for (int i = 0; i < bloomDay.size(); i++) {
-            int count = 0;
-            while (i < bloomDay.size() && count < k && bloomDay[i] <= day) {
-                count++;
-                i++;
-            }
+        int startDay=0;
+        int endDay= *max_element(bloomDay.begin(),bloomDay.end());
 
-            if (count == k) {
-                total++;
-                i--;
-            }
+        int result=-1;
+        while(startDay<=endDay){
 
-            if (total >= m) {
-                return true;
+            int midDay=(startDay+endDay)/2;
+
+            if(makeBouquet(bloomDay,midDay,k,m)){
+                result=midDay;
+                endDay=midDay-1;
+            } else {
+                startDay=midDay+1;
             }
         }
 
-        return false;
+        return result;
     }
 };
