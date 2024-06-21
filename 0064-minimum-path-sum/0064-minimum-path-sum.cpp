@@ -41,6 +41,38 @@ public:
         return dp[m-1][n-1];
 
     }
+
+    int a3(vector<vector<int>> &grid){
+        
+        int m=grid.size();
+        int n=grid[0].size();
+
+        // vector<vector<int>> dp(m,vector<int>(n,0));
+        vector<int> prev(n,0);
+        for(int i=0;i<m;i++){
+            vector<int> curr(n,0);
+
+            for(int j=0;j<n;j++){
+                if(i==0 && j==0) curr[j]=grid[i][j];
+
+                else if(i==0){
+                    curr[j]=grid[i][j]+curr[j-1];
+                }
+                
+                else if(j==0) {
+                    curr[j]=grid[i][j]+prev[j];
+                }
+
+                else {
+                    curr[j]=grid[i][j] +min(prev[j],curr[j-1]);
+                }
+            }
+            prev=curr;
+        }
+
+        return prev[n-1];
+
+    }
     int minPathSum(vector<vector<int>>& grid) {
     
     // APPROACH 1:- USING RECURSION +MEMO
@@ -51,6 +83,9 @@ public:
         // return a1(grid,n-1,m-1);
 
         // APPROACH 2:- USING DYNAMIC PROGRAMMING
-        return a2(grid);
+        // return a2(grid);
+
+        // approach 3:- DOING MORE SPACE OPTIMIZATION
+        return a3(grid);
     }
 };
