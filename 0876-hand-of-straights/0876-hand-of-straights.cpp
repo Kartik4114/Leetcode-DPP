@@ -1,29 +1,38 @@
-#include <vector>
-#include <map>
-using namespace std;
-
+//Approach (Simply using map)
+//T.C  : O(nlogn) + O(n*groupSize)
+//S.C  : O(n)
 class Solution {
 public:
     bool isNStraightHand(vector<int>& hand, int groupSize) {
-        if (hand.size() % groupSize != 0) return false;
+        int n = hand.size();
 
-        map<int, int> mp;
-        for (auto num : hand) {
-            mp[num]++;
+        if(n % groupSize) {
+            return false;
         }
 
-        for (auto it = mp.begin(); it != mp.end(); ++it) {
-            int curr = it->first;
-            int count = it->second;
+        map<int, int> mp;
+        for(int &handNumber : hand) {
+            mp[handNumber]++; //O(nlogn)
+        }
 
-            if (count > 0) {
-                for (int i = 0; i < groupSize; ++i) {
-                    if (mp[curr + i] < count) return false;
-                    mp[curr + i] -= count;
+        while(!mp.empty()) { //O(n*groupSize)
+
+            int curr = mp.begin()->first; //->second : frequency
+
+            for(int i = 0; i < groupSize; i++) {
+                if(mp.find(curr+i)==mp.end()) {
+                    return false;
+                }
+
+                mp[curr+i]--;
+                if(mp[curr+i] < 1) {
+                    mp.erase(curr+i);
                 }
             }
+
         }
 
         return true;
+        
     }
 };
