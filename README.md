@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0876-hand-of-straights](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0876-hand-of-straights) |
+| [1293-three-consecutive-odds](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1293-three-consecutive-odds) |
 ## Hash Table
 |  |
 | ------- |
