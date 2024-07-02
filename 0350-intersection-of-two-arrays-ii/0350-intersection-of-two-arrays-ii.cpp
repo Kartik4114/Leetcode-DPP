@@ -44,7 +44,7 @@ public:
         
         // APPROACH 1:- USING SORTING AND TRAVERSING (BEST APPROACH)
         // T.C:- O(nlogn) ,S.C :- O(1)
-        // return a1(nums1,nums2);
+        return a1(nums1,nums2);
 
         // APPROACH 2:- USING MAP
         // T.C:- O(n) ,S.C :- O(n)
