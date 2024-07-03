@@ -40,7 +40,7 @@ public:
         
         // APPROACH 1:- USING SORTING
         // T.C :- O(nlogn) , S.C :- O(1)
-        // return a1(nums);
+        return a1(nums);
 
         // APPROACH 2:- USING PARTIAL SORT AND NTH ELEMENT (MORE OPTIMISED APPROACH)
         // T.C :- O(n) , S.C :- O(1)
