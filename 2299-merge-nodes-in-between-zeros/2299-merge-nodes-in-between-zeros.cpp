@@ -10,31 +10,8 @@
  */
 class Solution {
 public:
+
     ListNode* a1(ListNode* head){
-        ListNode* newHead=NULL;
-        ListNode* tail=NULL;
-
-        int sum=0;
-        while(head!=NULL){
-            if(head->val!=0){
-                sum+=head->val;
-            } else {
-                ListNode* newnode=new ListNode(sum);
-                if(newHead==NULL){
-                    newHead=newnode;
-                    tail=newnode;
-                } else {
-                    tail->next=newnode;
-                    tail=newnode;
-                }
-                sum=0;
-            }
-            head=head->next;
-        }
-        return newHead->next;
-    }
-
-    ListNode* a2(ListNode* head){
         
         ListNode* p1=head->next;
         ListNode* p2=head->next;
@@ -55,12 +32,29 @@ public:
         return head->next;
 
     }
+    ListNode* a2(ListNode* head){
+        head=head->next;
+        if(head==NULL) return head;
+
+        ListNode* temp=head;
+        int sum=0;
+        while(temp->val!=0){
+            sum+=temp->val;
+            temp=temp->next;
+        }
+
+        head->val=sum;
+        head->next=a2(temp);
+
+        return head;
+    }
+
     ListNode* mergeNodes(ListNode* head) {
 
-        // APPROACH 1:- HERE NEW NODE IS MADE 
-        return a1(head);
+        // APPROACH 1:-  TWO POINTERS
+        // return a1(head);
 
-        // APPROACH 2:-  TWO POINTERS
+        // APPROACH 2:- RECURSION LEAP OF FAITH
         return a2(head);
     }
 };
