@@ -10,8 +10,7 @@
  */
 class Solution {
 public:
-    ListNode* mergeNodes(ListNode* head) {
-        
+    ListNode* a1(ListNode* head){
         ListNode* newHead=NULL;
         ListNode* tail=NULL;
 
@@ -33,6 +32,35 @@ public:
             head=head->next;
         }
         return newHead->next;
+    }
 
+    ListNode* a2(ListNode* head){
+        
+        ListNode* p1=head->next;
+        ListNode* p2=head->next;
+
+        while(p2!=NULL){
+
+            int sum=0;
+            while(p2!=NULL && p2->val!=0){
+                sum+=p2->val;
+                p2=p2->next;
+            }
+            p1->val=sum;
+            p2=p2->next;
+            p1->next=p2;
+            p1=p1->next;
+        }
+
+        return head->next;
+
+    }
+    ListNode* mergeNodes(ListNode* head) {
+
+        // APPROACH 1:- 
+        // return a1(head);
+
+        // APPROACH 2:- 
+        return a2(head);
     }
 };
