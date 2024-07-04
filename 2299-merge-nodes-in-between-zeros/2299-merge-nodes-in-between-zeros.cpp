@@ -57,10 +57,10 @@ public:
     }
     ListNode* mergeNodes(ListNode* head) {
 
-        // APPROACH 1:- 
-        // return a1(head);
+        // APPROACH 1:- HERE NEW NODE IS MADE 
+        return a1(head);
 
-        // APPROACH 2:- 
+        // APPROACH 2:-  TWO POINTERS
         return a2(head);
     }
 };
