@@ -1,6 +1,6 @@
 class Solution {
 public:
-    typedef long long ll;
+   typedef long long ll;
 
      ll memo[100001][2]; 
     ll a1(vector<int> &nums,int idx,bool flag){
@@ -22,34 +22,26 @@ public:
         return memo[idx][flag]=max(skip,take);
     }
 
-    ll a2(vector<int> &nums){
+    long long a2(vector<int> &nums){
+
         int n=nums.size();
-        vector<vector<ll>> dp(n+1,vector<ll> (2,0));
+        vector<vector<long long>> dp(n+1,vector<long long>(2,0));
 
-        for(int i=1;i<=n;i++){
+        for(int i=1;i<n+1;i++){
 
-            // Even (0 is for even)
-            dp[i][0]= max(dp[i-1][1]-nums[i-1],dp[i-1][0]);
-
-            // Odd (0 is for Odd)
-            dp[i][1]= max(dp[i-1][0]+nums[i-1],dp[i-1][1]);
+            dp[i][0]=max(dp[i-1][0],dp[i-1][1]-nums[i]);
+            
+            dp[i][1]=max(dp[i-1][1],dp[i-1][0]+nums[i]);
         }
 
         return max(dp[n][0],dp[n][1]);
-
     }
+
+
     long long maxAlternatingSum(vector<int>& nums) {
         
-        // APPROACH 1: -USING RECURSION +MEMOIZATION
-        // FOR RECURSION T.C :- O(2^N)
-        // FOR MEMOIZATION T.C:- O(2N) OR O(N)
-        // IN MEMOIZATION WE WILL TAKE 2-D ARRAY 1 FOR IDX AND 2ND FOR FLAG(TRUE OR FALSE)
-
-        memset(memo,-1,sizeof(memo));
-        // return a1(nums,0,true);
-
-        // APPROACH 2: -USING DYNAMIC PROGRAMMING
-            return a2(nums);
+        // memset(memo,-1,sizeof(memo));
+        return a2(nums);
 
 
     }
