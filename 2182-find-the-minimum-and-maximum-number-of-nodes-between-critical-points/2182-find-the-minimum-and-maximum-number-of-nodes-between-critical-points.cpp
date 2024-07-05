@@ -27,7 +27,7 @@ public:
         // head=head->next;
 
         int cnt=0;
-        while(head!=NULL && head->next!=NULL && head->next->next!=NULL){
+        while( head->next->next!=NULL){
 
             cnt++;
             if((head->val < head->next->val && head->next->next->val < head->next->val) ||
