@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1293-three-consecutive-odds](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1293-three-consecutive-odds) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [2022-maximum-alternating-subsequence-sum](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2022-maximum-alternating-subsequence-sum) |
+| [3184-maximum-balanced-subsequence-sum](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3184-maximum-balanced-subsequence-sum) |
 | [3469-maximum-height-of-a-triangle](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3469-maximum-height-of-a-triangle) |
 | [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
 ## Hash Table
@@ -35,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0350-intersection-of-two-arrays-ii) |
+| [3184-maximum-balanced-subsequence-sum](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3184-maximum-balanced-subsequence-sum) |
 ## Linked List
 |  |
 | ------- |
@@ -54,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1535-build-array-where-you-can-find-the-maximum-exactly-k-comparisons](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1535-build-array-where-you-can-find-the-maximum-exactly-k-comparisons) |
 | [2022-maximum-alternating-subsequence-sum](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2022-maximum-alternating-subsequence-sum) |
+| [3184-maximum-balanced-subsequence-sum](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3184-maximum-balanced-subsequence-sum) |
 | [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
 ## Math
 |  |
@@ -63,4 +66,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1535-build-array-where-you-can-find-the-maximum-exactly-k-comparisons](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1535-build-array-where-you-can-find-the-maximum-exactly-k-comparisons) |
+## Binary Indexed Tree
+|  |
+| ------- |
+| [3184-maximum-balanced-subsequence-sum](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3184-maximum-balanced-subsequence-sum) |
+## Segment Tree
+|  |
+| ------- |
+| [3184-maximum-balanced-subsequence-sum](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3184-maximum-balanced-subsequence-sum) |
 <!---LeetCode Topics End-->
