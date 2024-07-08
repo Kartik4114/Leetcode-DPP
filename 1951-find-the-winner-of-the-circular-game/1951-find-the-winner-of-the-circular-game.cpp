@@ -27,10 +27,10 @@ public:
                 que.push(i);
             }
 
-            while(que.size()>1){
+            while(que.size()>1){ // O(N)
                 
                 int deleteElementTill=k-1;
-                while(deleteElementTill>0 && !que.empty()){
+                while(deleteElementTill>0 && !que.empty()){ // O(k)
 
                     int front=que.front();
                     que.pop();
@@ -43,11 +43,27 @@ public:
 
             return que.front();
     }
+
+    int a3(int n,int k){
+        if(n==1) return 0;
+
+        int idx=a3(n-1,k);
+        idx=(idx+k)%n;
+
+        return idx;
+    }
     int findTheWinner(int n, int k) {
         
         // APPROACH 1:- USING ARRAY
-        return a1(n,k);
+        // T.C :- O(N^2)
+        // return a1(n,k);
+
         // APPROACH 2:- USING QUEUES
+        // T.C :- O(n*k);
+        // return a2(n,k);
+
+        // APPROACH 3:- USING RECURSION
+        return 1+a3(n,k);
 
 
     }
