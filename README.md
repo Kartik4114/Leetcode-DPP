@@ -94,12 +94,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0199-binary-tree-right-side-view](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0199-binary-tree-right-side-view) |
 | [0207-course-schedule](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0210-course-schedule-ii) |
 | [0547-number-of-provinces](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0547-number-of-provinces) |
 ## Breadth-First Search
 |  |
 | ------- |
+| [0199-binary-tree-right-side-view](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0199-binary-tree-right-side-view) |
 | [0207-course-schedule](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0210-course-schedule-ii) |
 | [0547-number-of-provinces](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0547-number-of-provinces) |
@@ -118,4 +120,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0207-course-schedule](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0210-course-schedule-ii) |
+## Tree
+|  |
+| ------- |
+| [0199-binary-tree-right-side-view](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0199-binary-tree-right-side-view) |
+## Binary Tree
+|  |
+| ------- |
+| [0199-binary-tree-right-side-view](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0199-binary-tree-right-side-view) |
 <!---LeetCode Topics End-->
