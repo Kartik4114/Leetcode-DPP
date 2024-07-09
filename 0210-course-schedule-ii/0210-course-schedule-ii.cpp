@@ -47,22 +47,28 @@ public:
         return topologicalSort(numCourses,adj,inDegree);
     }
     
-    bool isCycleDFS(unordered_map<int,vector<int>> &adj,vector<bool> &visited,int u,
-                    vector<bool> &inRecursion){
+    bool hasCycle;
+    void isCycleDFS(unordered_map<int,vector<int>> &adj,vector<bool> &visited,int u,
+                    stack<int> &st,vector<bool> &inRecursion){
         visited[u]=true;
         inRecursion[u]=true;
 
         for(auto &v:adj[u]){
-            if(!visited[v] && isCycleDFS(adj,visited,v,inRecursion))
-            return true;
+            if(!visited[v]){   
+                isCycleDFS(adj,visited,v,st,inRecursion);
+            }
 
-            else if(inRecursion[v]==true) return true;
+            else if(inRecursion[v]==true){
+                hasCycle=true;
+                return;
+            }
         }
+        st.push(u);
         inRecursion[u]=false;
-        return false;
+        return;
 
     }
-    bool a2(int numCourses, vector<vector<int>>& prerequisites){
+    vector<int> a2(int numCourses, vector<vector<int>>& prerequisites){
         unordered_map<int,vector<int>> adj;
 
         vector<bool> visited(numCourses,false);
@@ -75,24 +81,33 @@ public:
             adj[b].push_back(a);
         }
 
+        stack<int> st;
         for(int i=0;i<numCourses;i++){
 
-            if(!visited[i] && isCycleDFS(adj,visited,i,inRecursion))
-             return false;
+            if(!visited[i])
+            isCycleDFS(adj,visited,i,st,inRecursion);
         }
-        return true;
+
+        vector<int> result;
+        while(!st.empty()){
+            result.push_back(st.top());
+            st.pop();
+        }
+        if(hasCycle==true) return {};
+        return result;
+        
     }
     vector<int> findOrder(int numCourses, vector<vector<int>>& prerequisites) {
 
         // APPROACH 1:- USING BFS
         // IT IS DETECT CYCLE IN DIRECTED GRAPH(KAHN'S ALGORITHM)
 
-        return a1(numCourses,prerequisites);
+        // return a1(numCourses,prerequisites);
 
         // APPROACH 2:- USING DFS
 
         // IT IS DETECT CYCLE IN DIRECTED GRAPH
-        // return a2(numCourses,prerequisites);
+        return a2(numCourses,prerequisites);
 
     }
 };
