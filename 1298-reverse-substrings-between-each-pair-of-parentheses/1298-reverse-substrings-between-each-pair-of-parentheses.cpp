@@ -19,19 +19,12 @@ public:
                 }
                 st.pop();
 
-                    while(!que.empty()){
-                        st.push(que.front());
-                        que.pop();
-                    }
+                while(!que.empty()){
+                    st.push(que.front());
+                    que.pop();
+                }
             }
         }
-
-        // string result;
-        // while(!que.empty()){
-        //     result.push_back(que.front());
-        //     que.pop();
-        // }
-
         string result;
         while(!st.empty()){
             result.push_back(st.top());
