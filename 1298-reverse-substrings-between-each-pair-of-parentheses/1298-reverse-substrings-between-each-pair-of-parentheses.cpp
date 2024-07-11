@@ -57,9 +57,38 @@ public:
         }
         return result;
     }
-    // string a3(string s){
-        
-    // }
+    string a3(string s){
+
+        int n=s.size();
+        stack<int> openBracketIdx;
+        vector<int> door(n);
+
+        for(int i=0;i<n;i++){
+            if(s[i]=='('){
+                openBracketIdx.push(i);
+            }
+
+            else if(s[i]==')'){
+                int j=openBracketIdx.top();
+                openBracketIdx.pop();
+                door[i]=j;
+                door[j]=i;
+            }
+        }
+
+        string result;
+        int flag=1;
+        for(int i=0;i<n;i+=flag){
+
+            if(s[i]=='(' || s[i]==')'){
+                i=door[i];
+                flag=-flag;
+            } else {
+                result.push_back(s[i]);
+            }
+        }
+        return result;
+    }
     string reverseParentheses(string s) {
         
         // APPROACH 1:- MY APPROACH (LITTLE LENGTHY) USING STACK
@@ -68,10 +97,10 @@ public:
 
         // APPROACH 2:- BETTER APPROACH USING STACK
         // T.C :- O(n^2) , S.C :- O(N)
-        return a2(s);
+        // return a2(s);
 
-        // APPROACH 1:-OPTIMISED APPROACH
+        // APPROACH 1:-OPTIMISED APPROACH (IMP.)
         // T.C :- O(n) , S.C :- O(N)
-        // return a3(s);
+        return a3(s);
     }
 };
