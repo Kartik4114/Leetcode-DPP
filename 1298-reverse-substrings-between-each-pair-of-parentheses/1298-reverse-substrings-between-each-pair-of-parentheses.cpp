@@ -1,8 +1,7 @@
 class Solution {
 public:
-    string reverseParentheses(string s) {
-        
-        stack<int> st;
+    string a1(string s){
+         stack<int> st;
         queue<int> que;
 
         int n=s.size();
@@ -32,5 +31,47 @@ public:
         }
         reverse(result.begin(),result.end());
         return result;
+    }
+    string a2(string s){
+        
+        // here we are storing where openBracket is and then reversing the string 
+        // front open bracket till end
+        stack<int> lastSkipLength; // storing count of openBracket
+        int n=s.size();
+        
+
+        string result="";
+        for(int i=0;i<n;i++){
+
+            if(s[i]=='('){
+                lastSkipLength.push(result.length());
+            }
+            else if(s[i]==')'){
+                int l=lastSkipLength.top();
+                reverse(result.begin()+l,result.end());
+                lastSkipLength.pop();
+            } 
+            else {
+                result+=s[i];
+            }
+        }
+        return result;
+    }
+    // string a3(string s){
+        
+    // }
+    string reverseParentheses(string s) {
+        
+        // APPROACH 1:- MY APPROACH (LITTLE LENGTHY) USING STACK
+        // T.C :- O(n^2) , S.C :- O(N)
+        // return a1(s);
+
+        // APPROACH 2:- BETTER APPROACH USING STACK
+        // T.C :- O(n^2) , S.C :- O(N)
+        return a2(s);
+
+        // APPROACH 1:-OPTIMISED APPROACH
+        // T.C :- O(n) , S.C :- O(N)
+        // return a3(s);
     }
 };
