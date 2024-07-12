@@ -1,8 +1,11 @@
 class Solution {
 public:
     bool isValid(string s) {
-        
+        // REMEMBER WE CAN SOLVE THIS QUESTION USING STACK ALSO
+
         // MOST OPTIMMISED APPROACH 
+        // T.C :- O(n) , S.C :- O(1)
+        
         // here we have to keep two pointers of i and j 
         // i for writing and j for reading
 
