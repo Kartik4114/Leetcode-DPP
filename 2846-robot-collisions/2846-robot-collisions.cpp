@@ -1,60 +1,54 @@
+//Using Stack
+//T.C : O(nlogn)
+//T.C : O(n)
 class Solution {
 public:
     vector<int> survivedRobotsHealths(vector<int>& positions, vector<int>& healths, string directions) {
-        map<int, pair<int, char>> storeDetails;
+
+        // T.C :- O(nlogn +2*n) 
+        // S.C :- O(n)
+        
         int n = positions.size();
-
-        for (int i = 0; i < n; i++) {
-            storeDetails[positions[i]] = {healths[i], directions[i]};
-        }
-
-        vector<int> sortedPositions = positions;
-        sort(sortedPositions.begin(), sortedPositions.end());
+        vector<int> indices(n);
+        
+        iota(indices.begin(), indices.end(), 0); //This will fill the array as -> 0, 1, 2, 3, 4, n-1
         stack<int> st;
 
-        for (auto pos : sortedPositions) {
-            while (!st.empty() && storeDetails[st.top()].second == 'R' && storeDetails[pos].second == 'L') {
-                int topElement = st.top();
-                if (storeDetails[topElement].first == storeDetails[pos].first) {
+        auto lambda = [&](int i, int j) {
+            return positions[i] < positions[j];
+        };
+
+        sort(begin(indices), end(indices), lambda); // O(nlogn)
+
+        vector<int> result;
+        for (int currentIndex : indices) { // O(2*n)  which is O(n)
+            if (directions[currentIndex] == 'R') {
+                st.push(currentIndex);
+            } else {
+                while (!st.empty() && healths[currentIndex] > 0) {
+                    int topIndex = st.top();
                     st.pop();
-                    storeDetails.erase(topElement);
-                    storeDetails.erase(pos);
-                    break;
-                } else if (storeDetails[topElement].first < storeDetails[pos].first) {
-                    st.pop();
-                    storeDetails[pos].first -= 1;
-                } else {
-                    storeDetails[topElement].first -= 1;
-                    storeDetails.erase(pos);
-                    break;
+
+                    if (healths[topIndex] > healths[currentIndex]) {
+                        healths[topIndex] -= 1;
+                        healths[currentIndex] = 0;
+                        st.push(topIndex);
+                    } else if (healths[topIndex] < healths[currentIndex]) {
+                        healths[currentIndex] -= 1;
+                        healths[topIndex] = 0;
+                    } else {
+                        healths[currentIndex] = 0;
+                        healths[topIndex] = 0;
+                    }
                 }
             }
-            if (storeDetails.count(pos) > 0) {
-                st.push(pos);
+        }
+
+        for (int i = 0; i < n; ++i) {
+            if (healths[i] > 0) {
+                result.push_back(healths[i]);
             }
         }
-
-        vector<int> result(n, -1);
-        unordered_map<int, int> idxStore;
-        for (int i = 0; i < n; i++) {
-            idxStore[positions[i]] = i;
-        }
-
-        while (!st.empty()) {
-            int top = st.top();
-            st.pop();
-
-            int idx = idxStore[top];
-            result[idx] = storeDetails[top].first;
-        }
-
-        vector<int> survived;
-        for (auto &v : result) {
-            if (v != -1) {
-                survived.push_back(v);
-            }
-        }
-
-        return survived;
+        return result;
     }
 };
