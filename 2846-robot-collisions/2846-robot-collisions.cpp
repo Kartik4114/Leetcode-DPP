@@ -1,42 +1,43 @@
 class Solution {
 public:
     vector<int> survivedRobotsHealths(vector<int>& positions, vector<int>& healths, string directions) {
-        map<int, pair<int, char>> mp;
+        map<int, pair<int, char>> storeDetails;
         int n = positions.size();
 
         for (int i = 0; i < n; i++) {
-            mp[positions[i]] = {healths[i], directions[i]};
+            storeDetails[positions[i]] = {healths[i], directions[i]};
         }
 
-        vector<int> temp = positions;
-        sort(positions.begin(), positions.end());
+        vector<int> sortedPositions = positions;
+        sort(sortedPositions.begin(), sortedPositions.end());
         stack<int> st;
 
-        for (auto &pos : positions) {
-            while (!st.empty() && mp[st.top()].second == 'R' && mp[pos].second == 'L') {
+        for (auto pos : sortedPositions) {
+            while (!st.empty() && storeDetails[st.top()].second == 'R' && storeDetails[pos].second == 'L') {
                 int topElement = st.top();
-                if (mp[topElement].first == mp[pos].first) {
+                if (storeDetails[topElement].first == storeDetails[pos].first) {
                     st.pop();
-                    mp.erase(topElement);
-                    mp.erase(pos);
+                    storeDetails.erase(topElement);
+                    storeDetails.erase(pos);
                     break;
-                } else if (mp[topElement].first < mp[pos].first) {
+                } else if (storeDetails[topElement].first < storeDetails[pos].first) {
                     st.pop();
-                    mp[pos].first -= 1;
+                    storeDetails[pos].first -= 1;
                 } else {
-                    mp[topElement].first -= 1;
-                    mp.erase(pos);
+                    storeDetails[topElement].first -= 1;
+                    storeDetails.erase(pos);
                     break;
                 }
             }
-            if (mp.count(pos)) st.push(pos);
+            if (storeDetails.count(pos) > 0) {
+                st.push(pos);
+            }
         }
 
         vector<int> result(n, -1);
         unordered_map<int, int> idxStore;
-
         for (int i = 0; i < n; i++) {
-            idxStore[temp[i]] = i;
+            idxStore[positions[i]] = i;
         }
 
         while (!st.empty()) {
@@ -44,7 +45,7 @@ public:
             st.pop();
 
             int idx = idxStore[top];
-            result[idx] = mp[top].first;
+            result[idx] = storeDetails[top].first;
         }
 
         vector<int> survived;
