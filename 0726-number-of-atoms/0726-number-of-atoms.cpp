@@ -2,6 +2,9 @@ class Solution {
 public:
     string countOfAtoms(string formula) {
         
+        // T.C :- O(N*N)
+        // S.C :- O(N)
+
         int n=formula.size();
         stack<unordered_map<string,int>> st;
         st.push(unordered_map<string,int>());
