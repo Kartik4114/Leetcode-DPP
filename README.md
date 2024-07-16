@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0350-intersection-of-two-arrays-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0876-hand-of-straights](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0876-hand-of-straights) |
 | [1032-satisfiability-of-equality-equations](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1032-satisfiability-of-equality-equations) |
+| [1171-shortest-path-in-binary-matrix](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1293-three-consecutive-odds](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1293-three-consecutive-odds) |
 | [1457-minimum-difficulty-of-a-job-schedule](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1457-minimum-difficulty-of-a-job-schedule) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
@@ -125,6 +126,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0547-number-of-provinces) |
 | [0744-network-delay-time](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0744-network-delay-time) |
 | [0801-is-graph-bipartite](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0801-is-graph-bipartite) |
+| [1171-shortest-path-in-binary-matrix](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
 ## Union Find
@@ -199,5 +201,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [1171-shortest-path-in-binary-matrix](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1171-shortest-path-in-binary-matrix) |
 | [3492-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3492-count-submatrices-with-equal-frequency-of-x-and-y) |
 <!---LeetCode Topics End-->
