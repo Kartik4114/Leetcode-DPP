@@ -114,6 +114,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0744-network-delay-time](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0744-network-delay-time) |
 | [0801-is-graph-bipartite](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0801-is-graph-bipartite) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1442-number-of-operations-to-make-network-connected) |
+| [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
 ## Breadth-First Search
 |  |
@@ -154,11 +155,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0199-binary-tree-right-side-view](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0199-binary-tree-right-side-view) |
+| [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2306-create-binary-tree-from-descriptions) |
 ## Binary Tree
 |  |
 | ------- |
 | [0199-binary-tree-right-side-view](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0199-binary-tree-right-side-view) |
+| [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2306-create-binary-tree-from-descriptions) |
 ## String
 |  |
@@ -169,6 +172,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1720-crawler-log-folder](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1720-crawler-log-folder) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1818-maximum-score-from-removing-substrings) |
+| [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [3453-generate-binary-strings-without-adjacent-zeros](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3453-generate-binary-strings-without-adjacent-zeros) |
 | [3468-find-the-encrypted-string](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3468-find-the-encrypted-string) |
 ## Stack
