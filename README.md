@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1496-lucky-numbers-in-a-matrix](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1706-min-cost-to-connect-all-points](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1706-min-cost-to-connect-all-points) |
+| [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1720-crawler-log-folder](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1720-crawler-log-folder) |
 | [1753-path-with-minimum-effort](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1753-path-with-minimum-effort) |
 | [1803-average-waiting-time](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1803-average-waiting-time) |
@@ -38,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0876-hand-of-straights](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0876-hand-of-straights) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
+| [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1818-maximum-score-from-removing-substrings) |
 ## Sorting
 |  |
@@ -221,6 +223,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1171-shortest-path-in-binary-matrix](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1496-lucky-numbers-in-a-matrix) |
+| [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1753-path-with-minimum-effort](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1753-path-with-minimum-effort) |
 | [3492-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3492-count-submatrices-with-equal-frequency-of-x-and-y) |
 ## Minimum Spanning Tree
