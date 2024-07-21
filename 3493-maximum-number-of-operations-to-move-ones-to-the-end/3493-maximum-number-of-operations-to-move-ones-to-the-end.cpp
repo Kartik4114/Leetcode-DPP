@@ -1,7 +1,6 @@
 class Solution {
 public:
-    int maxOperations(string s) {
-        
+    int a1(string s){
         int n=s.size();
         
         int cntZero=0;
@@ -35,5 +34,46 @@ public:
             
         }
         return result;
+    }
+
+    int a2(string s){
+        
+        int n=s.size();
+        reverse(s.begin(),s.end());
+
+        int startIndex=n;
+        for(int i=0;i<n;i++){
+            if(s[i]=='0'){
+                startIndex=i;
+                break;
+            }
+        }
+
+        int impact=1;
+        int ans=0;
+        int j=-1;
+        for(int i=startIndex;i<n;i++){
+            if(s[i]=='0') continue;
+            int cntOne=0;
+
+            for(j=i;j<n;j++){
+                if(s[j]=='0') break;
+                cntOne++;
+            }
+
+            ans+=(cntOne*impact);
+            impact++;
+            i=j;
+        }
+        return ans;
+
+    }
+    int maxOperations(string s) {
+        
+        // APPROACH 1:- USING TWO POINTERS
+        // return a1(s);
+
+        // APPROACH 2:- 
+        return a2(s);
     }
 };
