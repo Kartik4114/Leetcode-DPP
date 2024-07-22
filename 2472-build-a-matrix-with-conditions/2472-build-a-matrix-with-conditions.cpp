@@ -16,7 +16,7 @@ public:
         visited[u]=2;
         st.push(u);
     }
-    vector<int> topoSort(vector<vector<int>> &edges,int k){
+    vector<int> topoSortDFS(vector<vector<int>> &edges,int k){
 
         unordered_map<int,vector<int>> adj;
 
@@ -52,10 +52,63 @@ public:
         }
         return order;
     }
+
+    vector<int> topoSortBFS(vector<vector<int>> &edges,int k){
+
+        unordered_map<int,vector<int>> adj;
+
+        vector<int> inDegree(k+1,0);
+
+        for(auto &edge:edges){
+            int u=edge[0];
+            int v=edge[1];
+
+            adj[u].push_back(v);
+            inDegree[v]++;
+        }
+
+        queue<int> que;
+        for(int i=1;i<=k;i++){
+            if(inDegree[i]==0){
+                que.push(i);
+            }
+        }
+
+        vector<int> order;
+        int count=0;
+        while(!que.empty()){
+
+            int front=que.front();
+            que.pop();
+            count++;
+            order.push_back(front);
+
+            for(auto &v:adj[front]){
+
+                inDegree[v]--;
+                if(inDegree[v]==0){
+                    que.push(v);
+                }
+            }
+
+        }
+
+        if(count!=k) return {};
+        return order;
+
+    }
     vector<vector<int>> buildMatrix(int k, vector<vector<int>>& rowConditions, vector<vector<int>>& colConditions) {
         
-        vector<int> topoRow=topoSort(rowConditions,k);
-        vector<int> topoCol=topoSort(colConditions,k);
+        // T.C :- O(k*k +n)  // k*k bec. of matrix array
+        // S.C :- O(k*k +n)
+
+        // USING TOPOLOGICAL SORT DFS
+        // vector<int> topoRow=topoSortDFS(rowConditions,k); // O(n)
+        // vector<int> topoCol=topoSortDFS(colConditions,k); // O(n)
+
+        // USING TOPOLOGICAL SORT DFS
+        vector<int> topoRow=topoSortBFS(rowConditions,k); // O(n)
+        vector<int> topoCol=topoSortBFS(colConditions,k); // O(n)
 
         if(topoRow.empty() || topoCol.empty()) return {};
 
