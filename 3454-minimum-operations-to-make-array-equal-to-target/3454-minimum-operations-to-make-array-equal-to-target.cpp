@@ -12,7 +12,7 @@ public:
             if((prev<0 && curr>0) || (prev>0 && curr<0)){
                 result+=abs(curr);
             }
-            else if(abs(curr)-abs(prev)>0){
+            else if(abs(curr)>abs(prev)){
                 result+=abs(curr-prev);
             }
 
