@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1457-minimum-difficulty-of-a-job-schedule](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1457-minimum-difficulty-of-a-job-schedule) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
+| [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1706-min-cost-to-connect-all-points](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1706-min-cost-to-connect-all-points) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1720-crawler-log-folder](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1720-crawler-log-folder) |
@@ -42,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0876-hand-of-straights](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0876-hand-of-straights) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
+| [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1818-maximum-score-from-removing-substrings) |
 ## Sorting
@@ -86,6 +88,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1457-minimum-difficulty-of-a-job-schedule](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1457-minimum-difficulty-of-a-job-schedule) |
 | [1535-build-array-where-you-can-find-the-maximum-exactly-k-comparisons](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1535-build-array-where-you-can-find-the-maximum-exactly-k-comparisons) |
+| [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [2022-maximum-alternating-subsequence-sum](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2022-maximum-alternating-subsequence-sum) |
 | [3184-maximum-balanced-subsequence-sum](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3184-maximum-balanced-subsequence-sum) |
 | [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
@@ -209,6 +212,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0726-number-of-atoms](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0726-number-of-atoms) |
 | [1045-check-if-word-is-valid-after-substitutions](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1045-check-if-word-is-valid-after-substitutions) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
+| [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1720-crawler-log-folder](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1720-crawler-log-folder) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1818-maximum-score-from-removing-substrings) |
 | [2846-robot-collisions](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2846-robot-collisions) |
@@ -238,4 +242,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1706-min-cost-to-connect-all-points](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1706-min-cost-to-connect-all-points) |
+## Monotonic Stack
+|  |
+| ------- |
+| [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 <!---LeetCode Topics End-->
