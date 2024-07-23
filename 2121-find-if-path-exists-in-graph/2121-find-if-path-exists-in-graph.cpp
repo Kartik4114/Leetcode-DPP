@@ -17,6 +17,26 @@ public:
         return false;
 
     }
+    bool bfs(unordered_map<int,vector<int>>& adj,vector<bool>& visited, int s, int d){
+        visited[s]=true;
+        queue<int> que;
+        que.push(s);
+
+        while(!que.empty()){
+            
+            int front=que.front();
+            que.pop();
+            if(front==d) return true;
+            for(auto &v:adj[front]){
+
+                if(!visited[v]){
+                    visited[v]=true;
+                    que.push(v);
+                }
+            }
+        }
+        return false;
+    }
 
     bool validPath(int n,vector<vector<int>>& edges, int source, int destination) {
         unordered_map<int,vector<int>> adj;
@@ -30,6 +50,8 @@ public:
         }
 
         vector<bool> visited(n, false);
-        return dfs(adj, visited, source, destination);
+
+        // return dfs(adj, visited, source, destination);
+        return bfs(adj, visited, source, destination);
     }
 };
