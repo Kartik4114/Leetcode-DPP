@@ -26,6 +26,41 @@ public:
         }
         return true;
     }
+
+    bool bfs(unordered_map<int,vector<int>> &adj,vector<int> &color,int u){
+
+        queue<int> que;
+        que.push(u);
+        color[u]=0;
+
+        while(!que.empty()){
+            int front=que.front();
+            que.pop();
+
+            for(auto &v:adj[front]){
+
+                if(color[v]==color[front]) return false;
+
+                if(color[v]==-1){
+                    int colorOfV=1-color[front];
+                    que.push(v);
+                    color[v]=colorOfV;
+                }
+            }
+        }
+        return true;
+    }
+    bool a2(int n,unordered_map<int,vector<int>> &adj,vector<int> &color){
+        // 0 for red
+        // 1 for green
+
+        for(int i=1;i<=n;i++){
+            if(color[i]==-1){
+                if(bfs(adj,color,i)==false) return false;
+            }
+        }
+        return true;
+    }
     bool possibleBipartition(int n, vector<vector<int>>& dislikes) {
         
         unordered_map<int,vector<int>> adj;
@@ -40,7 +75,10 @@ public:
         vector<int> color(n+1,-1);
 
         // APPROACH 1:- USING DFS
-        return a1(n,adj,color);
+        // return a1(n,adj,color);
+
+        // APPROACH 2:- USING BFS
+        return a2(n,adj,color);
 
     }
 };
