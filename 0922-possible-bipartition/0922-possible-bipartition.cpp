@@ -14,6 +14,18 @@ public:
         return true;
 
     }
+
+    bool a1(int n,unordered_map<int,vector<int>> &adj,vector<int> &color){
+        // 0 for red
+        // 1 for green
+
+        for(int i=1;i<=n;i++){
+            if(color[i]==-1){
+                if(dfs(adj,color,i,0)==false) return false;
+            }
+        }
+        return true;
+    }
     bool possibleBipartition(int n, vector<vector<int>>& dislikes) {
         
         unordered_map<int,vector<int>> adj;
@@ -27,15 +39,8 @@ public:
         }
         vector<int> color(n+1,-1);
 
-        // 0 for red
-        // 1 for green
-
-        for(int i=1;i<=n;i++){
-            if(color[i]==-1){
-                if(dfs(adj,color,i,0)==false) return false;
-            }
-        }
-        return true;
+        // APPROACH 1:- USING DFS
+        return a1(n,adj,color);
 
     }
 };
