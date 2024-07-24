@@ -41,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0876-hand-of-straights](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0876-hand-of-straights) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1207-delete-nodes-and-return-forest](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1207-delete-nodes-and-return-forest) |
+| [1554-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1554-minimum-time-to-collect-all-apples-in-a-tree) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1741-sort-array-by-increasing-frequency) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2502-sort-the-people](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2502-sort-the-people) |
@@ -145,6 +146,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1207-delete-nodes-and-return-forest](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1207-delete-nodes-and-return-forest) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1442-number-of-operations-to-make-network-connected) |
+| [1554-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1554-minimum-time-to-collect-all-apples-in-a-tree) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [1753-path-with-minimum-effort](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1753-path-with-minimum-effort) |
 | [2121-find-if-path-exists-in-graph](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2121-find-if-path-exists-in-graph) |
@@ -165,6 +167,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0922-possible-bipartition](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0922-possible-bipartition) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1442-number-of-operations-to-make-network-connected) |
+| [1554-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1554-minimum-time-to-collect-all-apples-in-a-tree) |
 | [1753-path-with-minimum-effort](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1753-path-with-minimum-effort) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2038-nearest-exit-from-entrance-in-maze) |
 | [2121-find-if-path-exists-in-graph](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2121-find-if-path-exists-in-graph) |
@@ -213,6 +216,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0199-binary-tree-right-side-view](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0199-binary-tree-right-side-view) |
 | [0863-sum-of-distances-in-tree](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0863-sum-of-distances-in-tree) |
 | [1207-delete-nodes-and-return-forest](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1207-delete-nodes-and-return-forest) |
+| [1554-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1554-minimum-time-to-collect-all-apples-in-a-tree) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2306-create-binary-tree-from-descriptions) |
