@@ -1,54 +1,45 @@
 class Solution {
 public:
+    string getMappedNum(string &num,vector<int> &mapping){
+        string mappedNum="";
+        for(int i=0;i<num.length();i++){
+            char ch=num[i];
+            int intCh=ch-'0';
+            mappedNum+=to_string(mapping[intCh]);
+        }
+        return mappedNum;
+    }
+    vector<int> a1(vector<int>& mapping, vector<int>& nums){
 
-    vector<int> sortJumbled(vector<int>& mapping, vector<int>& nums) {
-        
         int n=nums.size();
-        unordered_map<int,int> mp;
-        for(int i=0;i<n;i++){
-            mp[nums[i]]=i;
-        }
-        vector<pair<int,int>> store;
+
+        vector<pair<int,int>> vec;
 
         for(int i=0;i<n;i++){
-            
-            int oldNum=nums[i];
-            int cnt=0;
-            int newNum=0;
-            if(oldNum==0){
-                newNum=mapping[0];
-            }
-            else {
-                while(nums[i]>0){
 
-                    int numModulo=nums[i]%10;
+            string numStr=to_string(nums[i]);
+            string mappedStr=getMappedNum(numStr,mapping);
 
-                    int newNumModulo=mapping[numModulo]*pow(10,cnt);
-                    newNum+=newNumModulo;
-                    cnt++;
-                nums[i]=nums[i]/10;
-                }
-            }
-
-            store.push_back(make_pair(newNum,oldNum));
+            int mappedNum=stoi(mappedStr);
+            vec.push_back({mappedNum,i});
         }
 
-        auto lambda=[&](pair<int,int> p1,pair<int,int> p2){
-            
-            if(p1.first<p2.first) return p1<p2;
-            else if(p1.first>p2.first) return p2>p1;
-            else {
-                return mp[p1.second]<mp[p2.second];
-            }
-            
-        };
-        sort(store.begin(),store.end(),lambda);
+        sort(vec.begin(),vec.end());
 
         vector<int> result;
-
-        for(int i=0;i<n;i++){
-            result.push_back(store[i].second);
+        for(auto &p:vec){
+            int originalNumIdx=p.second;
+            result.push_back(nums[originalNumIdx]);
         }
         return result;
+    }
+    vector<int> sortJumbled(vector<int>& mapping, vector<int>& nums) {
+        
+        // APPROACH 1:-
+        return a1(mapping,nums);
+
+        // APPROACH 2:-
+        // return a2(mapping,nums);
+    
     }
 };
