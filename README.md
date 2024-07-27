@@ -56,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1818-maximum-score-from-removing-substrings) |
+| [3493-maximum-number-of-operations-to-move-ones-to-the-end](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3493-maximum-number-of-operations-to-move-ones-to-the-end) |
 ## Sorting
 |  |
 | ------- |
@@ -253,6 +254,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3235-minimum-cost-to-convert-string-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3235-minimum-cost-to-convert-string-i) |
 | [3453-generate-binary-strings-without-adjacent-zeros](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3453-generate-binary-strings-without-adjacent-zeros) |
 | [3468-find-the-encrypted-string](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3468-find-the-encrypted-string) |
+| [3493-maximum-number-of-operations-to-move-ones-to-the-end](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3493-maximum-number-of-operations-to-move-ones-to-the-end) |
 ## Stack
 |  |
 | ------- |
@@ -305,6 +307,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1643-number-of-nodes-in-the-sub-tree-with-the-same-label](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1643-number-of-nodes-in-the-sub-tree-with-the-same-label) |
+| [3493-maximum-number-of-operations-to-move-ones-to-the-end](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3493-maximum-number-of-operations-to-move-ones-to-the-end) |
 ## Divide and Conquer
 |  |
 | ------- |
