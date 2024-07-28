@@ -23,6 +23,9 @@ public:
     int nonSpecialCount(int l, int r) {
         
         // using seive of enranthrosis
+        // T.C :- O(N+ N(log(logN)))
+        // T.C of Seive is Nlog(logn)
+        
         int sqrtl=sqrt(l);
         int sqrtr=sqrt(r);
 
