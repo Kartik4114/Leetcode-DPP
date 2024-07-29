@@ -1,55 +1,44 @@
 class Solution {
-public: 
-    int memoIncr[1001][1001][4];
-    int memoDecr[1001][1001][4];
-    int solveIncr(vector<int> &rating,int idx,int prev,int cnt){
+public:
+    int memo[1001][1001][3][2];
+    int solve(vector<int> &rating,int idx,int prev,int cnt,bool isIncr){
+        
         int n=rating.size();
         if(cnt==3){
-           return 1;
+            return 1;
         }
-
         if(idx>=n) return 0;
-        
-        if( prev!=-1 && memoIncr[idx][prev][cnt]!=-1) return memoIncr[idx][prev][cnt];
 
-        int result=0;
-        if(prev==-1 || rating[prev]<rating[idx]){
-            
-           result+= solveIncr(rating,idx+1,idx,cnt+1);
+        if(prev!=-1 && memo[idx][prev][cnt][isIncr]!=-1) return memo[idx][prev][cnt][isIncr];
+
+        int result = 0;
+        if (isIncr) {
+            if (prev == -1 || rating[prev] < rating[idx]) {
+                result += solve(rating, idx + 1, idx, cnt + 1, isIncr);
+            }
+        } else {
+            if (prev == -1 || rating[prev] > rating[idx]) {
+                result += solve(rating, idx + 1, idx, cnt + 1, isIncr);
+            }
         }
-        result+=solveIncr(rating ,idx+1,prev,cnt);
-       if(prev!=-1) memoIncr[idx][prev][cnt]=result;
-       return result;
+        result += solve(rating, idx + 1, prev, cnt, isIncr);
+
+        if (prev != -1) memo[idx][prev][cnt][isIncr] = result;
+        return result;
     }
-
-    int solveDecr(vector<int> &rating,int idx,int prev,int cnt){
-        int n=rating.size();
-        if(cnt==3){
-           return 1;
-        }
+    int a1(vector<int>& rating) {
         
-        if(idx>=n) return 0;
-        
-        if( prev!=-1 && memoDecr[idx][prev][cnt]!=-1) return memoDecr[idx][prev][cnt];
+        int totalTeams=0;
 
-        int result=0;
-        if(prev==-1 || rating[prev]>rating[idx]){
-            
-           result+= solveDecr(rating,idx+1,idx,cnt+1);
-        }
-        result+=solveDecr(rating ,idx+1,prev,cnt);
-         if(prev!=-1 ) memoDecr[idx][prev][cnt]=result;
-         return result;
+        memset(memo,-1,sizeof(memo));
+        totalTeams+=solve(rating,0,-1,0,true);
+        totalTeams+=solve(rating,0,-1,0,false);
+
+        return totalTeams;
     }
-
     int numTeams(vector<int>& rating) {
         
-        int totalCnt=0;
-        memset(memoIncr,-1,sizeof(memoIncr));
-        memset(memoDecr,-1,sizeof(memoDecr));
-        totalCnt+=solveIncr(rating,0,-1,0);
-        totalCnt+=solveDecr(rating,0,-1,0);
-
-        return totalCnt;
+        // APPROACH 1:- USING RECURSION +MEMOIZATION
+        return a1(rating);
     }
 };
