@@ -2,53 +2,54 @@ class Solution {
 public:
     int numberOfSubstrings(string s) {
         
-        int n=s.length();
-        int ans=0;
+        int n=s.size();
 
-        vector<int> prefixSumOne(n,0);
+        vector<int> prefixSum(n,0);
+
         for(int i=0;i<n;i++){
-            if(s[i]=='1'){
-                prefixSumOne[i]=1;
-            }
+            if(s[i]=='1')
+                prefixSum[i]=1;
         }
 
-        // prefix sum of one
         for(int i=1;i<n;i++){
-            prefixSumOne[i]+=prefixSumOne[i-1];
+            prefixSum[i]+=prefixSum[i-1];
         }
 
+        int result=0;
         for(int i=0;i<n;i++){
-            int zeros=0,ones=0;
 
+            int zeros=0;int ones=0;
             for(int j=i;j<n;j++){
-                ones=prefixSumOne[j];
-                if(i!=0) ones-=prefixSumOne[i-1];
-                zeros=j-i+1-ones;
 
-                // if condition false
-                if(zeros*zeros>ones){
-                    int diff=zeros*zeros-ones;
-                    j+=(diff-1); // -1 is bec in for loop we have already j++
+                ones=prefixSum[j];
+                if(i!=0){
+                    ones-=prefixSum[i-1];
                 }
 
-                // if condition is true
+                int zeros=j-i+1-ones;
+
+                if(zeros*zeros>ones){
+                    int diff=zeros*zeros-ones;
+                    j+=(diff-1);
+                }
+
                 else {
-                    ans++;
+                    result++;
 
                     if(ones>zeros*zeros){
-                        int diff=sqrt(ones)-zeros;
-                        int nextj=j+diff;
+                        int extraOnes=sqrt(ones)-zeros;
+                        int nextj=j+extraOnes;
 
                         if(nextj>=n){
-                            ans+=(n-j-1);
-                        } else ans+=diff;
+                            result+=(n-j-1);
+                        } else result+=extraOnes;
 
                         j=nextj;
                     }
                 }
+
             }
         }
-
-        return ans;
+        return result;
     }
 };
