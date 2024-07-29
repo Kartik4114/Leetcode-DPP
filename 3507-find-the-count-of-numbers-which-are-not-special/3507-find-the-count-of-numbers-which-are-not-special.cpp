@@ -4,7 +4,7 @@ public:
 
         int n=r;
         vector<int> primes(n+1,1);
-        
+
         for(int i=2;i*i<=n;i++){
 
             if(primes[i]==1){
@@ -14,28 +14,24 @@ public:
             }
         }
 
-        int primesCnt=0;
+        int specialCnt=0;
         for(int i=l;i<=n;i++){
-            if(i>=2 && primes[i]==1) primesCnt++;
+            if(i>=2 && primes[i]==1){
+                specialCnt++;
+            }
         }
-        return primesCnt;
+        return specialCnt;
+
+
     }
     int nonSpecialCount(int l, int r) {
-        
-        // using seive of enranthrosis
-        // T.C :- O(N+ N(log(logN)))
-        // T.C of Seive is Nlog(logn)
         
         int sqrtl=sqrt(l);
         int sqrtr=sqrt(r);
 
-        if(sqrtl*sqrtl!=l){
-            sqrtl++;
-        }
+        if(sqrtl*sqrtl!=l) sqrtl++;
+        int specialCnt=seive(sqrtl,sqrtr);
 
-        int primesCnt=seive(sqrtl,sqrtr);
-        cout<<primesCnt<<endl;
-
-        return (r-l+1)-primesCnt;
+        return (r-l+1)-specialCnt;
     }
 };
