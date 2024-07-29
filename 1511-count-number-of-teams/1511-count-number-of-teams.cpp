@@ -36,9 +36,54 @@ public:
 
         return totalTeams;
     }
+
+    int a2(vector<int> &rating){
+
+        int n=rating.size();
+
+        int totalTeams=0;
+        for(int j=1;j<n-1;j++){
+
+            int countSmallerLeft=0;
+            int countLargerLeft=0;
+            int countSmallerRight=0;
+            int countLargerRight=0;
+
+            for(int i=0;i<j;i++){
+                if(rating[i]>rating[j]){
+                    countLargerLeft++;
+                } else {
+                    countSmallerLeft++;
+                }
+            }
+            for(int k=j+1;k<n;k++){
+                if(rating[k]>rating[j]){
+                    countLargerRight++;
+                } else {
+                    countSmallerRight++;
+                }
+            }
+
+            int totalIncrTeams=countSmallerLeft*countLargerRight;
+            int totalDecrTeams=countLargerLeft*countSmallerRight;
+
+            totalTeams+=totalIncrTeams+totalDecrTeams;
+
+        }
+        return totalTeams;
+    }
     int numTeams(vector<int>& rating) {
         
         // APPROACH 1:- USING RECURSION +MEMOIZATION
-        return a1(rating);
+        // using 4-d array
+        // T.C :- o(N*N*4*2)
+        // S.C :- o(N*N*4*2)
+        // return a1(rating);
+
+        // APPROACH 2:- most optimised approach
+        // T.C :- O(2*n*n) , S.C :- O(1)
+        return a2(rating);
+
+
     }
 };
