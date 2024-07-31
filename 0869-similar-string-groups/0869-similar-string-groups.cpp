@@ -1,5 +1,14 @@
 class Solution {
 public:
+    bool isSimilar(string str1,string str2){
+        int diffCnt=0;
+        int n=str1.size();
+        for(int k=0;k<n;k++){
+            if(str1[k]!=str2[k]) diffCnt++;
+        }
+
+        return diffCnt<=2;
+    }
     void DFS(unordered_map<int,vector<int>> &adj,vector<bool> &visited,int u){
         visited[u]=true;
 
@@ -19,12 +28,7 @@ public:
 
             for(int j=i+1;j<m;j++){
 
-                int diffCnt=0;
-                for(int k=0;k<n;k++){
-                    if(strs[i][k]!=strs[j][k]) diffCnt++;
-                }
-
-                if(diffCnt<=2){
+                if(isSimilar(strs[i],strs[j])){
                     adj[i].push_back(j);
                     adj[j].push_back(i);
                 }
@@ -45,6 +49,7 @@ public:
     int numSimilarGroups(vector<string>& strs) {
         
         // APPROACH 1:- USING DFS AND BFS
+        // SIMILARLY WE CAN CHECK FOR BFS
         return a1(strs);
     }
 };
