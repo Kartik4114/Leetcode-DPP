@@ -13,9 +13,9 @@ public:
         int steps=0;
         while(!que.empty()){
 
-            int n=que.size();
+            int N=que.size();
 
-            while(n--){
+            while(N--){
 
                 auto temp=que.front();
                 que.pop();
