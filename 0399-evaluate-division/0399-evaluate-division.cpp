@@ -42,7 +42,7 @@ public:
             string src=query[0];
             string dest=query[1];
 
-            if(adj.find(src)==adj.end() || adj.find(dest)==adj.end()){
+            if(adj.find(src)==adj.end()){
                 result.push_back(-1*1.0);
                 continue;
             }
