@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0399-evaluate-division](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0399-evaluate-division) |
 | [0869-similar-string-groups](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0869-similar-string-groups) |
 | [0876-hand-of-straights](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0876-hand-of-straights) |
 | [0948-sort-an-array](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0948-sort-an-array) |
@@ -157,6 +158,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0199-binary-tree-right-side-view](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0199-binary-tree-right-side-view) |
 | [0207-course-schedule](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0210-course-schedule-ii) |
+| [0399-evaluate-division](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0399-evaluate-division) |
 | [0547-number-of-provinces](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0547-number-of-provinces) |
 | [0744-network-delay-time](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0744-network-delay-time) |
 | [0801-is-graph-bipartite](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0801-is-graph-bipartite) |
@@ -186,6 +188,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0199-binary-tree-right-side-view](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0199-binary-tree-right-side-view) |
 | [0207-course-schedule](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0210-course-schedule-ii) |
+| [0399-evaluate-division](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0399-evaluate-division) |
 | [0433-minimum-genetic-mutation](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0433-minimum-genetic-mutation) |
 | [0547-number-of-provinces](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0547-number-of-provinces) |
 | [0744-network-delay-time](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0744-network-delay-time) |
@@ -209,6 +212,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Union Find
 |  |
 | ------- |
+| [0399-evaluate-division](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0399-evaluate-division) |
 | [0547-number-of-provinces](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0547-number-of-provinces) |
 | [0801-is-graph-bipartite](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0801-is-graph-bipartite) |
 | [0869-similar-string-groups](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0869-similar-string-groups) |
@@ -228,6 +232,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0207-course-schedule](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0210-course-schedule-ii) |
+| [0399-evaluate-division](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0399-evaluate-division) |
 | [0547-number-of-provinces](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0547-number-of-provinces) |
 | [0744-network-delay-time](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0744-network-delay-time) |
 | [0801-is-graph-bipartite](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0801-is-graph-bipartite) |
@@ -283,6 +288,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0399-evaluate-division](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0399-evaluate-division) |
 | [0433-minimum-genetic-mutation](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0433-minimum-genetic-mutation) |
 | [0726-number-of-atoms](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0726-number-of-atoms) |
 | [0869-similar-string-groups](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0869-similar-string-groups) |
@@ -321,6 +327,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Shortest Path
 |  |
 | ------- |
+| [0399-evaluate-division](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0399-evaluate-division) |
 | [0744-network-delay-time](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
