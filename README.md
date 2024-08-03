@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1457-minimum-difficulty-of-a-job-schedule](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1457-minimum-difficulty-of-a-job-schedule) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1511-count-number-of-teams](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1511-count-number-of-teams) |
+| [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1706-min-cost-to-connect-all-points](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1706-min-cost-to-connect-all-points) |
@@ -52,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1207-delete-nodes-and-return-forest](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1207-delete-nodes-and-return-forest) |
 | [1554-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1554-minimum-time-to-collect-all-apples-in-a-tree) |
+| [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1643-number-of-nodes-in-the-sub-tree-with-the-same-label](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1643-number-of-nodes-in-the-sub-tree-with-the-same-label) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1986-largest-color-value-in-a-directed-graph) |
@@ -75,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0876-hand-of-straights](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0876-hand-of-straights) |
 | [0948-sort-an-array](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0948-sort-an-array) |
 | [1333-sort-the-jumbled-numbers](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1333-sort-the-jumbled-numbers) |
+| [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1741-sort-array-by-increasing-frequency) |
 | [2502-sort-the-people](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2502-sort-the-people) |
