@@ -39,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2846-robot-collisions](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2846-robot-collisions) |
 | [3184-maximum-balanced-subsequence-sum](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3184-maximum-balanced-subsequence-sum) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3235-minimum-cost-to-convert-string-i) |
+| [3463-alternating-groups-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3463-alternating-groups-i) |
 | [3469-maximum-height-of-a-triangle](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3469-maximum-height-of-a-triangle) |
 | [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
 | [3492-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3492-count-submatrices-with-equal-frequency-of-x-and-y) |
@@ -401,4 +402,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
+| [3463-alternating-groups-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3463-alternating-groups-i) |
 <!---LeetCode Topics End-->
