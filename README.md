@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2022-maximum-alternating-subsequence-sum](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2022-maximum-alternating-subsequence-sum) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2038-nearest-exit-from-entrance-in-maze) |
+| [2163-kth-distinct-string-in-an-array](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2472-build-a-matrix-with-conditions](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2472-build-a-matrix-with-conditions) |
@@ -60,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1643-number-of-nodes-in-the-sub-tree-with-the-same-label](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1643-number-of-nodes-in-the-sub-tree-with-the-same-label) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1986-largest-color-value-in-a-directed-graph) |
+| [2163-kth-distinct-string-in-an-array](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2502-sort-the-people](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2502-sort-the-people) |
 | [3498-minimum-array-changes-to-make-differences-equal](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3498-minimum-array-changes-to-make-differences-equal) |
@@ -309,6 +311,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1720-crawler-log-folder](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1720-crawler-log-folder) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1818-maximum-score-from-removing-substrings) |
+| [2163-kth-distinct-string-in-an-array](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2502-sort-the-people](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2502-sort-the-people) |
 | [2727-number-of-senior-citizens](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2727-number-of-senior-citizens) |
@@ -374,6 +377,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1643-number-of-nodes-in-the-sub-tree-with-the-same-label](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1643-number-of-nodes-in-the-sub-tree-with-the-same-label) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1986-largest-color-value-in-a-directed-graph) |
+| [2163-kth-distinct-string-in-an-array](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2163-kth-distinct-string-in-an-array) |
 | [3493-maximum-number-of-operations-to-move-ones-to-the-end](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3493-maximum-number-of-operations-to-move-ones-to-the-end) |
 ## Divide and Conquer
 |  |
