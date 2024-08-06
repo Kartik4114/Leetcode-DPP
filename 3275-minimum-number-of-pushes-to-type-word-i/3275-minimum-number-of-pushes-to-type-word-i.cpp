@@ -2,20 +2,20 @@ class Solution {
 public:
     int minimumPushes(string word) {
         
-        vector<int> arr(26,0);
+        vector<int> freq(26,0);
         for(auto ch:word){
-            arr[ch-'a']++;
+            freq[ch-'a']++;
         }
 
-        sort(arr.begin(),arr.end(),greater<int>());
-        int impact=1;
-        int cnt=arr[0];
+        sort(freq.begin(),freq.end(),greater<int>());
+        int result=0;
 
-        for(int i=1;i<arr.size();i++){
+        for(int i=0;i<26;i++){
             
-            if(i%8==0) impact++;
-            cnt+=arr[i]*impact;
+            int cnt=freq[i];
+            int press=i/8+1;
+            result+=cnt*press;
         }
-        return cnt;
+        return result;
     }
 };
