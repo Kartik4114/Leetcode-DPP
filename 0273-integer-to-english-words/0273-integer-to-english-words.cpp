@@ -1,82 +1,53 @@
-#include <unordered_map>
-#include <vector>
-#include <string>
-#include <algorithm>
-#include <iostream>
-
-using namespace std;
-
 class Solution {
 public:
-    string numberToWords(int n) {
-        if (n == 0) return "Zero";
+    unordered_map<int,string> belowTen={
+        {1, "One"}, {2, "Two"}, {3, "Three"}, {4, "Four"}, {5, "Five"},
+        {6, "Six"}, {7, "Seven"}, {8, "Eight"}, {9, "Nine"}
+    };
 
-        unordered_map<int, string> singleRepresent;
-        unordered_map<int, string> doubleRepresent;
+    unordered_map<int,string> belowTwenty={
+        {10, "Ten"},{11, "Eleven"}, {12, "Twelve"}, {13, "Thirteen"}, {14, "Fourteen"},
+        {15, "Fifteen"}, {16, "Sixteen"}, {17, "Seventeen"}, {18, "Eighteen"},{19, "Nineteen"}
+    };
 
-        singleRepresent[1] = "One";
-        singleRepresent[2] = "Two";
-        singleRepresent[3] = "Three";
-        singleRepresent[4] = "Four";
-        singleRepresent[5] = "Five";
-        singleRepresent[6] = "Six";
-        singleRepresent[7] = "Seven";
-        singleRepresent[8] = "Eight";
-        singleRepresent[9] = "Nine";
-        singleRepresent[10] = "Ten";
-        singleRepresent[11] = "Eleven";
-        singleRepresent[12] = "Twelve";
-        singleRepresent[13] = "Thirteen";
-        singleRepresent[14] = "Fourteen";
-        singleRepresent[15] = "Fifteen";
-        singleRepresent[16] = "Sixteen";
-        singleRepresent[17] = "Seventeen";
-        singleRepresent[18] = "Eighteen";
-        singleRepresent[19] = "Nineteen";
-        singleRepresent[20] = "Twenty";
+    unordered_map<int,string> belowHundred={
+        {2, "Twenty"}, {3, "Thirty"}, {4, "Forty"}, {5, "Fifty"},
+        {6, "Sixty"}, {7, "Seventy"}, {8, "Eighty"}, {9, "Ninety"}
+    };
 
-        doubleRepresent[2] = "Twenty";
-        doubleRepresent[3] = "Thirty";
-        doubleRepresent[4] = "Forty";
-        doubleRepresent[5] = "Fifty";
-        doubleRepresent[6] = "Sixty";
-        doubleRepresent[7] = "Seventy";
-        doubleRepresent[8] = "Eighty";
-        doubleRepresent[9] = "Ninety";
+    string solve(int num){
+    
+        if(num<10) return belowTen[num];
 
-        vector<string> thousands = {"", "Thousand", "Million", "Billion"};
+        if(num<20) return belowTwenty[num];
 
-        string result = "";
-        int thousandCounter = 0;
+        if(num<100){ // 97
 
-        while (n > 0) {
-            if (n % 1000 != 0) {
-                result = helper(n % 1000, singleRepresent, doubleRepresent) + thousands[thousandCounter] + " " + result;
-            }
-            n /= 1000;
-            thousandCounter++;
+            return belowHundred[num/10] + ((num%10!=0) ? " " + belowTen[num%10] : "");
         }
 
-        while (result.back() == ' ') result.pop_back();
-        return result;
+        if(num<1000){ 
+
+            return belowTen[num/100] + " Hundred" + ((num%100!=0) ? " " + solve(num%100) : "");
+        }
+
+        if(num<1000000){ // 979989
+
+            return  solve(num/1000) + " Thousand"  + ((num%1000!=0) ? " " + solve(num%1000) : "");
+        }
+
+        if(num<1000000000){ // 99999999
+
+            return  solve(num/1000000) + " Million" + ((num%1000000!=0) ? " " + solve(num%1000000) : "");
+        }
+        return solve(num/1000000000) + " Billion" + ((num%1000000000!=0) ? " " + solve(num%1000000000) : "");
     }
+    string numberToWords(int num) {
+        
+        // T.C :- O(longth(num)) :- O(log(num) base10 + 1)
+        // S.C :- O(1) + O(log(num) base10 + 1) (STACK SPACE)
+        if(num==0) return "Zero";
 
-private:
-    string helper(int num, unordered_map<int, string>& singleRepresent, unordered_map<int, string>& doubleRepresent) {
-        string part = "";
-
-        if (num >= 100) {
-            part += singleRepresent[num / 100] + " Hundred ";
-            num %= 100;
-        }
-
-        if (num >= 20) {
-            part += doubleRepresent[num / 10] + " ";
-            if (num % 10 > 0) part += singleRepresent[num % 10] + " ";
-        } else if (num > 0) {
-            part += singleRepresent[num] + " ";
-        }
-
-        return part;
+        return solve(num);
     }
 };
