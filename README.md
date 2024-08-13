@@ -226,6 +226,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2438-find-closest-node-to-given-two-nodes](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2438-find-closest-node-to-given-two-nodes) |
 | [2439-longest-cycle-in-a-graph](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2439-longest-cycle-in-a-graph) |
 | [2582-minimum-score-of-a-path-between-two-cities](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2582-minimum-score-of-a-path-between-two-cities) |
+| [3486-count-the-number-of-good-nodes](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3486-count-the-number-of-good-nodes) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -325,6 +326,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2306-create-binary-tree-from-descriptions) |
+| [3486-count-the-number-of-good-nodes](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3486-count-the-number-of-good-nodes) |
 ## Binary Tree
 |  |
 | ------- |
