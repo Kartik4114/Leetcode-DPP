@@ -52,6 +52,47 @@ public:
         nth_element(vec.begin(),vec.begin()+k-1,vec.end());
         return vec[k-1];
     }
+
+    int slidingWindow(vector<int> &nums,int dist){
+
+        int pairCount=0;
+        int i=0;
+        int j=1;
+        int n=nums.size();
+
+        while(j<n){
+
+            while(nums[j]-nums[i]>dist){
+                i++;
+            }
+            pairCount+=(j-i);
+            j++;
+        }
+        return pairCount;
+    }
+    int a4(vector<int> &nums,int k){
+
+        int n=nums.size();
+        sort(nums.begin(),nums.end());
+
+        int l=0;
+        int r=nums[n-1]-nums[0];
+
+        int result=0;
+       while(l<=r){
+            int mid=(l+r)/2;
+
+            int countPairs=slidingWindow(nums,mid);
+            if(countPairs<k){
+                l=mid+1;
+            } else {
+                result=mid;
+                r=mid-1;
+            }
+       }
+       return result;
+
+    }
     int smallestDistancePair(vector<int>& nums, int k) {
         
         // APPROACH 1:- O(n^2logn)  TLE
@@ -71,6 +112,10 @@ public:
         // valid only for C ++ users
 
         // Avg. T.C :- O(n) , Worst T.C :- O(n^2)
-        return a3(nums,k); 
+        // Remember it will still take more time
+        // return a3(nums,k); 
+
+        // APPROACH 4:- USING SLIDING WINDOW + BINARY SEARCH
+        return a4(nums,k);
     }
 };
