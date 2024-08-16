@@ -1,7 +1,6 @@
 class Solution {
 public:
-    int maxDistance(vector<vector<int>>& arrays) {
-        
+    int a1(vector<vector<int>> &arrays){
         int m=arrays.size();
         vector<int> minDist;
         vector<int> maxDist;
@@ -13,11 +12,6 @@ public:
             maxDist.push_back(arr[n-1]);
         }
 
-        
-        for(int i=0;i<m;i++){
-            cout<<minDist[i]<<" "<<maxDist[i]<<endl;
-        }
-        
         int firstMin=INT_MAX;
         int secondMin=INT_MAX;
         int minIndex=-1;
@@ -46,8 +40,6 @@ public:
             }
         }
 
-        cout<<firstMin<<" "<<secondMin<<endl;
-        cout<<firstMax<<" "<<secondMax<<endl;
         if(minIndex==maxIndex){
 
             int diff1=abs(secondMax-firstMin);
@@ -58,5 +50,40 @@ public:
 
         int dist=abs(firstMin-firstMax);
         return dist;
+    }
+
+    int a2(vector<vector<int>> &arr){
+
+        int m=arr.size();
+
+        int diff=0;
+        int mini=1e5;
+        int maxi=-1e5;
+
+        for(auto &a:arr){
+            int n=a.size();
+
+            int a0=a[0];
+            int aN=a[n-1];
+
+            int minDiff=aN-mini;
+            int maxDiff=maxi-a0;
+            diff=max({diff,minDiff,maxDiff});
+            mini=min(a0,mini);
+            maxi=max(aN,maxi);
+        }
+        return diff;
+    }
+    int maxDistance(vector<vector<int>>& arrays) {
+        
+        // APPROACH 1:- MY APPROACH 
+        // FINDING FIRST AND SECOND MIN AND MAX
+        // T.C :- O(N) , S.C :- O(N)
+        // return a1(arrays);
+
+        // APPROACH 2:- SAME APPROACH BUT WAY OF WRITING IS SHORT
+        // T.C :- O(N) , S.C :- O(1)
+        return a2(arrays);
+
     }
 };
