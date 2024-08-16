@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0179-largest-number](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0179-largest-number) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0399-evaluate-division](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0399-evaluate-division) |
+| [0624-maximum-distance-in-arrays](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0624-maximum-distance-in-arrays) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0869-similar-string-groups](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0869-similar-string-groups) |
 | [0870-magic-squares-in-grid](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0870-magic-squares-in-grid) |
@@ -86,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0179-largest-number](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0179-largest-number) |
+| [0624-maximum-distance-in-arrays](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0624-maximum-distance-in-arrays) |
 | [0876-hand-of-straights](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0876-hand-of-straights) |
 | [0890-lemonade-change](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0890-lemonade-change) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
