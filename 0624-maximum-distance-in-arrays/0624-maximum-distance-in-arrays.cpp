@@ -55,24 +55,21 @@ public:
     int a2(vector<vector<int>> &arr){
 
         int m=arr.size();
+        
+        int mini=arr[0].front();
+        int maxi=arr[0].back();
 
-        int diff=0;
-        int mini=1e5;
-        int maxi=-1e5;
+        int result=0;
+        for(int i=1;i<m;i++){
 
-        for(auto &a:arr){
-            int n=a.size();
+            int currMin=arr[i].front();
+            int currMax=arr[i].back();
 
-            int a0=a[0];
-            int aN=a[n-1];
-
-            int minDiff=aN-mini;
-            int maxDiff=maxi-a0;
-            diff=max({diff,minDiff,maxDiff});
-            mini=min(a0,mini);
-            maxi=max(aN,maxi);
+            result=max({result,abs(maxi-currMin),abs(currMax-mini)});
+            mini=min(currMin,mini);
+            maxi=max(currMax,maxi);
         }
-        return diff;
+        return result;
     }
     int maxDistance(vector<vector<int>>& arrays) {
         
