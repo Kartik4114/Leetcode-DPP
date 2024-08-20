@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1171-shortest-path-in-binary-matrix](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1196-filling-bookcase-shelves](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1196-filling-bookcase-shelves) |
 | [1207-delete-nodes-and-return-forest](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1207-delete-nodes-and-return-forest) |
+| [1240-stone-game-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1240-stone-game-ii) |
 | [1293-three-consecutive-odds](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1293-three-consecutive-odds) |
 | [1333-sort-the-jumbled-numbers](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1333-sort-the-jumbled-numbers) |
 | [1457-minimum-difficulty-of-a-job-schedule](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1457-minimum-difficulty-of-a-job-schedule) |
@@ -168,6 +169,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0803-cheapest-flights-within-k-stops](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0863-sum-of-distances-in-tree](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0863-sum-of-distances-in-tree) |
 | [1196-filling-bookcase-shelves](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1196-filling-bookcase-shelves) |
+| [1240-stone-game-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1240-stone-game-ii) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1457-minimum-difficulty-of-a-job-schedule](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1457-minimum-difficulty-of-a-job-schedule) |
 | [1511-count-number-of-teams](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1511-count-number-of-teams) |
@@ -188,6 +190,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0273-integer-to-english-words](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0273-integer-to-english-words) |
 | [0650-2-keys-keyboard](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0650-2-keys-keyboard) |
 | [0870-magic-squares-in-grid](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0870-magic-squares-in-grid) |
+| [1240-stone-game-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1240-stone-game-ii) |
 | [1642-water-bottles](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1642-water-bottles) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2645-pass-the-pillow](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2645-pass-the-pillow) |
@@ -196,6 +199,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 |  |
 | ------- |
+| [1240-stone-game-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1240-stone-game-ii) |
 | [1535-build-array-where-you-can-find-the-maximum-exactly-k-comparisons](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1535-build-array-where-you-can-find-the-maximum-exactly-k-comparisons) |
 | [3492-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3492-count-submatrices-with-equal-frequency-of-x-and-y) |
 | [3498-minimum-array-changes-to-make-differences-equal](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3498-minimum-array-changes-to-make-differences-equal) |
@@ -519,4 +523,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0347-top-k-frequent-elements) |
+## Game Theory
+|  |
+| ------- |
+| [1240-stone-game-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1240-stone-game-ii) |
 <!---LeetCode Topics End-->
