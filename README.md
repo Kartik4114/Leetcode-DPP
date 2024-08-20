@@ -392,6 +392,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3453-generate-binary-strings-without-adjacent-zeros](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3453-generate-binary-strings-without-adjacent-zeros) |
 | [3468-find-the-encrypted-string](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3468-find-the-encrypted-string) |
 | [3493-maximum-number-of-operations-to-move-ones-to-the-end](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3493-maximum-number-of-operations-to-move-ones-to-the-end) |
+| [3543-count-substrings-that-satisfy-k-constraint-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3543-count-substrings-that-satisfy-k-constraint-i) |
 ## Stack
 |  |
 | ------- |
@@ -499,6 +500,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [3463-alternating-groups-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3463-alternating-groups-i) |
 | [3483-alternating-groups-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3483-alternating-groups-ii) |
+| [3543-count-substrings-that-satisfy-k-constraint-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3543-count-substrings-that-satisfy-k-constraint-i) |
 ## Strongly Connected Component
 |  |
 | ------- |
