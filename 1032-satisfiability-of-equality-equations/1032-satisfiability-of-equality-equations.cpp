@@ -5,51 +5,48 @@ public:
 
     int find(int x){
         if(x==parent[x]) return x;
-
         return parent[x]=find(parent[x]);
     }
 
-    void Union(int u,int v){
+    void Union(int x,int y){
+        int parent_x=find(x);
+        int parent_y=find(y);
 
-        int parent_u=find(u);
-        int parent_v=find(v);
+        if(parent_x==parent_y) return;
 
-        if(parent_u==parent_v) return;
-
-        if(rank[parent_u] < rank[parent_v]){
-            parent[parent_u]=parent_v;
-        } 
-        else if(rank[parent_u] > rank[parent_v]){
-            parent[parent_v]=parent_u;
-        }
-
-        else {
-            parent[parent_u]=parent_v;
-            rank[parent_v]++;
+        if(rank[parent_x]>rank[parent_y]){
+            parent[parent_y]=parent_x;
+        } else if(rank[parent_y]>rank[parent_x]){
+            parent[parent_x]=parent_y;
+        } else {
+            parent[parent_y]=parent_x;
+            rank[parent_x]++;
         }
     }
-    bool equationsPossible(vector<string>& equations) {
-        int n=equations.size();
+    bool equationsPossible(vector<string>& s) {
+        
         parent.resize(26);
         rank.resize(26,0);
+        int n=s.size();
 
         for(int i=0;i<26;i++){
             parent[i]=i;
-            // rank[i]=1;
         }
 
-        for(string &s:equations){
-            if(s[1]=='='){
-                Union(s[0]-'a',s[3]-'a');
+        for(int i=0;i<n;i++){
+            
+            if(s[i][1]=='='){
+                Union(s[i][0]-'a',s[i][3]-'a');
             }
         }
 
-        for(string &s: equations){
-            if(s[1]=='!'){
-                int parent_x=find(s[0]-'a');
-                int parent_y=find(s[3]-'a');
+        for(int i=0;i<n;i++){
+            if(s[i][1]=='!'){
+                
+                int parentOf0=find(s[i][0]-'a');
+                int parentOf3=find(s[i][3]-'a');
 
-                if(parent_x==parent_y){
+                if(parentOf0==parentOf3){
                     return false;
                 }
             }
