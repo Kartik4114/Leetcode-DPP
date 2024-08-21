@@ -1,46 +1,46 @@
 class Solution {
 public:
-    typedef pair<int,int> p;
+    typedef pair<int,int> P;
     int networkDelayTime(vector<vector<int>>& times, int n, int k) {
         
-        unordered_map<int,vector<p>> adj;
-
-        for(auto &vec:times){
-            int u=vec[0];
-            int v=vec[1];
-            int w=vec[2];
-
+        unordered_map<int,vector<P>> adj;
+        for(auto &time:times){
+            
+            int u=time[0];
+            int v=time[1];
+            int w=time[2];
             adj[u].push_back({v,w});
         }
 
-        priority_queue<p,vector<p>,greater<p>> pq;
         vector<int> result(n+1,INT_MAX);
+        priority_queue<P,vector<P>,greater<P>> pq;
 
-        result[k]=0;
         pq.push({0,k});
+        result[k]=0;
 
         while(!pq.empty()){
-            int dist=pq.top().first;
+
+            int d=pq.top().first;
             int node=pq.top().second;
             pq.pop();
 
-            for(auto &it: adj[node]){
+            for(auto &it:adj[node]){
+                int dist=it.second;
                 int adjNode=it.first;
-                int wt=it.second;
 
-                if(dist+wt< result[adjNode]){
-                    result[adjNode]=dist+wt;
-                    pq.push({dist+wt,adjNode});
+                if(d+dist<result[adjNode]){
+                    result[adjNode]=d+dist;
+                    pq.push({d+dist,adjNode});
                 }
             }
         }
 
+
         int maxTime=-1;
-        for(int i=1;i<=n;i++){
+        for(int i=1;i<n+1;i++){
             maxTime=max(maxTime,result[i]);
         }
 
-        if(maxTime==INT_MAX) return -1;
-        else return maxTime;
+        return maxTime==INT_MAX ? -1 : maxTime;
     }
 };
