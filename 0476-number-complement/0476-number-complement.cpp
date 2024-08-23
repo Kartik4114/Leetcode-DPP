@@ -1,14 +1,16 @@
 class Solution {
 public:
-    int findComplement(int num) {
-        if (num == 0) return 1;
-        
-        unsigned int mask = ~0;
-        
-        while (num & mask) {
-            mask <<= 1;
+    int a1(int num){
+
+        int numBits=(int)(log2(num))+1;
+
+        for(int i=0;i<numBits;i++){
+            num=(num^(1<<i));
         }
-        
-        return ~mask & ~num;
+        return num;
+    }
+    int findComplement(int num) {
+        // APPROACH 1:- USING XOR
+        return a1(num);
     }
 };
