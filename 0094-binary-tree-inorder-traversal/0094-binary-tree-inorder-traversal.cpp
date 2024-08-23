@@ -12,16 +12,42 @@
 class Solution {
 public:
     vector<int> ans;
-    void solve(TreeNode* root){
+    void a1(TreeNode* root){
         if(root==NULL) return;
 
-        solve(root->left);
+        a1(root->left);
         ans.push_back(root->val);
-        solve(root->right);
+        a1(root->right);
+    }
+
+    void a2(TreeNode* root){
+        if(root==NULL) return;
+
+    stack<TreeNode*> st;
+    TreeNode* node = root;
+
+    while(true){
+        if(node != NULL){
+            st.push(node);
+            node = node->left;
+        } else {
+            if(st.empty()) break;
+
+            auto top = st.top();
+            ans.push_back(top->val);
+            st.pop(); 
+            node = top->right;  // Update node here
+        }
+    }
     }
     vector<int> inorderTraversal(TreeNode* root) {
         
-       solve(root);
+    // APPROACH 1:- USING RECURSION
+    //    a1(root);
+    
+    // APPROACH 2:- USING ITERATIVE APPROACH 
+    // USING STACK
+        a2(root);
        return ans;
     }
 };
