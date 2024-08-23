@@ -18,6 +18,23 @@ public:
 
         return (mask^num);
     }
+
+    int a3(int num){
+        int i=0;
+        int compliment=0;
+
+        while(num>0){
+            int bit=num&1;
+            // If the current bit is 0, set the corresponding bit in ans to 1
+            if(bit==0){
+                compliment |= 1<<i;
+            }
+
+            i++;
+            num>>=1;
+        }
+        return compliment;
+    }
     int findComplement(int num) {
 
         //Approach-1 (Using bit magic of XOR)
@@ -28,8 +45,13 @@ public:
         //Approach-2 (Using XOR mask)
         //T.C : O(log2(num))
         //S.C : O(1)
-        return a2(num);
+        // return a2(num);
 
-        // APPROACH 3:- 
+        // Approach-3 (Iterate digit by digit and create complement)
+        // T.C : O(log2(num))
+        // S.C : O(1)
+        return a3(num);
+
+
     }
 };
