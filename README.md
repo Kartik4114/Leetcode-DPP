@@ -243,6 +243,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0399-evaluate-division](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0399-evaluate-division) |
 | [0547-number-of-provinces](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0547-number-of-provinces) |
 | [0744-network-delay-time](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0744-network-delay-time) |
+| [0776-n-ary-tree-postorder-traversal](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0801-is-graph-bipartite](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0813-all-paths-from-source-to-target](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0813-all-paths-from-source-to-target) |
@@ -364,6 +365,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0144-binary-tree-preorder-traversal](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0199-binary-tree-right-side-view) |
+| [0776-n-ary-tree-postorder-traversal](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0863-sum-of-distances-in-tree](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0863-sum-of-distances-in-tree) |
 | [1207-delete-nodes-and-return-forest](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1207-delete-nodes-and-return-forest) |
@@ -423,6 +425,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0144-binary-tree-preorder-traversal](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0145-binary-tree-postorder-traversal) |
 | [0726-number-of-atoms](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0726-number-of-atoms) |
+| [0776-n-ary-tree-postorder-traversal](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [1045-check-if-word-is-valid-after-substitutions](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1045-check-if-word-is-valid-after-substitutions) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
