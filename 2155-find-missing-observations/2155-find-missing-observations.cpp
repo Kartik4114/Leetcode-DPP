@@ -10,24 +10,16 @@ public:
         }
 
         int sumOfN=(n+m)*mean -sumOfM;
+        int num=sumOfN/n;
 
         if(sumOfN > n*6 || sumOfN<=0) return {};
-
-        int num=sumOfN/n;
-        cout<<sumOfM<<" ";
-        cout<<sumOfN<<" "<<num<<endl;
-
         if(sumOfN<n) return {};
-        // if(num==0) num=1;
+
         vector<int> result(n,num);
 
         int currSum=n*num;
-
         int diffSum=(sumOfN-currSum);
-        cout<<currSum<<" "<<diffSum<<endl;
 
-        // for(int i=0;i<n;i++) cout<<result[i]<<" ";
-        cout<<endl;
         for(int i=0;i<n;i++){
 
             if(result[i]+diffSum>6){
