@@ -5,6 +5,7 @@ public:
         visited[u]=true;
 
         for(int i=0;i<n;i++){
+
             int row=stones[i][0];
             int col=stones[i][1];
 
@@ -16,11 +17,12 @@ public:
     int removeStones(vector<vector<int>>& stones) {
         
         int n=stones.size();
-        int groups=0;
 
+        int groups=0;
         vector<bool> visited(n,false);
 
         for(int i=0;i<n;i++){
+
             if(!visited[i]){
                 dfs(stones,visited,i);
                 groups++;
