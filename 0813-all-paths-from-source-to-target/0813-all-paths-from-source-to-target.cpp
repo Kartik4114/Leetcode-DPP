@@ -1,6 +1,6 @@
 class Solution {
 public:
-    void dfs(vector<vector<int>> &graph,int source,int dest,vector<int> temp,vector<vector<int>> &store){
+    void dfs(vector<vector<int>> &graph,int source,int dest,vector<int> &temp,vector<vector<int>> &store){
 
         temp.push_back(source);
 
