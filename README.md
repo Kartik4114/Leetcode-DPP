@@ -43,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1720-crawler-log-folder](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1720-crawler-log-folder) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1753-path-with-minimum-effort](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1753-path-with-minimum-effort) |
+| [1786-count-the-number-of-consistent-strings](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1798-max-number-of-k-sum-pairs) |
 | [1803-average-waiting-time](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1803-average-waiting-time) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1951-find-the-winner-of-the-circular-game) |
@@ -95,6 +96,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1643-number-of-nodes-in-the-sub-tree-with-the-same-label](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1643-number-of-nodes-in-the-sub-tree-with-the-same-label) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1741-sort-array-by-increasing-frequency) |
+| [1786-count-the-number-of-consistent-strings](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1798-max-number-of-k-sum-pairs) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1986-largest-color-value-in-a-directed-graph) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2163-kth-distinct-string-in-an-array) |
@@ -447,6 +449,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1720-crawler-log-folder](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1720-crawler-log-folder) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1756-minimum-deletions-to-make-string-balanced) |
+| [1786-count-the-number-of-consistent-strings](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1818-maximum-score-from-removing-substrings) |
 | [2076-sum-of-digits-of-string-after-convert](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2076-sum-of-digits-of-string-after-convert) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2163-kth-distinct-string-in-an-array) |
@@ -502,6 +505,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0476-number-complement](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0476-number-complement) |
+| [1786-count-the-number-of-consistent-strings](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2323-minimum-bit-flips-to-convert-number) |
 | [3453-generate-binary-strings-without-adjacent-zeros](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3453-generate-binary-strings-without-adjacent-zeros) |
 ## Matrix
@@ -543,6 +547,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0347-top-k-frequent-elements) |
 | [1643-number-of-nodes-in-the-sub-tree-with-the-same-label](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1643-number-of-nodes-in-the-sub-tree-with-the-same-label) |
+| [1786-count-the-number-of-consistent-strings](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1986-largest-color-value-in-a-directed-graph) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2163-kth-distinct-string-in-an-array) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
