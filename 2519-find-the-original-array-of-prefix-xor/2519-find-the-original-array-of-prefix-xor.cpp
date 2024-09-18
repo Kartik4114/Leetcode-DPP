@@ -6,11 +6,9 @@ public:
         vector<int> result(n);
 
         result[0]=pref[0];
-        int xorResult=result[0];
         for(int i=1;i<n;i++){
 
-            result[i]=(pref[i] ^ xorResult);
-            xorResult ^=result[i];
+            result[i]=(pref[i] ^ pref[i-1]);
         }
         return result;
 
