@@ -3,7 +3,7 @@ public:
     string largestNumber(vector<int>& nums) {
         
         auto lambda=[](int &a,int &b){
-
+            
             string s1=to_string(a);
             string s2=to_string(b);
 
@@ -13,12 +13,14 @@ public:
 
         sort(nums.begin(),nums.end(),lambda);
 
-        // Corner case
         if(nums[0]==0) return "0";
+
         string result="";
 
         for(auto &num:nums){
-            result+=to_string(num);
+
+            string s=to_string(num);
+            result+=s;
         }
         return result;
     }
