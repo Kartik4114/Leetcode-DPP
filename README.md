@@ -66,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2472-build-a-matrix-with-conditions](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2472-build-a-matrix-with-conditions) |
 | [2502-sort-the-people](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2502-sort-the-people) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
+| [2519-find-the-original-array-of-prefix-xor](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2519-find-the-original-array-of-prefix-xor) |
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2527-count-subarrays-with-fixed-bounds) |
 | [2727-number-of-senior-citizens](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2727-number-of-senior-citizens) |
 | [2846-robot-collisions](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2846-robot-collisions) |
@@ -532,6 +533,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1786-count-the-number-of-consistent-strings](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2323-minimum-bit-flips-to-convert-number) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
+| [2519-find-the-original-array-of-prefix-xor](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2519-find-the-original-array-of-prefix-xor) |
 | [3453-generate-binary-strings-without-adjacent-zeros](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3453-generate-binary-strings-without-adjacent-zeros) |
 ## Matrix
 |  |
