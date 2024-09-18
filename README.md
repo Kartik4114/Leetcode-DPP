@@ -206,6 +206,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0264-ugly-number-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0264-ugly-number-ii) |
+| [0338-counting-bits](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0338-counting-bits) |
 | [0650-2-keys-keyboard](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0650-2-keys-keyboard) |
 | [0664-strange-printer](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0664-strange-printer) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0803-cheapest-flights-within-k-stops) |
@@ -520,6 +521,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0136-single-number](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0136-single-number) |
 | [0137-single-number-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0137-single-number-ii) |
+| [0338-counting-bits](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0338-counting-bits) |
 | [0476-number-complement](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0476-number-complement) |
 | [1435-xor-queries-of-a-subarray](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1435-xor-queries-of-a-subarray) |
 | [1441-minimum-flips-to-make-a-or-b-equal-to-c](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1441-minimum-flips-to-make-a-or-b-equal-to-c) |
