@@ -1,20 +1,23 @@
 class Solution {
 public:
+    void solve(int n,vector<int> &result,int lastNum){
+        if(lastNum>n) return;
+
+        result.push_back(lastNum);
+
+            for(int i=0;i<=9;i++){
+                int nextNum=lastNum*10+i;
+                // if(nextNum>n) return; 
+                solve(n,result,nextNum);
+            }
+
+    }
     vector<int> lexicalOrder(int n) {
         
-        vector<int> result(n);
-
-        for(int i=1;i<=n;i++){
-            result[i-1]=i;
+        vector<int> result;
+        for(int i=1;i<=9;i++){
+            solve(n,result,i);
         }
-
-        auto lambda=[](int &a,int &b){
-
-            string str1=to_string(a);
-            string str2=to_string(b);
-            return str1 < str2;
-        };
-        sort(result.begin(),result.end(),lambda);
         return result;
     }
 };
