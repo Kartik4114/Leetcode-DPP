@@ -294,6 +294,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0199-binary-tree-right-side-view](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0199-binary-tree-right-side-view) |
 | [0207-course-schedule](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0210-course-schedule-ii) |
+| [0386-lexicographical-numbers](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0386-lexicographical-numbers) |
 | [0399-evaluate-division](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0399-evaluate-division) |
 | [0547-number-of-provinces](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0547-number-of-provinces) |
 | [0744-network-delay-time](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0744-network-delay-time) |
@@ -681,4 +682,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0214-shortest-palindrome](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0214-shortest-palindrome) |
+## Trie
+|  |
+| ------- |
+| [0386-lexicographical-numbers](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0386-lexicographical-numbers) |
 <!---LeetCode Topics End-->
