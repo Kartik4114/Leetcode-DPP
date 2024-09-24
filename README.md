@@ -73,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2846-robot-collisions](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2846-robot-collisions) |
 | [3184-maximum-balanced-subsequence-sum](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3184-maximum-balanced-subsequence-sum) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3235-minimum-cost-to-convert-string-i) |
+| [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3463-alternating-groups-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3463-alternating-groups-i) |
 | [3469-maximum-height-of-a-triangle](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3469-maximum-height-of-a-triangle) |
 | [3483-alternating-groups-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3483-alternating-groups-ii) |
@@ -114,6 +115,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2502-sort-the-people](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2502-sort-the-people) |
 | [2755-extra-characters-in-a-string](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2755-extra-characters-in-a-string) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
+| [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3498-minimum-array-changes-to-make-differences-equal](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3498-minimum-array-changes-to-make-differences-equal) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3534-count-almost-equal-pairs-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3534-count-almost-equal-pairs-i) |
@@ -490,6 +492,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3235-minimum-cost-to-convert-string-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3235-minimum-cost-to-convert-string-i) |
 | [3275-minimum-number-of-pushes-to-type-word-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3275-minimum-number-of-pushes-to-type-word-i) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
+| [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3453-generate-binary-strings-without-adjacent-zeros](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3453-generate-binary-strings-without-adjacent-zeros) |
 | [3468-find-the-encrypted-string](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3468-find-the-encrypted-string) |
 | [3493-maximum-number-of-operations-to-move-ones-to-the-end](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3493-maximum-number-of-operations-to-move-ones-to-the-end) |
@@ -695,4 +698,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0386-lexicographical-numbers](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0386-lexicographical-numbers) |
 | [0440-k-th-smallest-in-lexicographical-order](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0440-k-th-smallest-in-lexicographical-order) |
 | [2755-extra-characters-in-a-string](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2755-extra-characters-in-a-string) |
+| [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 <!---LeetCode Topics End-->
