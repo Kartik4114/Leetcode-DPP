@@ -1,38 +1,27 @@
 class Solution {
 public:
     int a1(vector<int> &arr1,vector<int> &arr2){
-         unordered_set<string> st;
+        unordered_set<int> st;
 
-        for(int i=0;i<arr1.size();i++){
-
-            string temp=to_string(arr1[i]);
-            for(int j=0;j<temp.size();j++){
-
-                string toInsert=temp.substr(0,j+1);
-                st.insert(toInsert);
+        // Inserting in set
+        for(auto &val:arr1){
+            while(!st.count(val) && val>0){
+                st.insert(val);
+                val/=10;
             }
         }
 
-        int maxLen=0;
-        for(int i=0;i<arr2.size();i++){
+        int result=0;
+        for(auto &val:arr2){
+            while(!st.count(val) && val>0){
+                val/=10;
+            }
 
-            string arrStr=to_string(arr2[i]);
-
-            int n=arrStr.size();
-            for(int j=n;j>=0;j--){
-
-                string temp=arrStr.substr(0,j+1);
-                
-                if(st.find(temp)!=st.end()){
-                    cout<<temp.size()<<endl;
-                    int size=temp.size();
-                    maxLen=max(maxLen,size);
-                    break;
-                }
+            if(val>0) {
+                result=max(result,(int)log10(val)+1);
             }
         }
-
-        return maxLen;
+        return result;
     }
 
     struct trieNode{
@@ -105,10 +94,10 @@ public:
         
         // approach 1:- using unordered map and storing in the string
         // T.C :- O((m+n)*d) n=arr1.size(), m=arr2.size() , d:- no.of digits
-        // return a1(arr1,arr2);
+        return a1(arr1,arr2);
 
         // Approach 2:- Using trie
-        return a2(arr1,arr2);
+        // return a2(arr1,arr2);
 
     }
 };
