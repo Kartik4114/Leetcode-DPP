@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0035-search-insert-position](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0035-search-insert-position) |
 | [0040-combination-sum-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0040-combination-sum-ii) |
 | [0054-spiral-matrix](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0054-spiral-matrix) |
 | [0059-spiral-matrix-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0059-spiral-matrix-ii) |
@@ -171,6 +172,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [0035-search-insert-position](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0035-search-insert-position) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1615-range-sum-of-sorted-subarray-sums) |
