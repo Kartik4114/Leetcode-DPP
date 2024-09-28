@@ -1,20 +1,45 @@
 class MyCalendar {
 public:
-    unordered_map<int,int> mp;
+    set<pair<int,int>> st;
     MyCalendar() {
         
     }
     
+    // bool a1(int start,int end){
+    //     for(auto &it:mp){
+    //         if(start<it.second && end>it.first) return false;
+    //     }
+    //     mp[start]=end;
+    //     return true;
+    // }
+
+    bool a2(int start,int end){
+
+        auto it=st.lower_bound({start,end});
+
+        //Check if the current event overlaps with the next event
+        if(it!=st.end() && it->first<end) return false;
+
+        //Check if the current event overlaps with the previous event
+        if(it != st.begin()) {
+            auto prevIt = prev(it);
+            if(start < prevIt->second) {
+                return false;
+            }
+        }
+
+        st.insert({start, end});
+        return true;
+    }
     bool book(int start, int end) {
         
-        for(auto &it:mp){
-            if(start<it.second && end>it.first) return false;
-        }
-        // cout<<"M"<<endl;
-        mp[start]=end;
-        // cout<<mp.size()<<endl;
-        return true;
+        // APPROACH 1:- BRUTE FORCE APPROACH
+        // T.C :- O(N^2) , S.C :- O(N)
+        // return a1(start,end);
 
+        // APPROACH 2:- OPTIMISED APPROACH (USING LOWER BOUND FUNCTION)
+        // T.C :- O(NLOGN) , S.C :- O(N)
+        return a2(start,end);
     }
 };
 
