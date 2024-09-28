@@ -8,12 +8,11 @@ public:
     bool book(int start, int end) {
         
         for(auto &it:mp){
-            if((start<=it.first && end>it.second) || (start<it.second && end>it.first) ||
-                (start<=it.first && end>it.second) || (start>=it.first && end<=it.second)) return false;
+            if(start<it.second && end>it.first) return false;
         }
         // cout<<"M"<<endl;
         mp[start]=end;
-        cout<<mp.size()<<endl;
+        // cout<<mp.size()<<endl;
         return true;
 
     }
