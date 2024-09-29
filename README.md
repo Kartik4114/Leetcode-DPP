@@ -97,6 +97,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0264-ugly-number-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0264-ugly-number-ii) |
 | [0347-top-k-frequent-elements](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0347-top-k-frequent-elements) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0432-all-oone-data-structure](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0432-all-oone-data-structure) |
 | [0433-minimum-genetic-mutation](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0433-minimum-genetic-mutation) |
 | [0726-number-of-atoms](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0726-number-of-atoms) |
 | [0869-similar-string-groups](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0869-similar-string-groups) |
@@ -185,6 +186,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Linked List
 |  |
 | ------- |
+| [0432-all-oone-data-structure](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0432-all-oone-data-structure) |
 | [0725-split-linked-list-in-parts](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0725-split-linked-list-in-parts) |
 | [0859-design-circular-deque](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0859-design-circular-deque) |
 | [1484-linked-list-in-binary-tree](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1484-linked-list-in-binary-tree) |
@@ -659,6 +661,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0208-implement-trie-prefix-tree](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0208-implement-trie-prefix-tree) |
+| [0432-all-oone-data-structure](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0432-all-oone-data-structure) |
 | [0729-my-calendar-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0729-my-calendar-i) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0859-design-circular-deque](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0859-design-circular-deque) |
@@ -721,4 +724,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0729-my-calendar-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0729-my-calendar-i) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0432-all-oone-data-structure](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0432-all-oone-data-structure) |
 <!---LeetCode Topics End-->
