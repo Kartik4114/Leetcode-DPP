@@ -76,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 | [2519-find-the-original-array-of-prefix-xor](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2519-find-the-original-array-of-prefix-xor) |
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2527-count-subarrays-with-fixed-bounds) |
+| [2581-divide-players-into-teams-of-equal-skill](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [2727-number-of-senior-citizens](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2727-number-of-senior-citizens) |
 | [2755-extra-characters-in-a-string](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2755-extra-characters-in-a-string) |
 | [2846-robot-collisions](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2846-robot-collisions) |
@@ -126,6 +127,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2163-kth-distinct-string-in-an-array](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2502-sort-the-people](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2502-sort-the-people) |
+| [2581-divide-players-into-teams-of-equal-skill](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [2755-extra-characters-in-a-string](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2755-extra-characters-in-a-string) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
@@ -168,6 +170,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1741-sort-array-by-increasing-frequency](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1798-max-number-of-k-sum-pairs) |
 | [2502-sort-the-people](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2502-sort-the-people) |
+| [2581-divide-players-into-teams-of-equal-skill](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [2846-robot-collisions](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2846-robot-collisions) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3534-count-almost-equal-pairs-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3534-count-almost-equal-pairs-i) |
@@ -178,6 +181,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0719-find-k-th-smallest-pair-distance](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1798-max-number-of-k-sum-pairs) |
+| [2581-divide-players-into-teams-of-equal-skill](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [3524-minimum-number-of-flips-to-make-binary-grid-palindromic-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3524-minimum-number-of-flips-to-make-binary-grid-palindromic-ii) |
 | [3526-minimum-number-of-flips-to-make-binary-grid-palindromic-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3526-minimum-number-of-flips-to-make-binary-grid-palindromic-i) |
 ## Binary Search
