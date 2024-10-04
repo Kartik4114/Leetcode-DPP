@@ -27,7 +27,9 @@ public:
             while(it.second>0){
                 
                 it.second--;
-                if(mp[pairSum-it.first]>0){
+                int needed=pairSum-it.first;
+                
+                if(mp[needed]>0){
                     long long sum=it.first*(long long)(pairSum-it.first);
                     ans+=sum;
                     mp[pairSum-it.first]--;
