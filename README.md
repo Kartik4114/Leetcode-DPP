@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0399-evaluate-division](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0399-evaluate-division) |
 | [0539-minimum-time-difference](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0539-minimum-time-difference) |
 | [0624-maximum-distance-in-arrays](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0624-maximum-distance-in-arrays) |
+| [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0729-my-calendar-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0729-my-calendar-i) |
 | [0859-design-circular-deque](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0859-design-circular-deque) |
@@ -108,6 +109,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0432-all-oone-data-structure](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0432-all-oone-data-structure) |
 | [0433-minimum-genetic-mutation](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0433-minimum-genetic-mutation) |
 | [0567-permutation-in-string](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0567-permutation-in-string) |
+| [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0726-number-of-atoms](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0726-number-of-atoms) |
 | [0869-similar-string-groups](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0869-similar-string-groups) |
 | [0870-magic-squares-in-grid](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0870-magic-squares-in-grid) |
@@ -145,6 +147,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0179-largest-number](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0179-largest-number) |
 | [0624-maximum-distance-in-arrays](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0624-maximum-distance-in-arrays) |
+| [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0876-hand-of-straights](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0876-hand-of-straights) |
 | [0890-lemonade-change](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0890-lemonade-change) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0957-minimum-add-to-make-parentheses-valid) |
@@ -165,6 +168,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0347-top-k-frequent-elements) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0539-minimum-time-difference](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0539-minimum-time-difference) |
+| [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0726-number-of-atoms](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0726-number-of-atoms) |
 | [0876-hand-of-straights](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0876-hand-of-straights) |
@@ -567,6 +571,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0264-ugly-number-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0264-ugly-number-ii) |
 | [0347-top-k-frequent-elements](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0347-top-k-frequent-elements) |
+| [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0744-network-delay-time](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0744-network-delay-time) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0803-cheapest-flights-within-k-stops) |
@@ -689,6 +694,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0567-permutation-in-string](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0567-permutation-in-string) |
+| [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2527-count-subarrays-with-fixed-bounds) |
 | [3463-alternating-groups-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3463-alternating-groups-i) |
