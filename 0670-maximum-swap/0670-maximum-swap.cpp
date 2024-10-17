@@ -3,6 +3,7 @@ public:
 
     int maximumSwap(int num) {
         
+        // T.C :-O(N*logN) , S.C :- O(N)
         string numStr=to_string(num);
         int n=numStr.size();
 
