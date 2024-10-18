@@ -1,45 +1,43 @@
 class Solution {
 public:
-    vector<vector<int>> vec;
-
-    void getSubset(vector<int> &nums,vector<int> &temp,int i){
+    int countSubsets(vector<int> &nums,int currOr,int maxOr,int idx,vector<vector<int>> &dp){
+        
         int n=nums.size();
-
-        if(i>=n){
-            vec.push_back(temp);
-            return;
+        if(idx>=n){
+            if(currOr==maxOr) return 1;
+            return 0; // else
         }
 
-        // take
-        temp.push_back(nums[i]);
-        getSubset(nums,temp,i+1);
+        if(dp[idx][currOr]!=-1) return dp[idx][currOr];
+        // Take
+        int takeCount = countSubsets(nums,currOr | nums[idx],maxOr , idx+1,dp);
 
-        // skip
-        temp.pop_back();
-        getSubset(nums,temp,i+1);
+        // Skip
+        int notTakeCount = countSubsets(nums,currOr , maxOr , idx+1,dp);
 
+        return dp[idx][currOr] = takeCount + notTakeCount;
     }
     int countMaxOrSubsets(vector<int>& nums) {
         
-        vector<int> temp;
-        getSubset(nums,temp,0);
+        // Here this problem has less constraint so need of as such memoization 
+        // But still repeated sub problem is coming so memoizing the problem
 
-        int maxPossVal=0;
+        // T.C :- O(2^n) (Recursion)
+        // After memoization 
+
+        // T.C :- O(n*maxOr) (memoization)
+        // S.C :- O(n*maxOr) // 2-d array space
+
+        int n=nums.size();
+        int maxOr=0;
         for(auto &num:nums){
-            maxPossVal |=num;
+            maxOr |=num;
         }
 
-        int count=0;
-        for(auto &v:vec){
-            
-            int val=0;
-            for(auto &num:v){
-                val |=num;
-            }
-
-            if(val==maxPossVal) count++;
-        }
-
+        int currOr=0;
+        
+        vector<vector<int>> dp(n+1,vector<int> (maxOr+1,-1));
+        int count=countSubsets(nums,currOr,maxOr,0,dp);
         return count;
     }
 };
