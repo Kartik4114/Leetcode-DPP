@@ -29,7 +29,7 @@ public:
         string temp = "";
         makeString(n, temp);
 
-        cout << temp << endl;
+        // cout << temp << endl;
         return temp[k - 1]; // Return the kth bit (0-based index, so use k-1)
     }
 };
