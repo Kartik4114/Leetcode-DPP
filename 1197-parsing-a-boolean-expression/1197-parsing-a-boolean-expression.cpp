@@ -2,8 +2,10 @@ class Solution {
 public:
     bool parseBoolExpr(string expression) {
         
-        stack<char> st;
-        stack<char> operation;
+        // T.C :- O(2*n) , S.C :- O(n)
+
+        stack<char> st; // stack for storing other element
+        stack<char> operation; // stack for operator 
 
         for(auto &ch:expression){
             
@@ -14,7 +16,7 @@ public:
                 if(ch==')'){
                     char op=operation.top();
 
-                    int falseCnt=0;
+                    int falseCnt=0; // for checking
                     int trueCnt=0;
 
                     while(!st.empty() && st.top()!='('){
@@ -42,8 +44,6 @@ public:
             }
         }
 
-        // cout<<st.top()<<endl;
-        if(st.top()=='t') return true;
-        return false; 
+        return st.top()=='t';
     }
 };
