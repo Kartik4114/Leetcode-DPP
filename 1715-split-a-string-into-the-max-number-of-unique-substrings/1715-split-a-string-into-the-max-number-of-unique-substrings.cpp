@@ -30,7 +30,7 @@ public:
         int currCount=0;
         int i=0;
 
-        solve(s,0,st,maxCount,0);
+        solve(s,0,st,maxCount,currCount);
         return maxCount;
     }
 };
