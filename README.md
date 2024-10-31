@@ -85,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2519-find-the-original-array-of-prefix-xor](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2519-find-the-original-array-of-prefix-xor) |
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2527-count-subarrays-with-fixed-bounds) |
 | [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
+| [2554-minimum-total-distance-traveled](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2554-minimum-total-distance-traveled) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [2586-longest-square-streak-in-an-array](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2586-longest-square-streak-in-an-array) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2616-maximal-score-after-applying-k-operations) |
@@ -199,6 +200,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1798-max-number-of-k-sum-pairs](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1798-max-number-of-k-sum-pairs) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2502-sort-the-people](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2502-sort-the-people) |
+| [2554-minimum-total-distance-traveled](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2554-minimum-total-distance-traveled) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [2586-longest-square-streak-in-an-array](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2586-longest-square-streak-in-an-array) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
@@ -296,6 +298,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1986-largest-color-value-in-a-directed-graph) |
 | [2022-maximum-alternating-subsequence-sum](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2022-maximum-alternating-subsequence-sum) |
 | [2067-maximum-number-of-points-with-cost](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2067-maximum-number-of-points-with-cost) |
+| [2554-minimum-total-distance-traveled](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2554-minimum-total-distance-traveled) |
 | [2586-longest-square-streak-in-an-array](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2586-longest-square-streak-in-an-array) |
 | [2755-extra-characters-in-a-string](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2755-extra-characters-in-a-string) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2794-maximum-number-of-moves-in-a-grid) |
