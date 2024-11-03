@@ -1,23 +1,26 @@
 class Solution {
 public:
-    bool rotateString(string s, string goal) {
-        
-        int n=s.size();
-        string orig=s;
-        
-        int size=n;
-        while(size>0){
-            
-            if(s==goal) return true;
-            char ch=s[0];
-            string temp=s.substr(1,n);
+    bool a1(string &s,string &goal){
 
-            temp+=ch;
-            cout<<temp<<endl;
-            s=temp;
-            size--;
+        int m=s.size();
+        int n=goal.size();
+
+        if(m!=n) return false;
+
+        for(int i=1;i<=n;i++){
+            rotate(s.begin(),s.begin()+1,s.end());
+            if(s==goal) return true;
         }
         return false;
+    }
+    // bool a2(string &s,string &goal){
         
+    // }
+    bool rotateString(string s, string goal) {
+        
+        // APPROACH 1:- BRUTE FORCE APPROACH (USING C++ STL)
+        return a1(s,goal);
+
+
     }
 };
