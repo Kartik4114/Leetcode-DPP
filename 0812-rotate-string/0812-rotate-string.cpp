@@ -8,8 +8,8 @@ public:
         if(m!=n) return false;
 
         for(int i=1;i<=n;i++){
-            rotate(s.begin(),s.begin()+1,s.end());
             if(s==goal) return true;
+            rotate(s.begin(),s.begin()+1,s.end());
         }
         return false;
     }
