@@ -14,7 +14,7 @@ public:
             temp+=ch;
             cout<<temp<<endl;
             s=temp;
-        }while (s!=orig);
+        } while (s!=orig);
         return false;
         
     }
