@@ -4,8 +4,9 @@ public:
         
         int n=s.size();
         string orig=s;
-
-        do{
+        
+        int size=n;
+        while(size>0){
             
             if(s==goal) return true;
             char ch=s[0];
@@ -14,7 +15,8 @@ public:
             temp+=ch;
             cout<<temp<<endl;
             s=temp;
-        } while (s!=orig);
+            size--;
+        }
         return false;
         
     }
