@@ -1,33 +1,24 @@
 class Solution {
 public:
-    static string compressedString(string& word) {
-        int n=word.size(), l=0;
-        string ans;
-        ans.reserve(n);
-        for(int r=0; r<n; ){
-            while( r<n && word[r]==word[l]) r++;
+    string compressedString(string word) {
+        
+        int n=word.size();
+        string result="";
 
-            auto [q, rem]=div(r-l, 9);
-            
-            for(int i=0; i<q; i++){
-                ans.push_back('9');
-                ans.push_back(word[l]);
+        int i=0;
+        while(i<n){
+
+            int cnt=1;
+            while( i+1<n && word[i]==word[i+1] && cnt<9){
+                cnt++;
+                // cout<<"In"<<endl;
+                i++;
             }
-            if (rem>0) {
-                ans.push_back(rem+'0');
-                ans.push_back(word[l]);
-            }
-            l=r;
+            // cout<<"out"<<endl;
+            result+=to_string(cnt);
+            result+=word[i];
+            i++;
         }
-        return ans;
+        return result;
     }
 };
-
-
-
-auto init = []() {
-    ios::sync_with_stdio(0);
-    cin.tie(0);
-    cout.tie(0);
-    return 0;
-}();
