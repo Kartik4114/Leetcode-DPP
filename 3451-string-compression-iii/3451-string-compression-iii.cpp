@@ -3,22 +3,20 @@ public:
     string compressedString(string word) {
         
         int n=word.size();
-        string result="";
+        string comp="";
 
         int i=0;
         while(i<n){
 
-            int cnt=1;
-            while( i+1<n && word[i]==word[i+1] && cnt<9){
+            int cnt=0;
+            int ch=word[i];
+            while(i<n && word[i]==ch && cnt<9){
                 cnt++;
-                // cout<<"In"<<endl;
                 i++;
             }
-            // cout<<"out"<<endl;
-            result+=to_string(cnt);
-            result+=word[i];
-            i++;
+            comp+=to_string(cnt);
+            comp+= ch;
         }
-        return result;
+        return comp;
     }
 };
