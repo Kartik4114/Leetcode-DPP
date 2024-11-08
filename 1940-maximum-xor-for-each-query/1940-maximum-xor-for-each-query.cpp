@@ -59,6 +59,7 @@ public:
         // return a1(nums,maximumBit);
 
         // APPROACH 2:- JUST LITTLE SIMPLE APPROACH (Actual approach)
+        // NICEEE APPROACH
         // T.C :- O(N) , S.C :- O(N)
         return a2(nums,maximumBit);
 
