@@ -11,11 +11,6 @@ public:
             xorArr[i]=(xorArr[i-1]^nums[i]);
         }
 
-        for(int i=0;i<n;i++){
-         cout<<xorArr[i]<<" ";
-        }
-
-        cout<<endl;
         vector<int> temp=xorArr;
 
         for(int i=0;i<n;i++){
@@ -26,8 +21,6 @@ public:
                     xorArr[i]= (xorArr[i] ^ (1<<bits));
                 }
             }
-
-            cout<<xorArr[i]<<" ";
         }
 
         vector<int> result(n);
