@@ -99,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3235-minimum-cost-to-convert-string-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3235-minimum-cost-to-convert-string-i) |
 | [3291-find-if-array-can-be-sorted](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3291-find-if-array-can-be-sorted) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
+| [3380-shortest-subarray-with-or-at-least-k-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3380-shortest-subarray-with-or-at-least-k-ii) |
 | [3463-alternating-groups-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3463-alternating-groups-i) |
 | [3469-maximum-height-of-a-triangle](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3469-maximum-height-of-a-triangle) |
 | [3483-alternating-groups-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3483-alternating-groups-ii) |
@@ -679,6 +680,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2519-find-the-original-array-of-prefix-xor](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2519-find-the-original-array-of-prefix-xor) |
 | [3192-maximum-xor-product](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3192-maximum-xor-product) |
 | [3291-find-if-array-can-be-sorted](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3291-find-if-array-can-be-sorted) |
+| [3380-shortest-subarray-with-or-at-least-k-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3380-shortest-subarray-with-or-at-least-k-ii) |
 | [3394-minimum-array-end](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3394-minimum-array-end) |
 | [3453-generate-binary-strings-without-adjacent-zeros](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3453-generate-binary-strings-without-adjacent-zeros) |
 ## Matrix
@@ -772,6 +774,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2527-count-subarrays-with-fixed-bounds) |
+| [3380-shortest-subarray-with-or-at-least-k-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3380-shortest-subarray-with-or-at-least-k-ii) |
 | [3463-alternating-groups-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3463-alternating-groups-i) |
 | [3483-alternating-groups-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3483-alternating-groups-ii) |
 | [3543-count-substrings-that-satisfy-k-constraint-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3543-count-substrings-that-satisfy-k-constraint-i) |
