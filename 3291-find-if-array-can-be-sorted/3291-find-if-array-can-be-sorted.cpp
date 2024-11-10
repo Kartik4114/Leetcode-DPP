@@ -9,6 +9,7 @@ public:
             for(int j=0;j<n-i-1;j++){
                 
                 if(nums[j]<=nums[j+1]) continue;
+                
                 int setBit1=__builtin_popcount(nums[j]);
                 int setBit2=__builtin_popcount(nums[j+1]);
 
