@@ -24,6 +24,7 @@ public:
     }
     int minimumSubarrayLength(vector<int>& nums, int k) {
         
+        // T.C :- O(2*n) , S.C :- O(32) ~ O(1)
         int n=nums.size();
 
         int result=INT_MAX;
