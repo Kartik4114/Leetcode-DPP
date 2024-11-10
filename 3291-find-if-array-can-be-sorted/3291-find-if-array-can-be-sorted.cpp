@@ -1,21 +1,25 @@
 class Solution {
 public:
-    static bool canSortArray(const vector<int> &nums) {
-        const uint8_t n = nums.size();
-        uint16_t pmax = 0, cmin = 0, cmax = 0;
-        uint8_t pcnt = 0;
-        for (const uint16_t v : nums) {
-            if (const uint8_t ccnt = popcount(v); pcnt == ccnt) {
-                cmin = min(cmin, v);
-                cmax = max(cmax, v);
-            } else if (cmin < pmax) {
-                return false;
-            } else {
-                pmax = cmax;
-                cmin = cmax = v;
-                pcnt = ccnt;
+    bool canSortArray(vector<int>& nums) {
+        
+        int n=nums.size();
+
+        for(int i=0;i<n;i++){
+
+            for(int j=0;j<n-i-1;j++){
+                
+                int setBit1=__builtin_popcount(nums[j]);
+                int setBit2=__builtin_popcount(nums[j+1]);
+
+                if(setBit1==setBit2 && nums[j]>nums[j+1]){
+                    swap(nums[j],nums[j+1]);
+                }
             }
         }
-        return cmin >= pmax;
+
+        for(int i=0;i<n-1;i++){
+            if(nums[i]>nums[i+1]) return false;
+        }
+        return true;
     }
 };
