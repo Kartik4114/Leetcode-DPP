@@ -4,7 +4,7 @@ public:
         
         for(auto &q:quantities){
 
-            n-=ceil(q*1.0/mid*1.0);
+            n-=(q+mid-1)/mid; // Ceil function
             if(n<0) return false;
         }
         return true;
@@ -13,6 +13,8 @@ public:
         
         // int size=quantities.size();
 
+        // Binary Search on Answer
+        // T.C :- O(nlogn) , S.C :- O(1)
         int l=1;
         int r=*max_element(quantities.begin(),quantities.end());
 
