@@ -4,29 +4,33 @@ public:
         
         int n=nums.size();
 
-        vector<int> result;
+        vector<int> result(n-k+1,-1);
+        
+        int count=1;
+        for(int i=1;i<k;i++){
 
-        int i=0;
+            if(nums[i]==nums[i-1]+1) count++;
+            else count=1;
+        }
+        
+        if(count==k){
+            result[0]=nums[k-1];
+        }
 
-        while(i<=n-k){
+        int i=1;
+        int j=k;
 
-            bool isInc=true;
-            int maxEl=nums[i];
-            int j=i+1;
+        while(j<n){
 
-            while(j-i<k){
+            if(nums[j]==nums[j-1]+1){
+                count++;
+            } else count=1;
 
-                if(nums[j-1]+1!=nums[j]){
-                    isInc=false;
-                    break;
-                }
-                maxEl=nums[j];
-                j++;
-            }
-
-            if(isInc) result.push_back(maxEl);
-            else result.push_back(-1);
+            if(count>=k)
+                result[i]=nums[j];
             i++;
+            j++;
+            
         }
         return result;
     }
