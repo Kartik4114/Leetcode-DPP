@@ -112,6 +112,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3498-minimum-array-changes-to-make-differences-equal](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3498-minimum-array-changes-to-make-differences-equal) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
+| [3523-find-the-power-of-k-size-subarrays-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3523-find-the-power-of-k-size-subarrays-ii) |
 | [3524-minimum-number-of-flips-to-make-binary-grid-palindromic-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3524-minimum-number-of-flips-to-make-binary-grid-palindromic-ii) |
 | [3526-minimum-number-of-flips-to-make-binary-grid-palindromic-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3526-minimum-number-of-flips-to-make-binary-grid-palindromic-i) |
 | [3534-count-almost-equal-pairs-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3534-count-almost-equal-pairs-i) |
@@ -793,6 +794,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3463-alternating-groups-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3463-alternating-groups-i) |
 | [3483-alternating-groups-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3483-alternating-groups-ii) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
+| [3523-find-the-power-of-k-size-subarrays-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3523-find-the-power-of-k-size-subarrays-ii) |
 | [3543-count-substrings-that-satisfy-k-constraint-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3543-count-substrings-that-satisfy-k-constraint-i) |
 ## Strongly Connected Component
 |  |
