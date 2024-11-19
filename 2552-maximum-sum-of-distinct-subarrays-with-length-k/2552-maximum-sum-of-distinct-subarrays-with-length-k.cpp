@@ -15,9 +15,6 @@ public:
             while(j<n && j-i<k){
 
                 if(st.find(nums[j])!=st.end()){
-                    // st.clear();
-                    // sum=0;
-                    // i=j;
                     break;
                 }
                 st.insert(nums[j]);
