@@ -4,31 +4,34 @@ public:
         
         int n=nums.size();
 
+        long long result=0;
+        long long currWindowSum=0;
+
         set<int> st;
+
         int i=0;
         int j=0;
-        long long sum=0;
-
-        long long maxSum=0;
+        
         while(j<n){
 
-            while(j<n && j-i<k){
+            while(st.count(nums[j])){
 
-                if(st.find(nums[j])!=st.end()){
-                    break;
-                }
-                st.insert(nums[j]);
-                sum+=nums[j];
-                j++;
+                currWindowSum-=nums[i];
+                st.erase(nums[i]);
+                i++;
             }
-            if(j-i>=k) maxSum=max(maxSum,sum);
-            cout<<j<<" "<<i<<" "<<sum<<" "<<maxSum<<endl;
 
-            sum-=nums[i];
-            st.erase(nums[i]);
-            i++;
+            currWindowSum+=nums[j];
+            st.insert(nums[j]);
+            
+            if(j-i+1==k){
+                result=max(result,currWindowSum);
+                currWindowSum-=nums[i];
+                st.erase(nums[i]);
+                i++;
+            }
+            j++;
         }
-
-        return maxSum;
+        return result;
     }
 };
