@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0040-combination-sum-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0040-combination-sum-ii) |
 | [0054-spiral-matrix](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0054-spiral-matrix) |
 | [0059-spiral-matrix-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0059-spiral-matrix-ii) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0128-longest-consecutive-sequence) |
 | [0136-single-number](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0136-single-number) |
 | [0137-single-number-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0137-single-number-ii) |
@@ -305,6 +306,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0241-different-ways-to-add-parentheses) |
 | [0264-ugly-number-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0264-ugly-number-ii) |
 | [0338-counting-bits](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0338-counting-bits) |
