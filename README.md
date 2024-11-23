@@ -71,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1803-average-waiting-time](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1803-average-waiting-time) |
 | [1940-maximum-xor-for-each-query](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1940-maximum-xor-for-each-query) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1951-find-the-winner-of-the-circular-game) |
+| [1972-rotating-the-box](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1972-rotating-the-box) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2022-maximum-alternating-subsequence-sum](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2022-maximum-alternating-subsequence-sum) |
 | [2035-count-sub-islands](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2035-count-sub-islands) |
@@ -242,6 +243,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1798-max-number-of-k-sum-pairs) |
+| [1972-rotating-the-box](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1972-rotating-the-box) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2581-divide-players-into-teams-of-equal-skill) |
@@ -735,6 +737,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1753-path-with-minimum-effort](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1753-path-with-minimum-effort) |
+| [1972-rotating-the-box](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1972-rotating-the-box) |
 | [2035-count-sub-islands](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2035-count-sub-islands) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2038-nearest-exit-from-entrance-in-maze) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2132-convert-1d-array-into-2d-array) |
