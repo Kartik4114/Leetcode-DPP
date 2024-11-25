@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0729-my-calendar-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0729-my-calendar-i) |
+| [0787-sliding-puzzle](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0787-sliding-puzzle) |
 | [0859-design-circular-deque](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0859-design-circular-deque) |
 | [0869-similar-string-groups](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0869-similar-string-groups) |
 | [0870-magic-squares-in-grid](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0870-magic-squares-in-grid) |
@@ -464,6 +465,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0433-minimum-genetic-mutation](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0433-minimum-genetic-mutation) |
 | [0547-number-of-provinces](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0547-number-of-provinces) |
 | [0744-network-delay-time](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0744-network-delay-time) |
+| [0787-sliding-puzzle](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0787-sliding-puzzle) |
 | [0801-is-graph-bipartite](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0813-all-paths-from-source-to-target](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0813-all-paths-from-source-to-target) |
@@ -729,6 +731,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0054-spiral-matrix](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0054-spiral-matrix) |
 | [0059-spiral-matrix-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0059-spiral-matrix-ii) |
+| [0787-sliding-puzzle](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0787-sliding-puzzle) |
 | [0870-magic-squares-in-grid](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0870-magic-squares-in-grid) |
 | [0921-spiral-matrix-iii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0921-spiral-matrix-iii) |
 | [0999-regions-cut-by-slashes](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0999-regions-cut-by-slashes) |
