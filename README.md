@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0035-search-insert-position](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0035-search-insert-position) |
 | [0040-combination-sum-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0040-combination-sum-ii) |
+| [0041-first-missing-positive](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0041-first-missing-positive) |
 | [0054-spiral-matrix](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0054-spiral-matrix) |
 | [0059-spiral-matrix-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0059-spiral-matrix-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -132,6 +133,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0041-first-missing-positive](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0041-first-missing-positive) |
 | [0128-longest-consecutive-sequence](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0128-longest-consecutive-sequence) |
 | [0208-implement-trie-prefix-tree](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0208-implement-trie-prefix-tree) |
 | [0264-ugly-number-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0264-ugly-number-ii) |
