@@ -1,49 +1,61 @@
 class Solution {
 public:
+    typedef pair<int,pair<int,int>> P;
+
+    vector<vector<int>> directions = {{0,-1},{0,1},{1,0},{-1,0}};
     int minimumTime(vector<vector<int>>& grid) {
-        if (grid[0][1] > 1 && grid[1][0] > 1) return -1;
         
-        int rows = grid.size();
-        int cols = grid[0].size();
-        
-        priority_queue<pair<int, pair<int, int>>, 
-                      vector<pair<int, pair<int, int>>>, 
-                      greater<pair<int, pair<int, int>>>> minHeap;
-        
-        minHeap.push({0, {0, 0}}); // time, row(x), col(y)
-        
-        vector<vector<int>> seen(rows, vector<int>(cols, 0));
-        seen[0][0] = 1;
-        
-        vector<pair<int, int>> moves = {{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
-        
-        while (!minHeap.empty()) {
-            auto curr = minHeap.top();
-            int currTime = curr.first;
-            int currRow = curr.second.first;
-            int currCol = curr.second.second;
-            
-            minHeap.pop();
-            
-            if (currRow == rows - 1 && currCol == cols - 1) 
-                return currTime;
-            
-            for (auto move : moves) {
-                int nextRow = move.first + currRow;
-                int nextCol = move.second + currCol;
-                
-                if (nextRow >= 0 && nextCol >= 0 && 
-                    nextRow < rows && nextCol < cols && 
-                    !seen[nextRow][nextCol]) {
-                    
-                    int waitTime = ((grid[nextRow][nextCol] - currTime) % 2 == 0) ? 1 : 0;
-                    int nextTime = max(currTime + 1, grid[nextRow][nextCol] + waitTime);
-                    
-                    minHeap.push({nextTime, {nextRow, nextCol}});
-                    seen[nextRow][nextCol] = 1;
+        int m=grid.size();
+        int n=grid[0].size();
+
+        // Base Case
+        if(grid[0][1]>1 && grid[1][0]>1) return -1;
+
+        vector<vector<int>> result(m,vector<int>(n,INT_MAX));
+        result[0][0]=0;
+
+        priority_queue<P,vector<P>,greater<P>> pq;
+        pq.push({0,{0,0}});
+
+        vector<vector<int>> visited(m,vector<int>(n,false));
+
+        while(!pq.empty()){
+
+            auto curr=pq.top();
+            pq.pop();
+
+            int time=curr.first;
+            int i=curr.second.first;
+            int j=curr.second.second;
+
+            if(i==m-1 && j==n-1) return result[m-1][n-1];
+
+            if(visited[i][j]==true) continue;
+            visited[i][j]=true;
+
+            for(auto &dir:directions){
+
+                int new_i=i+dir[0];
+                int new_j=j+dir[1];
+
+                if(new_i<0 || new_i>=m || new_j<0 || new_j>=n) continue;
+
+                if(grid[new_i][new_j] <= time+1){
+
+                    result[new_i][new_j]=time+1;
+                    pq.push({time+1,{new_i,new_j}});
+
+                } else if((grid[new_i][new_j]-time)%2==0){
+                    pq.push({grid[new_i][new_j]+1,{new_i,new_j}});
+                    result[new_i][new_j]=grid[new_i][new_j]+1;
+
+                } else {
+                    pq.push({grid[new_i][new_j],{new_i,new_j}});
+                    result[new_i][new_j]=grid[new_i][new_j];
                 }
             }
         }
-        return -1;
+
+        return result[m-1][n-1];
     }
 };
