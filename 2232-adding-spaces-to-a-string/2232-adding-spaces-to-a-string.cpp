@@ -2,29 +2,21 @@ class Solution {
 public:
     string addSpaces(string s, vector<int>& spaces) {
         
+        int m=s.length();
         int n=spaces.size();
-        int len=s.size();
-
-        for(int i=0;i<n;i++){
-            spaces[i]+=i;
-        }
-
-        set<int> st(spaces.begin(),spaces.end());
 
         string result="";
 
         int j=0;
-        for(int i=0;i<len+n;i++){
-
-            if(st.find(i)!=st.end()){
+        for(int i=0;i<m;i++){
+            if(j<n && spaces[j]==i){
                 result+=' ';
-                continue;
-            } 
-            result+=s[j];
-            j++;
+                j++;
+            }
+            result+=s[i];
+
         }
-
-
         return result;
+
     }
 };
