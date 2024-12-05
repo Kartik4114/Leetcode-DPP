@@ -13,7 +13,7 @@ public:
             if (target[i] == 'R')
                 right--;
             else if (target[i] == 'L') {
-                left++;
+                left++; //
                 if (right != 0)
                     return false;
             }
