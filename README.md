@@ -729,6 +729,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0094-binary-tree-inorder-traversal](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0094-binary-tree-inorder-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0145-binary-tree-postorder-traversal) |
+| [0155-min-stack](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0155-min-stack) |
 | [0225-implement-stack-using-queues](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0225-implement-stack-using-queues) |
 | [0726-number-of-atoms](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0726-number-of-atoms) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0776-n-ary-tree-postorder-traversal) |
@@ -940,6 +941,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Design
 |  |
 | ------- |
+| [0155-min-stack](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0155-min-stack) |
 | [0208-implement-trie-prefix-tree](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0208-implement-trie-prefix-tree) |
 | [0225-implement-stack-using-queues](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0225-implement-stack-using-queues) |
 | [0432-all-oone-data-structure](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0432-all-oone-data-structure) |
