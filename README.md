@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0347-top-k-frequent-elements) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0399-evaluate-division](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0399-evaluate-division) |
+| [0496-next-greater-element-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0496-next-greater-element-i) |
 | [0539-minimum-time-difference](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0539-minimum-time-difference) |
 | [0624-maximum-distance-in-arrays](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0624-maximum-distance-in-arrays) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
@@ -159,6 +160,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0432-all-oone-data-structure](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0432-all-oone-data-structure) |
 | [0433-minimum-genetic-mutation](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0433-minimum-genetic-mutation) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0438-find-all-anagrams-in-a-string) |
+| [0496-next-greater-element-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0496-next-greater-element-i) |
 | [0567-permutation-in-string](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0567-permutation-in-string) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0726-number-of-atoms](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0726-number-of-atoms) |
@@ -731,6 +733,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0145-binary-tree-postorder-traversal](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0145-binary-tree-postorder-traversal) |
 | [0155-min-stack](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0155-min-stack) |
 | [0225-implement-stack-using-queues](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0225-implement-stack-using-queues) |
+| [0496-next-greater-element-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0496-next-greater-element-i) |
 | [0726-number-of-atoms](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0726-number-of-atoms) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0780-max-chunks-to-make-sorted](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0780-max-chunks-to-make-sorted) |
@@ -851,6 +854,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Monotonic Stack
 |  |
 | ------- |
+| [0496-next-greater-element-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0496-next-greater-element-i) |
 | [0780-max-chunks-to-make-sorted](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0780-max-chunks-to-make-sorted) |
 | [1002-maximum-width-ramp](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1002-maximum-width-ramp) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
