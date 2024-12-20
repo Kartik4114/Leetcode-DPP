@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0350-intersection-of-two-arrays-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0399-evaluate-division](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0399-evaluate-division) |
 | [0496-next-greater-element-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0503-next-greater-element-ii) |
 | [0539-minimum-time-difference](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0539-minimum-time-difference) |
 | [0624-maximum-distance-in-arrays](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0624-maximum-distance-in-arrays) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
@@ -734,6 +735,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0155-min-stack](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0155-min-stack) |
 | [0225-implement-stack-using-queues](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0225-implement-stack-using-queues) |
 | [0496-next-greater-element-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0503-next-greater-element-ii) |
 | [0726-number-of-atoms](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0726-number-of-atoms) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0780-max-chunks-to-make-sorted](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0780-max-chunks-to-make-sorted) |
@@ -855,6 +857,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0496-next-greater-element-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0503-next-greater-element-ii) |
 | [0780-max-chunks-to-make-sorted](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0780-max-chunks-to-make-sorted) |
 | [1002-maximum-width-ramp](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1002-maximum-width-ramp) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
