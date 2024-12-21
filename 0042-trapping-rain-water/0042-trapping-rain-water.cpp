@@ -51,7 +51,7 @@ public:
         int leftMax=0,rightMax=0;
 
         int result=0;
-        while(left<=right){
+        while(left<right){
 
             if(height[left]<=height[right]){
 
