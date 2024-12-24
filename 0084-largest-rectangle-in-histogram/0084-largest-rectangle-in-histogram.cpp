@@ -33,7 +33,7 @@ public:
                 result[i]=n;
             } else {
 
-                while(!st.empty() && arr[st.top()]>=arr[i]){
+                while(!st.empty() && arr[st.top()]>arr[i]){
                     st.pop();
                 }
 
@@ -60,10 +60,18 @@ public:
 
         return maxi;
     }
+
+    // int a2(vector<int> &arr){
+        
+    // }
     int largestRectangleArea(vector<int>& heights) {
         
         // APPROACH 1:- It is a two pass solution
         // T.C :- O(n) , S.C :-O(n)
         return a1(heights);
+
+        // APPROACH 2:- It is a one pass solution (MOST OPTIMISED)
+        // T.C := O(2*n) , S.C :- 
+        // return a2(heights);
     }
 };
