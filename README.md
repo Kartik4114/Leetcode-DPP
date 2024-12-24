@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0136-single-number](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0136-single-number) |
 | [0137-single-number-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0137-single-number-ii) |
 | [0179-largest-number](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0179-largest-number) |
+| [0239-sliding-window-maximum](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0239-sliding-window-maximum) |
 | [0347-top-k-frequent-elements](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0347-top-k-frequent-elements) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0399-evaluate-division](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0399-evaluate-division) |
@@ -479,6 +480,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0225-implement-stack-using-queues](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0225-implement-stack-using-queues) |
+| [0239-sliding-window-maximum](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0239-sliding-window-maximum) |
 | [0859-design-circular-deque](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0859-design-circular-deque) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [0954-maximum-sum-circular-subarray](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0954-maximum-sum-circular-subarray) |
@@ -790,6 +792,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0239-sliding-window-maximum](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0239-sliding-window-maximum) |
 | [0264-ugly-number-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0264-ugly-number-ii) |
 | [0347-top-k-frequent-elements](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0347-top-k-frequent-elements) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
@@ -962,6 +965,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0239-sliding-window-maximum](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0239-sliding-window-maximum) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0567-permutation-in-string](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0567-permutation-in-string) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
@@ -1028,6 +1032,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Monotonic Queue
 |  |
 | ------- |
+| [0239-sliding-window-maximum](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0239-sliding-window-maximum) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [0954-maximum-sum-circular-subarray](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0954-maximum-sum-circular-subarray) |
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2527-count-subarrays-with-fixed-bounds) |
