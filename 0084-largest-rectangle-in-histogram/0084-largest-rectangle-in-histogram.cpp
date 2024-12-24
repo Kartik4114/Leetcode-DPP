@@ -61,17 +61,49 @@ public:
         return maxi;
     }
 
-    // int a2(vector<int> &arr){
+    int a2(vector<int> &arr){
         
-    // }
+        int n=arr.size();
+        stack<int> st;
+
+        int maxArea=-1;
+
+        for(int i=0;i<n;i++){
+            while(!st.empty() && arr[st.top()]>arr[i]){
+
+                int element= arr[st.top()];
+                st.pop();
+                int nse=i;
+                int pse=st.empty() ?-1 : st.top();
+
+                int currVal=element*(nse-pse-1);
+                maxArea=max(maxArea,currVal);
+            }
+            st.push(i);
+        }
+
+        while(!st.empty()) {
+
+            int element= arr[st.top()];
+                st.pop();
+                int nse=n;
+                int pse=st.empty() ? -1 : st.top();
+
+                int currVal=element*(nse-pse-1);
+                maxArea=max(maxArea,currVal);
+
+        }
+
+        return maxArea;
+    }
     int largestRectangleArea(vector<int>& heights) {
         
         // APPROACH 1:- It is a two pass solution
         // T.C :- O(n) , S.C :-O(n)
-        return a1(heights);
+        // return a1(heights);
 
         // APPROACH 2:- It is a one pass solution (MOST OPTIMISED)
         // T.C := O(2*n) , S.C :- 
-        // return a2(heights);
+        return a2(heights);
     }
 };
