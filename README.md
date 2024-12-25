@@ -169,6 +169,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0432-all-oone-data-structure](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0432-all-oone-data-structure) |
 | [0433-minimum-genetic-mutation](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0433-minimum-genetic-mutation) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0438-find-all-anagrams-in-a-string) |
+| [0460-lfu-cache](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0460-lfu-cache) |
 | [0496-next-greater-element-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0496-next-greater-element-i) |
 | [0567-permutation-in-string](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0567-permutation-in-string) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
@@ -336,6 +337,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0146-lru-cache](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0146-lru-cache) |
 | [0432-all-oone-data-structure](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0432-all-oone-data-structure) |
+| [0460-lfu-cache](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0460-lfu-cache) |
 | [0725-split-linked-list-in-parts](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0725-split-linked-list-in-parts) |
 | [0859-design-circular-deque](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0859-design-circular-deque) |
 | [1484-linked-list-in-binary-tree](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1484-linked-list-in-binary-tree) |
@@ -999,6 +1001,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0208-implement-trie-prefix-tree](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0208-implement-trie-prefix-tree) |
 | [0225-implement-stack-using-queues](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0225-implement-stack-using-queues) |
 | [0432-all-oone-data-structure](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0432-all-oone-data-structure) |
+| [0460-lfu-cache](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0460-lfu-cache) |
 | [0729-my-calendar-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0729-my-calendar-i) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0859-design-circular-deque](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0859-design-circular-deque) |
@@ -1078,6 +1081,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0146-lru-cache](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0146-lru-cache) |
 | [0432-all-oone-data-structure](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0432-all-oone-data-structure) |
+| [0460-lfu-cache](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0460-lfu-cache) |
 ## Eulerian Circuit
 |  |
 | ------- |
