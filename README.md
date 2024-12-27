@@ -45,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0999-regions-cut-by-slashes](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0999-regions-cut-by-slashes) |
 | [1002-maximum-width-ramp](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1002-maximum-width-ramp) |
 | [1032-satisfiability-of-equality-equations](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1032-satisfiability-of-equality-equations) |
+| [1063-best-sightseeing-pair](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1063-best-sightseeing-pair) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1196-filling-bookcase-shelves](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1196-filling-bookcase-shelves) |
@@ -396,6 +397,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0863-sum-of-distances-in-tree](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0863-sum-of-distances-in-tree) |
 | [0943-sum-of-subarray-minimums](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0943-sum-of-subarray-minimums) |
 | [0954-maximum-sum-circular-subarray](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0954-maximum-sum-circular-subarray) |
+| [1063-best-sightseeing-pair](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1063-best-sightseeing-pair) |
 | [1196-filling-bookcase-shelves](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1196-filling-bookcase-shelves) |
 | [1240-stone-game-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1240-stone-game-ii) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1402-count-square-submatrices-with-all-ones) |
