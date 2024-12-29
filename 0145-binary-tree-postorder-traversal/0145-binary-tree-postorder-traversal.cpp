@@ -46,13 +46,50 @@ public:
             resultSt.pop();
         }
     }
+
+    void a3(TreeNode* root){
+        
+        TreeNode*curr=root;
+        stack<TreeNode*> st;
+
+        while(curr!=NULL || !st.empty()) {
+
+            if(curr!=NULL){
+                st.push(curr);
+                curr=curr->left;
+            } else {
+
+                TreeNode* temp=st.top()->right;
+
+                if(temp==NULL){
+                    temp=st.top();
+                    st.pop();
+
+                    ans.push_back(temp->val);
+
+                    while(!st.empty() && temp==st.top()->right){
+                        temp=st.top();
+                        st.pop();
+                        ans.push_back(temp->val);
+                    }
+                } else {
+                    curr=temp;
+                }
+
+            }
+        }
+    }
     vector<int> postorderTraversal(TreeNode* root) {
 
     // APPROACH 1:- USING RECURSION 
     //    a1(root);
     
     // APPROACH 2:- USING ITERATIVE (2 STACKS)
-        a2(root);
-       return ans;
+        // a2(root);
+    //    return ans;
+    
+    // APPROACH 3:- USING ITERTATIVE (1 STACK)
+        a3(root);
+        return ans;
     }
 };
