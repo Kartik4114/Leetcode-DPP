@@ -15,10 +15,9 @@ public:
     if (root == NULL) return 0;
 
     int left = height(root->left);
-    if (left == -1) return -1; // Propagate imbalance from left subtree
     
     int right = height(root->right);
-    if (right == -1) return -1; // Propagate imbalance from right subtree
+    if (right == -1 || left==-1) return -1; // Propagate imbalance from right subtree
 
     if (abs(right - left) > 1) return -1; // Check for balance condition
 
