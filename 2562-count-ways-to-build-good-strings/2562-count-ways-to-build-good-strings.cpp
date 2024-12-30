@@ -18,9 +18,36 @@ public:
         return memo[length]=(ans+appendZero+appendOne)%MOD;
 
     }
+    int a2(int low, int high, int zero, int one){
+
+        vector<int> t(high+1,0);
+        t[0]=1; // "" empty string
+
+        for(int i=1;i<=high;i++){
+
+            if(i-zero>=0){
+                t[i]= (t[i]+t[i-zero]) %MOD;
+            }
+
+            if(i-one>=0){
+                t[i]= (t[i]%MOD+t[i-one]) %MOD;
+            }
+        }
+
+        int ans=0;
+
+        for(int l=low;l<=high;l++){
+            ans=(ans%MOD+t[l])%MOD;
+        }
+        return ans;
+    }
     int countGoodStrings(int low, int high, int zero, int one) {
         
-        memo.resize(high+1,-1);
-        return solve(0,low,high,zero,one);
+        // APPROACH 1:- USING RECURSION + MEMOIZATION
+        // memo.resize(high+1,-1);
+        // return solve(0,low,high,zero,one);
+
+        // APPROACH 2:- USING DP
+        return a2(low,high,zero,one);
     }
 };
