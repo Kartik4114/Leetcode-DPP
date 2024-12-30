@@ -26,7 +26,7 @@ public:
         for(int i=1;i<=high;i++){
 
             if(i-zero>=0){
-                t[i]= (t[i]+t[i-zero]) %MOD;
+                t[i]= (t[i]%MOD+t[i-zero]) %MOD;
             }
 
             if(i-one>=0){
