@@ -41,13 +41,30 @@ public:
                 ans=a;
             }
         }
-        return ans;
+        return ans; 
+    }
+    TreeNode* a2(TreeNode* root, TreeNode* p, TreeNode* q) {
 
-        
+        if(root==NULL) return NULL;
+
+        if(root==p || root==q) return root;
+
+        TreeNode* leftN=a2(root->left,p,q);
+        TreeNode* rightN=a2(root->right,p,q);
+
+        if(leftN && rightN) return root;
+
+        if(leftN) return leftN;
+
+        return rightN;
     }
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
         
-        // APPROACH :- 
-        return a1(root,p,q);
+        // APPROACH 1:- BRUTE FORCE APPROACH 
+        // FINDING PATH FOR BOTH THE nodes and then storing it in vector and then checking similar
+        // return a1(root,p,q);
+
+        // APPROACH 2:- OPTIMISED APPROACH 
+        return a2(root,p,q);
     }
 };
