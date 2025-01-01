@@ -318,6 +318,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0035-search-insert-position](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0035-search-insert-position) |
+| [0222-count-complete-tree-nodes](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0222-count-complete-tree-nodes) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0729-my-calendar-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0729-my-calendar-i) |
@@ -697,6 +698,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0144-binary-tree-preorder-traversal](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0199-binary-tree-right-side-view) |
+| [0222-count-complete-tree-nodes](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0222-count-complete-tree-nodes) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0543-diameter-of-binary-tree](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0543-diameter-of-binary-tree) |
@@ -735,6 +737,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0144-binary-tree-preorder-traversal](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0199-binary-tree-right-side-view) |
+| [0222-count-complete-tree-nodes](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0222-count-complete-tree-nodes) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0543-diameter-of-binary-tree](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0543-diameter-of-binary-tree) |
@@ -902,6 +905,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0136-single-number](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0136-single-number) |
 | [0137-single-number-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0137-single-number-ii) |
 | [0191-number-of-1-bits](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0191-number-of-1-bits) |
+| [0222-count-complete-tree-nodes](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0222-count-complete-tree-nodes) |
 | [0338-counting-bits](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0338-counting-bits) |
 | [0476-number-complement](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0476-number-complement) |
 | [1435-xor-queries-of-a-subarray](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1435-xor-queries-of-a-subarray) |
