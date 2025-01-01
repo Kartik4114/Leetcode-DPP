@@ -464,6 +464,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1435-xor-queries-of-a-subarray](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1435-xor-queries-of-a-subarray) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1535-build-array-where-you-can-find-the-maximum-exactly-k-comparisons](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1535-build-array-where-you-can-find-the-maximum-exactly-k-comparisons) |
+| [1537-maximum-score-after-splitting-a-string](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1694-make-sum-divisible-by-p](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1694-make-sum-divisible-by-p) |
 | [1940-maximum-xor-for-each-query](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1940-maximum-xor-for-each-query) |
@@ -773,6 +774,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1304-longest-happy-string](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1304-longest-happy-string) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
+| [1537-maximum-score-after-splitting-a-string](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
 | [1667-find-kth-bit-in-nth-binary-string](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1667-find-kth-bit-in-nth-binary-string) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
