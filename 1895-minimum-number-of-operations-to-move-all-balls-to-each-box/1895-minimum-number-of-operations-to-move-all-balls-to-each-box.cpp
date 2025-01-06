@@ -29,43 +29,34 @@ public:
 
         return result;
     }
+
     vector<int> a2(string &boxes){
 
         int n=boxes.size();
 
-        vector<int> tempForward(n,0);
+        vector<int> answer(n,0);
 
-        int cntOne=0;
-
-        tempForward[0]=0;
-        if(boxes[0]=='1') cntOne++;
-        for(int i=1;i<n;i++){
-
-            tempForward[i]=cntOne+tempForward[i-1];
-            if(boxes[i]=='1') cntOne++;
-        }
-
-        vector<int> tempBackward(n,0);
-
-        cntOne=0;
-
-        tempBackward[n-1]=0;
-        if(boxes[n-1]=='1') cntOne++;
-        for(int i=n-2;i>=0;i--){
-
-            tempBackward[i]=cntOne+tempBackward[i+1];
-            if(boxes[i]=='1') cntOne++;
-        }
-
-        vector<int> result(n,0);
+        int currValueSum=0;
+        int cumValue=0;
 
         for(int i=0;i<n;i++){
+            answer[i]=currValueSum;
 
-            result[i]=tempForward[i]+tempBackward[i];
+            cumValue+= boxes[i]=='0' ? 0 :1;
+            currValueSum+=cumValue;
         }
 
-        return result;
+        currValueSum=0;
+        cumValue=0;
 
+        for(int i=n-1;i>=0;i--){
+            answer[i]+=currValueSum;
+
+            cumValue+= boxes[i]=='0' ? 0 :1;
+            currValueSum+=cumValue;
+        }
+
+        return answer;
     }
     vector<int> minOperations(string boxes) {
         
@@ -73,7 +64,8 @@ public:
         // T.C :- O(N^2)
         // return a1(boxes);
 
-        // APPROACH 2:- OPTIMIsED APPROACH
+        // APPROACH 2:- OPTIMISED APPROACH
+        // T.C :- O(N) , S.C :- O(1)
         return a2(boxes);
 
     }
