@@ -12,7 +12,7 @@ public:
     
     void makeMostFrequentlyUsed(int key) {
 
-        auto &vec = *(mp[key]);
+        auto vec = *(mp[key]);
 
         int value= vec[1];
         int f    = vec[2];
