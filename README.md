@@ -43,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0921-spiral-matrix-iii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0921-spiral-matrix-iii) |
 | [0943-sum-of-subarray-minimums](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0943-sum-of-subarray-minimums) |
 | [0948-sort-an-array](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0948-sort-an-array) |
+| [0952-word-subsets](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0952-word-subsets) |
 | [0954-maximum-sum-circular-subarray](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0954-maximum-sum-circular-subarray) |
 | [0999-regions-cut-by-slashes](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0999-regions-cut-by-slashes) |
 | [1002-maximum-width-ramp](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1002-maximum-width-ramp) |
@@ -193,6 +194,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0906-walking-robot-simulation](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0906-walking-robot-simulation) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0920-uncommon-words-from-two-sentences) |
+| [0952-word-subsets](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0952-word-subsets) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [0999-regions-cut-by-slashes](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0999-regions-cut-by-slashes) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
@@ -796,6 +798,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0812-rotate-string](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0812-rotate-string) |
 | [0869-similar-string-groups](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0869-similar-string-groups) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0920-uncommon-words-from-two-sentences) |
+| [0952-word-subsets](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0952-word-subsets) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1032-satisfiability-of-equality-equations](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1032-satisfiability-of-equality-equations) |
 | [1045-check-if-word-is-valid-after-substitutions](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1045-check-if-word-is-valid-after-substitutions) |
