@@ -29,7 +29,7 @@ public:
             openClose.pop();
         }
 
-        return open.empty() ? true : false;
+        return open.empty();
     }
     // bool a2(string &s,string &locked){
         
