@@ -1,7 +1,8 @@
 class Solution {
 public:
     int minimumLength(string s) {
-                unordered_map<char,int> mp;
+        
+        unordered_map<char,int> mp;
         int n=s.size();
         
         for(auto &ch:s){
@@ -22,5 +23,6 @@ public:
         }
         
         return n-maxCnt;
+        
     }
 };
