@@ -2,27 +2,24 @@ class Solution {
 public:
     int minimumLength(string s) {
         
-        unordered_map<char,int> mp;
-        int n=s.size();
-        
+        vector<int> freq(26,0);
         for(auto &ch:s){
-            
-            mp[ch]++;
+            freq[ch-'a']++;
         }
-        
-        int maxCnt=0;
-        
-        for(auto &it: mp){
-            
-            int toDelete=it.second;
-            if(toDelete%2==0){
-                maxCnt+=(toDelete-2);
+
+        int result=0;
+        for(int i=0;i<26;i++){
+
+            if(freq[i]==0) continue;
+            if(freq[i]%2==0){
+                result+=2;
             } else {
-                maxCnt+=(toDelete-1);
+                result+=1;
             }
         }
-        
-        return n-maxCnt;
-        
+
+        return result;
+
+
     }
 };
