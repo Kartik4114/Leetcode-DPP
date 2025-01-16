@@ -5,22 +5,20 @@ public:
         int n=nums1.size();
         int m=nums2.size();
 
-        int ans=0;
-        if(n%2==0 && m%2==0) return 0;
+        int XOR=0;
 
-        if(n%2==1){
-
-            for(int i=0;i<m;i++){
-                ans^=nums2[i];
-            }
-        }
-        if(m%2==1){
-
-            for(int i=0;i<n;i++){
-                ans^=nums1[i];
+        if(n%2!=0){
+            for(auto &num:nums2){
+                XOR^=num;
             }
         }
 
-        return ans;
+        if(m%2!=0){
+            for(auto &num:nums1){
+                XOR^=num;
+            }
+        }
+
+        return XOR;
     }
 };
