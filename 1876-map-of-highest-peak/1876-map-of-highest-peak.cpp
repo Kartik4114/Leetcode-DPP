@@ -2,8 +2,11 @@ class Solution {
 public:
     vector<vector<int>> directions = {{-1,0},{1,0},{0,-1},{0,1}};
     vector<vector<int>> highestPeak(vector<vector<int>>& isWater) {
-    //  if (isWater.empty() || isWater[0].empty()) return {};
+    
+    // T.C :- O(m*n)
+    // S.C :- O(m*n) // for storing queue
 
+    // Applying multi-source BFS
         int m=isWater.size();
         int n=isWater[0].size();
 
