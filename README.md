@@ -91,6 +91,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1786-count-the-number-of-consistent-strings](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1798-max-number-of-k-sum-pairs) |
 | [1803-average-waiting-time](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1803-average-waiting-time) |
+| [1876-map-of-highest-peak](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1876-map-of-highest-peak) |
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [1917-maximum-average-pass-ratio](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1917-maximum-average-pass-ratio) |
@@ -632,6 +633,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1643-number-of-nodes-in-the-sub-tree-with-the-same-label](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1643-number-of-nodes-in-the-sub-tree-with-the-same-label) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 | [1753-path-with-minimum-effort](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1753-path-with-minimum-effort) |
+| [1876-map-of-highest-peak](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1876-map-of-highest-peak) |
 | [2035-count-sub-islands](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2035-count-sub-islands) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2038-nearest-exit-from-entrance-in-maze) |
 | [2121-find-if-path-exists-in-graph](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2121-find-if-path-exists-in-graph) |
@@ -996,6 +998,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1753-path-with-minimum-effort](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1753-path-with-minimum-effort) |
+| [1876-map-of-highest-peak](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1876-map-of-highest-peak) |
 | [1972-rotating-the-box](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1972-rotating-the-box) |
 | [2035-count-sub-islands](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2035-count-sub-islands) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2038-nearest-exit-from-entrance-in-maze) |
