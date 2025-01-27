@@ -1,38 +1,29 @@
 class Solution {
 public:
-    void helper(int n,string &s,vector<string> &temp){
+    vector<string> result;
+    void helper(int n,string &temp,int open,int close){
 
-        if(s.size()==2*n){
-            int cnt=0;
-            for(int i=0;i<s.size();i++){
-                if(s[i]=='('){
-                    cnt++;
-                } else cnt--;
-
-                if(cnt<0) break;
-            }
-
-            if(cnt==0){
-                temp.push_back(s);
-            }  
-            return; 
+        if(temp.size()==2*n){
+            result.push_back(temp);
         }
 
-        s.push_back('(');
-        helper(n,s,temp);
-        s.pop_back();
+        if(open<n){
+            temp.push_back('(');
+            helper(n,temp,open+1,close);
+            temp.pop_back();
+        }
 
-        s.push_back(')');
-        helper(n,s,temp);
-        s.pop_back();
-
+        if(close<open){
+            temp.push_back(')');
+            helper(n,temp,open,close+1);
+            temp.pop_back();
+        }
     }
     vector<string> generateParenthesis(int n) {
         
-        vector<string> temp;
-        string s="";
+        string temp="";
+        helper(n,temp,0,0);
 
-        helper(n,s,temp);
-        return temp;
+        return result;
     }
 };
