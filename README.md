@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0042-trapping-rain-water) |
 | [0054-spiral-matrix](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0054-spiral-matrix) |
 | [0059-spiral-matrix-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0059-spiral-matrix-ii) |
+| [0078-subsets](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0078-subsets) |
 | [0084-largest-rectangle-in-histogram](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0084-largest-rectangle-in-histogram) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -995,6 +996,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0078-subsets](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0078-subsets) |
 | [0136-single-number](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0136-single-number) |
 | [0137-single-number-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0137-single-number-ii) |
 | [0191-number-of-1-bits](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0191-number-of-1-bits) |
@@ -1084,6 +1086,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0022-generate-parentheses](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0022-generate-parentheses) |
 | [0040-combination-sum-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0040-combination-sum-ii) |
+| [0078-subsets](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0078-subsets) |
 | [0494-target-sum](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0494-target-sum) |
 | [0813-all-paths-from-source-to-target](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0813-all-paths-from-source-to-target) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
