@@ -466,6 +466,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0050-powx-n](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0050-powx-n) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0241-different-ways-to-add-parentheses) |
 | [0263-ugly-number](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0263-ugly-number) |
 | [0264-ugly-number-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0264-ugly-number-ii) |
@@ -527,6 +528,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Recursion
 |  |
 | ------- |
+| [0050-powx-n](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0050-powx-n) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0241-different-ways-to-add-parentheses) |
 | [0273-integer-to-english-words](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0273-integer-to-english-words) |
 | [1197-parsing-a-boolean-expression](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1197-parsing-a-boolean-expression) |
