@@ -13,19 +13,15 @@ public:
 
         gap.push_back(eventTime-endTime[n-1]);
 
-        int ans=0;
-        int sum=0;
 
-        for(int i=0;i<gap.size() && i<k+1;i++){
-            sum+=gap[i];
+        // SLIDING WINDOW
+        int currSum=0;
+        int maxSum=0;
+        for(int i=0;i<gap.size();i++){
+            currSum+=gap[i] - ((i>=k+1) ? gap[i-(k+1)] : 0);
+            maxSum=max(maxSum,currSum);
         }
 
-        ans=sum;
-        for(int i=k+1;i<gap.size();i++){
-            sum=sum + gap[i]-gap[i-(k+1)];
-            ans=max(ans,sum);
-        }
-
-        return ans;
+        return maxSum;
     }
 };
