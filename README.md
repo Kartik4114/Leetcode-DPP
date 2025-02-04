@@ -99,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [1917-maximum-average-pass-ratio](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1917-maximum-average-pass-ratio) |
+| [1927-maximum-ascending-subarray-sum](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1927-maximum-ascending-subarray-sum) |
 | [1940-maximum-xor-for-each-query](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1940-maximum-xor-for-each-query) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [1972-rotating-the-box](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1972-rotating-the-box) |
