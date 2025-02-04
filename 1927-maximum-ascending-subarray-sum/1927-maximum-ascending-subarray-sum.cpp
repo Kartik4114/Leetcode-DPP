@@ -6,7 +6,7 @@ public:
         vector<int> prefixSum(n,0);
         prefixSum[0]=nums[0];
 
-        int maxSum=0;
+        int maxSum=prefixSum[0];
         for(int i=1;i<n;i++){
             if(nums[i]>nums[i-1]){
                 prefixSum[i]=nums[i]+prefixSum[i-1];
@@ -17,6 +17,6 @@ public:
             maxSum=max(maxSum,prefixSum[i]);
         }
 
-        return max(maxSum,prefixSum[0]);
+        return maxSum;
     }
 };
