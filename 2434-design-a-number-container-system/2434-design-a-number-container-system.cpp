@@ -1,29 +1,33 @@
 class NumberContainers {
 public:
-    unordered_map<int,int> storeIndices;
-    unordered_map<int,set<int>> storeNum;
+
+// APPROACH 1 :- MY APPROACH ALSO
+    unordered_map<int,int> idxToNum;
+    unordered_map<int,set<int>> numToIdx;
 
     NumberContainers() {
         
     }
-    
     void change(int index, int number) {
         
-        if(storeIndices.find(index)!=storeIndices.end()){
-            int num=storeIndices[index];
-            storeNum[num].erase(index);
+        if(idxToNum.find(index)!=idxToNum.end()){
+            int prevNum=idxToNum[index];
+            numToIdx[prevNum].erase(index);
 
-            if(storeNum[num].size()==0) storeNum.erase(num);
+            // We are doing this because if we want delete when no element is present in num
+            // then it will give 0 when we will do *st.begin() but we want 0
+            
+            if(numToIdx[prevNum].size()==0) numToIdx.erase(prevNum);
         } 
 
-        storeNum[number].insert(index);
-        storeIndices[index]=number;
+        numToIdx[number].insert(index);
+        idxToNum[index]=number;
     } 
     
     int find(int number) {
         
-        if(storeNum.find(number)!=storeNum.end()){
-            return *storeNum[number].begin();
+        if(numToIdx.find(number)!=numToIdx.end()){
+            return *numToIdx[number].begin();
         }
 
         return -1;
