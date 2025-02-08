@@ -58,7 +58,7 @@ public:
             return -1;
         }
 
-        auto &pq=numToIdx[number];
+        auto pq=numToIdx[number];
         while(!pq.empty()){
 
             int idx=pq.top();
