@@ -9,6 +9,7 @@ public:
             mp[nums[i]-i].insert(i);
         }
 
+        long long totalPairs=(n*(n-1))/2;
         long long goodPairs=0;
 
         for(auto &it:mp){
@@ -20,9 +21,6 @@ public:
                 goodPairs+=((stSize)*(stSize-1))/2;
             }
         }
-        // cout<<goodPairs<<endl;
-
-        long long totalPairs=(n*(n-1))/2;
 
         return totalPairs-goodPairs;
     }
