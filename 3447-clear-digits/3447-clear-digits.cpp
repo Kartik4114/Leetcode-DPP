@@ -42,6 +42,23 @@ public:
         reverse(result.begin(),result.end());
         return result;
     }
+
+    string a3(string &s){
+
+        int n=s.size();
+        string result="";
+
+        for(auto &ch:s){
+
+            if(isdigit(ch)){
+                result.pop_back();
+            } else {
+                result.push_back(ch);
+            }
+        }
+
+        return result;
+    }
     string clearDigits(string s) {
         
         // APPROACH 1:- BRUTE FORCE APPROACH
@@ -50,7 +67,11 @@ public:
 
         // APPROACH 2:- USING STACK
         // T.C :- O(n) , S.C :- O(n)
-        return a2(s);
+        // return a2(s);
+
+         // APPROACH 3:- USING STRING AS STACK (BEST APPROACH)
+        // T.C :- O(n) , S.C :- O(1)
+        return a3(s);
 
 
     }
