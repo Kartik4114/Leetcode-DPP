@@ -59,6 +59,26 @@ public:
 
         return result;
     }
+
+    string a4(string &s){
+
+        int n=s.size();
+
+        int i=0;
+        int j=0;
+
+        while(i<n){
+
+            if(isdigit(s[i])){
+                j=max(j-1,0);
+            } else {
+                s[j]=s[i];
+                j++;
+            }
+            i++;
+        }
+        return s.substr(0,j);
+    }
     string clearDigits(string s) {
         
         // APPROACH 1:- BRUTE FORCE APPROACH
@@ -71,8 +91,11 @@ public:
 
          // APPROACH 3:- USING STRING AS STACK (BEST APPROACH)
         // T.C :- O(n) , S.C :- O(1)
-        return a3(s);
+        // return a3(s);
 
+        // APPROACH 4:- USING INPLACE  (BEST APPROACH)
+        // T.C :- O(n) , S.C :- O(1)
+        return a4(s);
 
     }
 };
