@@ -59,7 +59,22 @@ public:
         reverse(result.begin(),result.end());
         return result;
 
+    }
 
+    string a3(string &s,string &part){
+
+        int n=part.size();
+        string result="";
+
+        for(auto &ch:s){
+
+            result.push_back(ch);
+
+            if(result.length()>=n && result.substr(result.length()-n)==part){
+                result.erase(result.length()-n);
+            }
+        }
+        return result;
     }
     string removeOccurrences(string s, string part) {
         
@@ -69,6 +84,10 @@ public:
 
         // APPROACH 2:- Using Stack 
         // T.C :- O(m*n)
-        return a2(s,part);
+        // return a2(s,part);
+
+        // APPROACH 3:- Using string as stack
+        // T.C :- O(m*n)
+        return a3(s,part);
     }
 };
