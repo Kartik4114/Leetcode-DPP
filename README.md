@@ -69,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1457-minimum-difficulty-of-a-job-schedule](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1457-minimum-difficulty-of-a-job-schedule) |
 | [1458-sort-integers-by-the-number-of-1-bits](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1458-sort-integers-by-the-number-of-1-bits) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1468-check-if-n-and-its-double-exist) |
+| [1477-product-of-the-last-k-numbers](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1477-product-of-the-last-k-numbers) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1497-design-a-stack-with-increment-operation) |
@@ -498,6 +499,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0670-maximum-swap](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0670-maximum-swap) |
 | [0870-magic-squares-in-grid](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0870-magic-squares-in-grid) |
 | [1240-stone-game-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1240-stone-game-ii) |
+| [1477-product-of-the-last-k-numbers](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1477-product-of-the-last-k-numbers) |
 | [1585-the-kth-factor-of-n](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1585-the-kth-factor-of-n) |
 | [1642-water-bottles](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1642-water-bottles) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1951-find-the-winner-of-the-circular-game) |
@@ -519,6 +521,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1240-stone-game-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1240-stone-game-ii) |
 | [1435-xor-queries-of-a-subarray](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1435-xor-queries-of-a-subarray) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
+| [1477-product-of-the-last-k-numbers](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1477-product-of-the-last-k-numbers) |
 | [1535-build-array-where-you-can-find-the-maximum-exactly-k-comparisons](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1535-build-array-where-you-can-find-the-maximum-exactly-k-comparisons) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
@@ -1216,6 +1219,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0789-kth-largest-element-in-a-stream](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0859-design-circular-deque](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0859-design-circular-deque) |
 | [0937-online-stock-span](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0937-online-stock-span) |
+| [1477-product-of-the-last-k-numbers](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1477-product-of-the-last-k-numbers) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1497-design-a-stack-with-increment-operation) |
 | [2434-design-a-number-container-system](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2434-design-a-number-container-system) |
 ## Binary Search Tree
@@ -1227,6 +1231,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0937-online-stock-span](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0937-online-stock-span) |
+| [1477-product-of-the-last-k-numbers](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1477-product-of-the-last-k-numbers) |
 ## Combinatorics
 |  |
 | ------- |
