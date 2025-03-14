@@ -28,7 +28,7 @@ public:
         for(int i=0;i<n;i++){
             k-=candies[i]/mid;
 
-            if(k<=0) return true;
+            // if(k<=0) return true;
         }
 
         return k<=0;
