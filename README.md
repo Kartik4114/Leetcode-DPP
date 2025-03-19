@@ -188,6 +188,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3463-alternating-groups-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3463-alternating-groups-i) |
 | [3469-maximum-height-of-a-triangle](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3469-maximum-height-of-a-triangle) |
+| [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3483-alternating-groups-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3483-alternating-groups-ii) |
 | [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
 | [3492-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3492-count-submatrices-with-equal-frequency-of-x-and-y) |
@@ -572,6 +573,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2691-count-vowel-strings-in-ranges) |
 | [3427-special-array-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3427-special-array-ii) |
+| [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3492-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3492-count-submatrices-with-equal-frequency-of-x-and-y) |
 | [3498-minimum-array-changes-to-make-differences-equal](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3498-minimum-array-changes-to-make-differences-equal) |
 | [3535-find-the-count-of-monotonic-pairs-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3535-find-the-count-of-monotonic-pairs-i) |
@@ -610,6 +612,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2527-count-subarrays-with-fixed-bounds) |
 | [2868-continuous-subarrays](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2868-continuous-subarrays) |
+| [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -1116,6 +1119,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3380-shortest-subarray-with-or-at-least-k-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3380-shortest-subarray-with-or-at-least-k-ii) |
 | [3394-minimum-array-end](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3394-minimum-array-end) |
 | [3453-generate-binary-strings-without-adjacent-zeros](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3453-generate-binary-strings-without-adjacent-zeros) |
+| [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 ## Matrix
 |  |
 | ------- |
@@ -1269,6 +1273,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 | [3380-shortest-subarray-with-or-at-least-k-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3380-shortest-subarray-with-or-at-least-k-ii) |
 | [3463-alternating-groups-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3463-alternating-groups-i) |
+| [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3483-alternating-groups-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3483-alternating-groups-ii) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 | [3523-find-the-power-of-k-size-subarrays-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3523-find-the-power-of-k-size-subarrays-ii) |
