@@ -5,12 +5,6 @@ public:
         int n=meetings.size();
 
         sort(meetings.begin(),meetings.end());
-
-        // for(auto &meeting:meetings){
-        //     cout<<"["<<meeting[0]<<" "<<meeting[1]<<"],";
-        // }
-        // cout<<endl;
-
         long long  freeDays=meetings[0][0]-1;
 
         int prevBusyDay=meetings[0][1];
@@ -22,7 +16,6 @@ public:
             }
 
             prevBusyDay=max(prevBusyDay,meetings[i][1]);
-            // cout<<freeDays<<" "<<prevBusyDay<<" "<<i<<endl;
         }
 
         prevBusyDay=max(prevBusyDay,meetings[n-1][1]);
