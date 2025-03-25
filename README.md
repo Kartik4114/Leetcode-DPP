@@ -207,6 +207,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3535-find-the-count-of-monotonic-pairs-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3535-find-the-count-of-monotonic-pairs-i) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 | [3643-zero-array-transformation-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3643-zero-array-transformation-ii) |
+| [3657-check-if-grid-can-be-cut-into-sections](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
 ## Hash Table
 |  |
 | ------- |
@@ -368,6 +369,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3291-find-if-array-can-be-sorted](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3291-find-if-array-can-be-sorted) |
 | [3430-count-days-without-meetings](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3430-count-days-without-meetings) |
 | [3534-count-almost-equal-pairs-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3534-count-almost-equal-pairs-i) |
+| [3657-check-if-grid-can-be-cut-into-sections](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
 ## Two Pointers
 |  |
 | ------- |
