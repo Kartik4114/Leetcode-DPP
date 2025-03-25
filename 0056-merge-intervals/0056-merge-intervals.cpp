@@ -12,17 +12,7 @@ public:
         for(int i=1;i<n;i++){
      
             if(intervals[i][0]<=result.back()[1]){
-                
-                vector<int> temp;
-                int start=min(intervals[i][0],result.back()[0]);
-                int end= max(intervals[i][1],result.back()[1]);
-
-                result.pop_back();
-
-                temp.push_back(start);
-                temp.push_back(end);
-
-                result.push_back(temp);    
+                result.back()[1] = max(result.back()[1],intervals[i][1]);
             } else {
                 result.push_back(intervals[i]);
             }
