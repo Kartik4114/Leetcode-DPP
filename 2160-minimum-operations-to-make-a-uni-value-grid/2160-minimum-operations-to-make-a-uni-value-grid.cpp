@@ -44,25 +44,6 @@ public:
             int op= abs(num-temp[mid])/x;
             totalOp+=op;
         }
-
         return totalOp;
-
-        // int maxCntNum=-1;
-        // int maxCnt=-1;
-        // for(auto &it:mp){
-
-        //     if(it.second>maxCnt){
-        //         maxCntNum=it.first;
-        //         maxCnt=max(maxCnt,it.second);
-        //     }
-        // }
-
-        // cout<<maxCntNum<<endl;
-        // int totalOp=0;
-
-
-        // 2 4 6 8
-        // return totalOp;
-
     }
 };
