@@ -1,8 +1,8 @@
 class Solution {
 public:
     int findDominantEl(vector<int> &nums) {
-        unordered_map<int, int> mp;
 
+        unordered_map<int, int> mp;
         for (auto &num : nums) {
             mp[num]++;
         }
@@ -29,7 +29,7 @@ public:
         }
 
         int majElCurrCnt = 0;
-        for (int i = 0; i < n - 1; i++) {
+        for (int i = 0; i < n; i++) {
             if (nums[i] == el)
                 majElCurrCnt++;
 
