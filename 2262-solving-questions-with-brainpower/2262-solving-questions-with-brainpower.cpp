@@ -18,7 +18,7 @@ public:
                 dp[i]=max(maxVal,(long long)questions[i][0]);
             }
 
-            cout<<dp[i]<<" ";
+            // cout<<dp[i]<<" ";
             maxVal=max(maxVal,dp[i]);
         }
 
