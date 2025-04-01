@@ -13,9 +13,9 @@ public:
             
             int skip=questions[i][1];
             if(skip+i+1<n){
-                dp[i]=std::max(questions[i][0]+dp[i+1+skip],maxVal);
+                dp[i]=max(questions[i][0]+dp[i+1+skip],maxVal);
             } else {
-                dp[i]=std::max(maxVal,(long long)questions[i][0]);
+                dp[i]=max(maxVal,(long long)questions[i][0]);
             }
 
             cout<<dp[i]<<" ";
