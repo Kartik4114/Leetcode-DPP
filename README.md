@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0350-intersection-of-two-arrays-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0368-largest-divisible-subset](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0368-largest-divisible-subset) |
 | [0399-evaluate-division](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0399-evaluate-division) |
+| [0416-partition-equal-subset-sum](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0416-partition-equal-subset-sum) |
 | [0494-target-sum](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0494-target-sum) |
 | [0496-next-greater-element-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0503-next-greater-element-ii) |
@@ -510,6 +511,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0264-ugly-number-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0264-ugly-number-ii) |
 | [0338-counting-bits](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0338-counting-bits) |
 | [0368-largest-divisible-subset](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0368-largest-divisible-subset) |
+| [0416-partition-equal-subset-sum](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0416-partition-equal-subset-sum) |
 | [0494-target-sum](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0494-target-sum) |
 | [0650-2-keys-keyboard](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0650-2-keys-keyboard) |
 | [0664-strange-printer](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0664-strange-printer) |
