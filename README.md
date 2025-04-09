@@ -215,6 +215,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3534-count-almost-equal-pairs-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3534-count-almost-equal-pairs-i) |
 | [3535-find-the-count-of-monotonic-pairs-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3535-find-the-count-of-monotonic-pairs-i) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
+| [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
 | [3643-zero-array-transformation-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3643-zero-array-transformation-ii) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 | [3657-check-if-grid-can-be-cut-into-sections](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
@@ -306,6 +307,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3534-count-almost-equal-pairs-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3534-count-almost-equal-pairs-i) |
 | [3548-find-the-count-of-good-integers](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3548-find-the-count-of-good-integers) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
+| [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 ## Greedy
 |  |
