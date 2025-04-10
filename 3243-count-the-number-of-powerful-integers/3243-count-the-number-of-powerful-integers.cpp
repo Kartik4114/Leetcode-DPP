@@ -1,38 +1,52 @@
 class Solution {
-public:
-    long long numberOfPowerfulInt(long long start, long long finish, int limit, string s) {
-        return countChakraShinobi(finish, limit, s) - countChakraShinobi(start - 1, limit, s);
+    using ll = long long;
+    string suffix;
+    int limit;
+    ll dp[20][2]; // max 18 digits + tight flag
+
+    ll countValid(const string &numStr) {
+        int n = numStr.size();
+        memset(dp, -1, sizeof(dp));
+
+        function<ll(int, bool)> dfs = [&](int pos, bool tight) -> ll {
+            if (pos == n) return 1;
+
+            if (dp[pos][tight] != -1) return dp[pos][tight];
+
+            ll res = 0;
+            int maxDigit = tight ? numStr[pos] - '0' : 9;
+            int suffixStart = n - suffix.size();
+
+            if (pos >= suffixStart) {
+                int idx = pos - suffixStart;
+                int digit = suffix[idx] - '0';
+
+                if (digit <= maxDigit && digit <= limit) {
+                    res += dfs(pos + 1, tight && (digit == maxDigit));
+                }
+            } else {
+                for (int d = 0; d <= maxDigit && d <= limit; ++d) {
+                    res += dfs(pos + 1, tight && (d == maxDigit));
+                }
+            }
+
+            return dp[pos][tight] = res;
+        };
+
+        return dfs(0, true);
     }
 
-private:
-    long long countChakraShinobi(long long val, int limit, const string& clanSymbol) {
-        string chakraFlow = to_string(val);  // Represent the chakra stream (digits of the number)
-        int prefixLength = chakraFlow.length() - clanSymbol.length();  // Space left for chakra prefix
+public:
+    long long numberOfPowerfulInt(long long start, long long finish, int limit, const string &s) {
+        this->limit = limit;
+        this->suffix = s;
 
-        if (prefixLength < 0) return 0;  // Not enough room for the suffix
+        ll suffixNum = stoll(s);
+        if (finish < suffixNum) return 0;
 
-        // rasenganScroll[i][tightMode] -> DP table: tightMode = 0 (free), 1 (bound to value)
-        vector<vector<long long>> rasenganScroll(prefixLength + 1, vector<long long>(2, 0));
+        ll countToFinish = countValid(to_string(finish));
+        ll countToStart = (start > suffixNum) ? countValid(to_string(start - 1)) : 0;
 
-        // Base case: we’ve formed all prefix digits, now check suffix validity
-        rasenganScroll[prefixLength][0] = 1;  // Free path
-        rasenganScroll[prefixLength][1] = chakraFlow.substr(prefixLength) >= clanSymbol ? 1 : 0;
-
-        // Moving backward through the chakra path
-        for (int i = prefixLength - 1; i >= 0; --i) {
-            int currentChakra = chakraFlow[i] - '0';
-
-            // Not tight to upper bound → try all digits from 0 to limit
-            rasenganScroll[i][0] = (limit + 1) * rasenganScroll[i + 1][0];
-
-            // Tight case: digits must be ≤ current digit in value
-            if (currentChakra <= limit) {
-                rasenganScroll[i][1] = (long long) currentChakra * rasenganScroll[i + 1][0] + rasenganScroll[i + 1][1];
-            } else {
-                rasenganScroll[i][1] = (long long)(limit + 1) * rasenganScroll[i + 1][0];
-            }
-        }
-
-        return rasenganScroll[0][1];  // Final count from top of chakra flow
+        return countToFinish - countToStart;
     }
 };
