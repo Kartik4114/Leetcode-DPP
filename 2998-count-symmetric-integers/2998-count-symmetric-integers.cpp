@@ -3,19 +3,19 @@ public:
     int a1(int low,int high){
         
         int count=0;
-        for(int i=low;i<=high;i++){
+        for(int num=low;num<=high;num++){
 
-            string s=to_string(i);
+            string s=to_string(num);
             if(s.size()&1) continue;
 
             int firstHalfSum=0;
             int secondHalfSum=0;
-            for(int i=0;i<s.size();i++){
+            for(int num=0;num<s.size();num++){
 
-                if(i<s.size()/2){
-                    firstHalfSum+=(s[i]-'0');
+                if(num<s.size()/2){
+                    firstHalfSum+=(s[num]-'0');
                 } else {
-                    secondHalfSum+=(s[i]-'0');
+                    secondHalfSum+=(s[num]-'0');
                 }
             }
 
@@ -23,9 +23,42 @@ public:
         }
         return count;
     }
+
+    int a2(int low,int high){
+
+        int count=0;
+
+        for(int num=low;num<=high;num++){
+
+            if(num>=10 && num<=99 && num%11==0){
+                count++;
+            }
+
+            if(num>=1000 && num<=9999){
+
+                int first=num/1000;
+                int second=(num/100)%10;
+                int third=(num/10)%10;
+                int fourth=(num%10);
+
+                if(first+second==third+fourth){
+                    count++;
+                }
+            }
+        }
+        return count;
+    }
     int countSymmetricIntegers(int low, int high) {
         
-        // APPROACH 1:-
-        return a1(low,high);
+        //Approach-1 (Brute Force)
+        //T.C : O((high-low+1)*d), where d  = number of digits
+        //S.C : O(d) for storing string
+        // return a1(low,high);
+
+        //Approach-2 (Optimal using / and %)
+        //T.C : O(high-low+1)
+        //S.C : O(1)
+        return a2(low,high);
+
     }
 };
