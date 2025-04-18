@@ -1,10 +1,10 @@
 class Solution {
 public:
-    string helper(int n){
+    string countAndSay(int n) {
 
         if(n==1) return "1";
 
-        string say=helper(n-1);
+        string say=countAndSay(n-1);
 
         string result="";
 
@@ -21,12 +21,6 @@ public:
             result+=ch;
         }
 
-        return result;
-
-    }
-    string countAndSay(int n) {
-        
-        string result=helper(n);
         return result;
     }
 };
