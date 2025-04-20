@@ -37,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0735-asteroid-collision](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0735-asteroid-collision) |
 | [0780-max-chunks-to-make-sorted](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0780-max-chunks-to-make-sorted) |
 | [0787-sliding-puzzle](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0787-sliding-puzzle) |
+| [0797-rabbits-in-forest](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0797-rabbits-in-forest) |
 | [0854-making-a-large-island](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0854-making-a-large-island) |
 | [0859-design-circular-deque](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0859-design-circular-deque) |
 | [0869-similar-string-groups](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0869-similar-string-groups) |
@@ -245,6 +246,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0726-number-of-atoms](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0726-number-of-atoms) |
 | [0768-partition-labels](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0768-partition-labels) |
+| [0797-rabbits-in-forest](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0797-rabbits-in-forest) |
 | [0869-similar-string-groups](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0869-similar-string-groups) |
 | [0870-magic-squares-in-grid](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0870-magic-squares-in-grid) |
 | [0876-hand-of-straights](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0876-hand-of-straights) |
@@ -324,6 +326,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0670-maximum-swap](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0670-maximum-swap) |
 | [0768-partition-labels](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0768-partition-labels) |
 | [0780-max-chunks-to-make-sorted](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0780-max-chunks-to-make-sorted) |
+| [0797-rabbits-in-forest](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0797-rabbits-in-forest) |
 | [0876-hand-of-straights](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0876-hand-of-straights) |
 | [0890-lemonade-change](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0890-lemonade-change) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0957-minimum-add-to-make-parentheses-valid) |
@@ -583,6 +586,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0592-fraction-addition-and-subtraction](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0592-fraction-addition-and-subtraction) |
 | [0650-2-keys-keyboard](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0650-2-keys-keyboard) |
 | [0670-maximum-swap](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0670-maximum-swap) |
+| [0797-rabbits-in-forest](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0797-rabbits-in-forest) |
 | [0870-magic-squares-in-grid](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0870-magic-squares-in-grid) |
 | [1240-stone-game-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1240-stone-game-ii) |
 | [1477-product-of-the-last-k-numbers](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1477-product-of-the-last-k-numbers) |
