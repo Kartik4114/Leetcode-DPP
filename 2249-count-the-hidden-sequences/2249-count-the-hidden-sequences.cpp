@@ -12,8 +12,8 @@ public:
             prefix[i]=prefix[i-1]+differences[i];
         }
 
-        long long minEl=*min_element(prefix.begin(),prefix.end());
-        long long maxEl=*max_element(prefix.begin(),prefix.end());
+        int minEl=*min_element(prefix.begin(),prefix.end());
+        int maxEl=*max_element(prefix.begin(),prefix.end());
         
 
         int cnt=0;
