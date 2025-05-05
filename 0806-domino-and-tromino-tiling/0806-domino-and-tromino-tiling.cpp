@@ -3,7 +3,7 @@ public:
     int MOD=1e9+7;
 
     int t[1001];
-    long long solve(int n){
+    int solve(int n){
 
         if(n==1) return 1;
         if(n==2) return 2;
@@ -11,7 +11,7 @@ public:
 
         if(t[n]!=-1) return t[n];
 
-        long long ans=((2*solve(n-1)%MOD)+solve(n-3))%MOD;
+        int ans=((2*solve(n-1)%MOD)+solve(n-3))%MOD;
         return t[n]=ans;
 
     }
@@ -44,9 +44,9 @@ public:
     int numTilings(int n) {
         
         // APPROACH 1:- USING RECURSION + MEMOIZATION
-        // return a1(n);
+        return a1(n);
         // APPROACH 2:- USING DP
-        return a2(n);
+        // return a2(n);
 
     }
 };
