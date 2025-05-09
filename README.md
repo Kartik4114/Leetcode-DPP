@@ -599,6 +599,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3243-count-the-number-of-powerful-integers](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3243-count-the-number-of-powerful-integers) |
 | [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
 | [3535-find-the-count-of-monotonic-pairs-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3535-find-the-count-of-monotonic-pairs-i) |
+| [3637-count-number-of-balanced-permutations](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3637-count-number-of-balanced-permutations) |
 ## Math
 |  |
 | ------- |
@@ -642,6 +643,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3535-find-the-count-of-monotonic-pairs-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3535-find-the-count-of-monotonic-pairs-i) |
 | [3548-find-the-count-of-good-integers](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3548-find-the-count-of-good-integers) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
+| [3637-count-number-of-balanced-permutations](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3637-count-number-of-balanced-permutations) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -1121,6 +1123,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3493-maximum-number-of-operations-to-move-ones-to-the-end](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3493-maximum-number-of-operations-to-move-ones-to-the-end) |
 | [3543-count-substrings-that-satisfy-k-constraint-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3543-count-substrings-that-satisfy-k-constraint-i) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
+| [3637-count-number-of-balanced-permutations](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3637-count-number-of-balanced-permutations) |
 ## Stack
 |  |
 | ------- |
@@ -1459,6 +1462,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2415-count-the-number-of-ideal-arrays](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2415-count-the-number-of-ideal-arrays) |
 | [3535-find-the-count-of-monotonic-pairs-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3535-find-the-count-of-monotonic-pairs-i) |
 | [3548-find-the-count-of-good-integers](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3548-find-the-count-of-good-integers) |
+| [3637-count-number-of-balanced-permutations](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3637-count-number-of-balanced-permutations) |
 ## Quickselect
 |  |
 | ------- |
