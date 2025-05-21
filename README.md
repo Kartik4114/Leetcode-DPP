@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0054-spiral-matrix](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0054-spiral-matrix) |
 | [0056-merge-intervals](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0056-merge-intervals) |
 | [0059-spiral-matrix-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0059-spiral-matrix-ii) |
+| [0073-set-matrix-zeroes](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0078-subsets) |
 | [0084-largest-rectangle-in-histogram](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0084-largest-rectangle-in-histogram) |
@@ -250,6 +251,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0041-first-missing-positive](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0041-first-missing-positive) |
+| [0073-set-matrix-zeroes](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0073-set-matrix-zeroes) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0128-longest-consecutive-sequence](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0128-longest-consecutive-sequence) |
 | [0146-lru-cache](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0146-lru-cache) |
@@ -1287,6 +1289,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0054-spiral-matrix](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0054-spiral-matrix) |
 | [0059-spiral-matrix-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0059-spiral-matrix-ii) |
+| [0073-set-matrix-zeroes](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0073-set-matrix-zeroes) |
 | [0787-sliding-puzzle](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0787-sliding-puzzle) |
 | [0854-making-a-large-island](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0854-making-a-large-island) |
 | [0870-magic-squares-in-grid](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0870-magic-squares-in-grid) |
