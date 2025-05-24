@@ -4,53 +4,56 @@ public:
     vector<int> rank;
 
     int find(int x){
+
         if(x==parent[x]) return x;
         return parent[x]=find(parent[x]);
     }
 
     void Union(int x,int y){
-        int parent_x=find(x);
-        int parent_y=find(y);
 
-        if(parent_x==parent_y) return;
+        int parentX=find(x);
+        int parentY=find(y);
 
-        if(rank[parent_x]>rank[parent_y]){
-            parent[parent_y]=parent_x;
-        } else if(rank[parent_y]>rank[parent_x]){
-            parent[parent_x]=parent_y;
+        if(parentX==parentY) return;
+
+        if(rank[parentX]>rank[parentY]){
+            parent[parentY]=parentX;
+        } else if(rank[parentY]>rank[parentX]){
+            parent[parentX]=parentY;
         } else {
-            parent[parent_y]=parent_x;
-            rank[parent_x]++;
+            parent[parentY]=parentX;
+            rank[parentX]++;
         }
     }
-    bool equationsPossible(vector<string>& s) {
+    bool equationsPossible(vector<string>& equations) {
         
         parent.resize(26);
         rank.resize(26,0);
-        int n=s.size();
 
         for(int i=0;i<26;i++){
             parent[i]=i;
         }
 
-        for(int i=0;i<n;i++){
-            
-            if(s[i][1]=='='){
-                Union(s[i][0]-'a',s[i][3]-'a');
+        for(auto &eq:equations){
+
+            if(eq[1]=='='){
+                Union(eq[0]-'a',eq[3]-'a');
             }
         }
 
-        for(int i=0;i<n;i++){
-            if(s[i][1]=='!'){
+        for(auto &eq:equations){
+
+            if(eq[1]=='!'){
                 
-                int parentOf0=find(s[i][0]-'a');
-                int parentOf3=find(s[i][3]-'a');
+                char parentOf0=find(eq[0]-'a');
+                char parentOf3=find(eq[3]-'a');
 
                 if(parentOf0==parentOf3){
                     return false;
                 }
             }
         }
+
         return true;
     }
 };
