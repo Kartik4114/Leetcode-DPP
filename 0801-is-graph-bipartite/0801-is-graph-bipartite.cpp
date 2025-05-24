@@ -1,17 +1,25 @@
 class Solution {
 public:
-    bool check(vector<vector<int>>& adj,int curr,vector<int> &color,int currColor){
+    bool check(vector<vector<int>> & graph,int curr,vector<int>& color,int currColor){
 
+        queue<int> que;
         color[curr]=currColor;
 
-        for(auto &v:adj[curr]){
+        que.push(curr);
 
-            if(color[v]==color[curr]) return false;
+        while(!que.empty()){
 
-            if(color[v]==-1){
-                int colorOfV=1-currColor;
+            int node=que.front();
+            que.pop();
 
-                if(check(adj,v,color,colorOfV)==false) return false;
+            for(auto &v:graph[node]){
+
+                if(color[v]==color[node]) return false;
+
+                if(color[v]==-1){
+                    que.push(v);
+                    color[v]=1-color[node];
+                }
             }
         }
 
@@ -20,11 +28,9 @@ public:
     bool isBipartite(vector<vector<int>>& graph) {
         
         int n=graph.size();
-
         vector<int> color(n,-1);
 
         for(int i=0;i<n;i++){
-
             if(color[i]==-1 && check(graph,i,color,1)==false){
                 return false;
             }
