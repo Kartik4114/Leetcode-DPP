@@ -1,43 +1,82 @@
 class Solution {
 public:
-    // modify Kahn's algorithm for undirected graph
-    static int diameter(vector<vector<int>>& edges) {
-        int n=edges.size()+1;
-        vector<int> deg(n, 0);
-        vector<vector<int>> adj(n);
-        for (auto& e : edges) {
-            const int v=e[0], w=e[1];
-            adj[v].push_back(w);
-            adj[w].push_back(v);
-            deg[v]++, deg[w]++;// degree count
-        }
-        queue<int> q;
-        for (int i=0; i < n; i++)
-            if (deg[i] == 1)// Push leaves to q
-                q.push(i);
 
-        int level=0, left=n;
-        //inward toward center
-        for (; left>2; level++) { //may only 2 leaf nodes
-            int qz=q.size();
-            left-=qz;
-            for (int i=0; i<qz; i++) {
-                int v=q.front();
-                q.pop();
-                for (int w : adj[v]) {
-                    // remove edge (v, w) s.t. w being a leaf
-                    if (--deg[w]==1) q.push(w);
+    pair<int,int> BFS(unordered_map<int,vector<int>> &adj,int src){
+        
+        int n=adj.size();
+
+        queue<int> que;
+        que.push(src);
+
+        unordered_map<int,bool> visited; 
+        visited[src]=true;
+
+        int farthestNode=src;
+        int distance=0;
+
+        while(!que.empty()){
+
+            int n=que.size();
+            // distance++;
+            while(n--){
+
+                int curr=que.front();
+                que.pop();
+
+                farthestNode=curr;
+
+                for(auto &v:adj[curr]){
+
+                    if(visited[v]==false){
+                        visited[v]=true;
+                        que.push(v);
+                    }
                 }
             }
+
+            if(!que.empty()) {
+                distance++;
+            }
         }
-    //    cout<<"left="<< left<<",level="<<level<<endl;
-        return (left==2)?2*level+1:2*level;
 
+        return {farthestNode,distance};
     }
+    int findDiameter(unordered_map<int,vector<int>> &adj){
 
-    static int minimumDiameterAfterMerge(vector<vector<int>>& edges1,
-                                         vector<vector<int>>& edges2) {
-        int d1=diameter(edges1), d2=diameter(edges2);
-        return max({d1, d2, (d1+1)/2+(d2+1)/2+1});
+        auto [farthestNode,dist] = BFS(adj,0);
+        auto [otherEnd,diameter] = BFS(adj,farthestNode);
+
+        return diameter;
+    }
+    unordered_map<int,vector<int>> buildAdj(vector<vector<int>>& edges){
+
+        unordered_map<int,vector<int>> adj;
+
+        for(auto &edge:edges){
+
+            int u=edge[0];
+            int v=edge[1];
+
+            adj[u].push_back(v);
+            adj[v].push_back(u);
+        }
+
+        return adj;
+    }
+    int minimumDiameterAfterMerge(vector<vector<int>>& edges1, vector<vector<int>>& edges2) {
+        
+        auto adj1=buildAdj(edges1);
+        auto adj2=buildAdj(edges2);
+
+
+        int d1=findDiameter(adj1);
+        int d2=findDiameter(adj2);
+
+        int combined=(d1+1)/2 + (d2+1)/2 +1;
+
+        int ans= max({d1,d2,combined});
+        return ans;
+        
+
     }
 };
