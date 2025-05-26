@@ -5,7 +5,7 @@ public:
         int n=colors.size();
 
         unordered_map<int,vector<int>> adj;
-        vector<int> inDegree()
+        vector<int> inDegree(n,0);
 
         for(auto &edge:edges){
 
@@ -21,8 +21,8 @@ public:
 
         for(int i=0;i<n;i++){
             if(inDegree[i]==0){
-                que.push(d);
-                t[colors[i]-'a']=1;
+                que.push(inDegree[i]);
+                t[i][colors[i]-'a']=1;
             }
         }
 
@@ -40,9 +40,17 @@ public:
             for(auto &v:adj[u]){
 
                 for(int i=0;i<26;i++){
-                    
+                    t[v][i]=max(t[v][i],t[u][i]+(t[v][colors[v]-'a']==i));
+                }
+
+                inDegree[v]--;
+                if(inDegree[v]==0){
+                    que.push(v);
                 }
             }
         }
+
+        if(countNodes<n) return -1;
+        return result;
     }
 };
