@@ -21,7 +21,7 @@ public:
 
         for(int i=0;i<n;i++){
             if(inDegree[i]==0){
-                que.push(inDegree[i]);
+                que.push(i);
                 t[i][colors[i]-'a']=1;
             }
         }
@@ -40,7 +40,7 @@ public:
             for(auto &v:adj[u]){
 
                 for(int i=0;i<26;i++){
-                    t[v][i]=max(t[v][i],t[u][i]+(t[v][colors[v]-'a']==i));
+                    t[v][i]=max(t[v][i],t[u][i]+(colors[v]-'a'==i));
                 }
 
                 inDegree[v]--;
