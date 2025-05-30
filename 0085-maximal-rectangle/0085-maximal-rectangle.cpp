@@ -1,104 +1,102 @@
 class Solution {
 public:
-    vector<int> getNSR(vector<int> &height){
-        stack<int> st;
-        int n=height.size();
-        vector<int> NSR(n);
-
-        for(int i=n-1;i>=0;i--){
-            if(st.empty()){
-                NSR[i]=n;
-            }  else{
-                while(!st.empty() && height[st.top()]>=height[i]){
-                    st.pop();
-                }
-
-                if(st.empty()){
-                    NSR[i]=n;
-                } else{
-                    NSR[i]=st.top();
-                }
-            }
-            st.push(i);
-        }
-
-        return NSR;
-    }
     vector<int> getNSL(vector<int> &height){
 
-         stack<int> st;
         int n=height.size();
-        vector<int> NSL(n);
+        stack<int> st;
+
+        vector<int> result(n,-1);
 
         for(int i=0;i<n;i++){
+
             if(st.empty()){
-                NSL[i]=-1; // out of bound index
-            }  else{
+                result[i]=-1;
+            } else {
+
                 while(!st.empty() && height[st.top()]>=height[i]){
                     st.pop();
                 }
-
-                if(st.empty()){
-                    NSL[i]=-1;
-                } else{
-                    NSL[i]=st.top();
+                if(!st.empty()){
+                    result[i]=st.top();
+                } else {
+                    result[i]=-1;
                 }
             }
             st.push(i);
         }
 
-        return NSL;
+        return result; 
     }
-    int findMaxArea(vector<int>height){
-        // width=NSR-NSL-1;
-        // height=height[i];
-        vector<int> NSR=getNSR(height);
-        vector<int> NSL=getNSL(height);
+
+        vector<int> getNSR(vector<int> &height){
 
         int n=height.size();
-        vector<int> width(n);
+        stack<int> st;
 
-        for(int i=0;i<n;i++){
-            width[i]=NSR[i]-NSL[i]-1;
+        vector<int> result(n,n);
+
+        for(int i=n-1;i>=0;i--){
+
+            if(st.empty()){
+                result[i]=n;
+            } else {
+
+                while(!st.empty() && height[st.top()]>=height[i]){
+                    st.pop();
+                }
+                if(!st.empty()){
+                    result[i]=st.top();
+                } else {
+                    result[i]=n;
+                }
+            }
+            st.push(i);
         }
 
-        int maxArea=0;
-        for(int i=0;i<n;i++){
-            int a=height[i]*width[i];
+        return result; 
+    }
 
-            maxArea=max(maxArea,a);
+    int findMaxArea(vector<int> &height){
+
+        int n=height.size();
+
+        vector<int> NSL=getNSL(height);
+        vector<int> NSR=getNSR(height);
+
+        int maxArea=0;
+
+        for(int i=0;i<n;i++){
+
+            int width=NSR[i]-NSL[i]-1;
+            maxArea=max(maxArea,width*height[i]);
         }
 
         return maxArea;
-
     }
     int maximalRectangle(vector<vector<char>>& matrix) {
+        
         int m=matrix.size();
         int n=matrix[0].size();
 
-        vector<int> height(n,0);
 
-        // T.C :- O(M*N +N)
-        // for(int i=0;i<n;i++){ // adding 1st row
-        //     height[i]= (matrix[0][i]=='1') ?1 :0;
-        // }
+        vector<int> heights(n,0);
 
-        // int maxArea=findMaxArea(height);
         int maxArea=0;
 
-        for(int row=0;row<m;row++){
-            for(int col=0;col<n;col++){
-                
-                if(matrix[row][col]=='0'){
-                    height[col]=0;
+        for(int i=0;i<m;i++){
+            for(int j=0;j<n;j++){
+
+                if(matrix[i][j]=='0'){
+                    heights[j]=0;
                 } else {
-                    height[col]+=1;
+                    heights[j]+=1;
                 }
             }
 
-            maxArea=max(maxArea,findMaxArea(height));
+            maxArea=max(maxArea,findMaxArea(heights));
         }
 
         return maxArea;
+
     }
 };
