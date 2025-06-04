@@ -17,36 +17,37 @@ public:
 
         return result;
     }
+    
+    int bestStartingPoint(string &word){
 
-    string a2(string word,int numFriends){
+        int n=word.size();
 
-        int n = word.size();
-        if (numFriends == 1) return word;
+        int i=0;
+        int j=1;
 
-        int i = 0, j = 1;
+        while(j<n){
 
-        while (j < n) {
-            while (j < n && word[j] < word[i]) {
-                j++;
+            int k=0;
+            while(j+k<n && word[i+k]==word[j+k]){
+                k++;
             }
 
-            if (j < n && word[j] > word[i]) {
-                i = j;
-                j = i + 1;
-            } else if (j < n && word[j] == word[i]) {
-                int k = 1;
-                while (j + k < n && word[i + k] == word[j + k]) {
-                    k++;
-                }
-
-                if (j + k < n && word[i + k] < word[j + k]) {
-                    i = j;
-                    j = i + 1;
-                } else {
-                    j++;
-                }
+            if(j+k<n && word[j+k]>word[i+k]){
+                i=j;
+                j=i+1;
+            } else {
+                j=j+k+1;
             }
         }
+
+        return i;
+    }
+    string a2(string word,int numFriends){
+        
+        int n=word.size();
+
+        if(numFriends==1) return word;
+        int i=bestStartingPoint(word);
 
         int longestPossibleLength = n - (numFriends - 1);
         int canTakePossible = min(longestPossibleLength, n - i);
