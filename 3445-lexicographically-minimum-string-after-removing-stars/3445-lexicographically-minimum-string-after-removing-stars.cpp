@@ -26,16 +26,15 @@ public:
     
     typedef pair<char,int> P; 
     
-    class comp{
+    struct comp{
         
-        public: 
-            bool operator()(P &p1,P &p2){
-                if(p1.first==p2.first){
-                    return p1.second<p2.second;
-                }
-
-                return p1.first>p2.first;
+        bool operator()(P &p1,P &p2){
+            if(p1.first==p2.first){
+                return p1.second<p2.second;
             }
+
+            return p1.first>p2.first;
+        }
     };
 
     void a2(string &s){
