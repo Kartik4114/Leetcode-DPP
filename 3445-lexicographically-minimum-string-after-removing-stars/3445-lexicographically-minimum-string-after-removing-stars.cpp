@@ -1,38 +1,36 @@
 class Solution {
 public:
-    typedef pair<char,int> P;
-    struct comp{
-        bool operator()(P &p1,P &p2){
-
-            if(p1.first==p2.first){
-                return p1.second < p2.second;
-            } else{
-                return p1.first > p2.first;
-            }
-        } 
-    };
     string clearStars(string s) {
-        int n=s.size();
+        int n = s.size();
+        map<char, set<int>> mp;
 
-        priority_queue<P,vector<P>, comp> pq;
-
-        for(int i=0;i<n;i++){
-
-            if(s[i]!='*'){
-                pq.push({s[i],i});
+        for (int i = 0; i < n; i++) {
+            if (s[i] == '*') {
+                // Find the smallest character in the map (lexicographically)
+                auto& st = mp.begin()->second; // Use reference so original set is modified
+                auto it = prev(st.end());      // Get last inserted index
+                st.erase(it);                  // Erase it
+                if (st.empty()) {
+                    mp.erase(mp.begin());      // Remove char entry if no indices left
+                }
             } else {
-                int idx=pq.top().second;
-
-                pq.pop();
-                s[idx]='*';
+                mp[s[i]].insert(i); // Track index for each character
             }
         }
 
-        string result="";
-        for(int i=0;i<n;i++){
-            if(s[i]!='*'){
-                result+=s[i];
+        vector<pair<int,int>> temp;
+
+        for(auto &[ch,indices]:mp){
+            for(auto &idx:indices){
+                temp.push_back({idx,ch});
             }
+        }
+
+        sort(temp.begin(),temp.end());
+
+        string result="";
+        for(auto &p:temp){
+            result+=p.second;
         }
 
         return result;
