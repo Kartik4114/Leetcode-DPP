@@ -32,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0496-next-greater-element-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0503-next-greater-element-ii) |
 | [0539-minimum-time-difference](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0539-minimum-time-difference) |
+| [0542-01-matrix](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0542-01-matrix) |
 | [0624-maximum-distance-in-arrays](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0624-maximum-distance-in-arrays) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
@@ -600,6 +601,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0368-largest-divisible-subset](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0368-largest-divisible-subset) |
 | [0416-partition-equal-subset-sum](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0416-partition-equal-subset-sum) |
 | [0494-target-sum](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0494-target-sum) |
+| [0542-01-matrix](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0542-01-matrix) |
 | [0650-2-keys-keyboard](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0650-2-keys-keyboard) |
 | [0664-strange-printer](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0664-strange-printer) |
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
@@ -858,6 +860,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0399-evaluate-division](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0399-evaluate-division) |
 | [0433-minimum-genetic-mutation](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0433-minimum-genetic-mutation) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0515-find-largest-value-in-each-tree-row) |
+| [0542-01-matrix](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0547-number-of-provinces) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0662-maximum-width-of-binary-tree) |
 | [0684-redundant-connection](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0684-redundant-connection) |
@@ -1346,6 +1349,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0059-spiral-matrix-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0059-spiral-matrix-ii) |
 | [0073-set-matrix-zeroes](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0073-set-matrix-zeroes) |
 | [0085-maximal-rectangle](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0085-maximal-rectangle) |
+| [0542-01-matrix](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0733-flood-fill) |
 | [0787-sliding-puzzle](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0787-sliding-puzzle) |
 | [0854-making-a-large-island](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0854-making-a-large-island) |
