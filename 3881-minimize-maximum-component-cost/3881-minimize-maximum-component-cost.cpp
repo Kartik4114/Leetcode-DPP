@@ -2,40 +2,7 @@ class Solution {
 public:
     typedef pair<int,int> P;
 
-    int BFS(unordered_map<int,vector<P>> &adj,vector<bool> &visited,int node){
-
-        queue<int> que;
-        que.push(node);
-        
-        visited[node]=true;
-        
-        int maxCost=-1;
-        while(!que.empty()){
-
-            int N=que.size();
-
-            while(N--){
-
-                int top=que.front();
-                que.pop();
-
-                for(auto &adjNode:adj[top]){
-                    
-                    int v=adjNode.first;
-                    int w=adjNode.second;
-                    if(!visited[v]){
-                        maxCost=max(maxCost,w);
-                        visited[v]=true;
-                        que.push(v);
-                    }   
-                }
-            }
-        }
-
-        return maxCost;
-    }
-
-vector<vector<int>> primAlgo(int n, vector<vector<int>> &edges) {
+    vector<vector<int>> primAlgo(int n, vector<vector<int>> &edges) {
         vector<vector<P>> adj(n);
         for (auto &e : edges) {
             int u = e[0], v = e[1], w = e[2];
@@ -89,14 +56,11 @@ vector<vector<int>> primAlgo(int n, vector<vector<int>> &edges) {
             int w=edge[2];
 
             pq.push({w,u,v});
-            // cout<<w<<" ";
-
         }
 
         cout<<endl;
 
         while(!pq.empty() && k-1>0){
-            // cout<<pq.top()[0]<<" ";
             pq.pop();
             k--;
         }
@@ -105,32 +69,5 @@ vector<vector<int>> primAlgo(int n, vector<vector<int>> &edges) {
             return pq.top()[0];
         }
         return 0;
-
-        // unordered_map<int,vector<P>> adj;
-        // while(!pq.empty()){
-
-        //     auto edge=pq.top();
-        //     pq.pop();
-
-        //     int u=edge[1];
-        //     int v=edge[2];
-        //     int w=edge[0];
-
-        //     adj[u].push_back({v,w});
-        //     adj[v].push_back({u,w});
-        // } 
-
-        // vector<bool> visited(n,false);
-
-        // int maxCost=0;
-        // for(int i=0;i<n;i++){
-
-        //     if(!visited[i]){
-        //         int currCost=BFS(adj,visited,i);
-        //         maxCost=max(maxCost,currCost);
-        //     }
-        // }
-
-        // return maxCost;
     }
 };
