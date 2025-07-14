@@ -488,6 +488,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3534-count-almost-equal-pairs-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3534-count-almost-equal-pairs-i) |
 | [3647-zero-array-transformation-iii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3647-zero-array-transformation-iii) |
 | [3657-check-if-grid-can-be-cut-into-sections](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
+| [3881-minimize-maximum-component-cost](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3881-minimize-maximum-component-cost) |
 ## Two Pointers
 |  |
 | ------- |
@@ -552,6 +553,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 | [3427-special-array-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3427-special-array-ii) |
 | [3643-zero-array-transformation-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3643-zero-array-transformation-ii) |
+| [3881-minimize-maximum-component-cost](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3881-minimize-maximum-component-cost) |
 ## Linked List
 |  |
 | ------- |
@@ -990,6 +992,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2793-count-the-number-of-complete-components](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2793-count-the-number-of-complete-components) |
 | [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
+| [3881-minimize-maximum-component-cost](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3881-minimize-maximum-component-cost) |
 ## Graph
 |  |
 | ------- |
@@ -1043,6 +1046,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3517-shortest-distance-after-road-addition-queries-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3517-shortest-distance-after-road-addition-queries-i) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
+| [3881-minimize-maximum-component-cost](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3881-minimize-maximum-component-cost) |
 ## Topological Sort
 |  |
 | ------- |
