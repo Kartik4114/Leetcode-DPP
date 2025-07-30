@@ -7,7 +7,6 @@ public:
         int maxEl=*max_element(nums.begin(),nums.end());
 
         int i=0;
-
         int maxLen=0;
         while(i<n){
 
