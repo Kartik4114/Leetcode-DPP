@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0031-next-permutation](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0031-next-permutation) |
 | [0035-search-insert-position](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0035-search-insert-position) |
 | [0040-combination-sum-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0040-combination-sum-ii) |
 | [0041-first-missing-positive](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0041-first-missing-positive) |
@@ -494,6 +495,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0031-next-permutation](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0031-next-permutation) |
 | [0042-trapping-rain-water](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0042-trapping-rain-water) |
 | [0075-sort-colors](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0075-sort-colors) |
 | [0189-rotate-array](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0189-rotate-array) |
