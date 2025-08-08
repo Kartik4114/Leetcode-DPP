@@ -5,15 +5,32 @@ public:
         int m=matrix.size();
         int n=matrix[0].size();
 
-        vector<vector<int>> result(m,vector<int>(n,0));
+        stack<vector<int>> st;
 
         for(int i=0;i<m;i++){
-            for(int j=0;j<n;j++){
-                result[j][n-i-1]=matrix[i][j];
+            
+            if(i%2==0){
+                for(int j=0;j<n;j++){
+                    st.push({i,j,matrix[i][j]});
+                }
+            } else {
+                for(int j=n-1;j>=0;j--){
+                    st.push({i,j,matrix[i][j]});
+                }
             }
         }
 
-        matrix=result;
 
+        while(!st.empty()){
+
+            auto top=st.top();
+            st.pop();
+
+            int i=top[0];
+            int j=top[1];
+            int val=top[2];
+
+            matrix[j][n-i-1]=val;
+        }
     }
 };
