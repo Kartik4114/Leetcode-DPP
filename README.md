@@ -649,6 +649,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0806-domino-and-tromino-tiling](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0806-domino-and-tromino-tiling) |
+| [0826-soup-servings](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0826-soup-servings) |
 | [0863-sum-of-distances-in-tree](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0863-sum-of-distances-in-tree) |
 | [0868-push-dominoes](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0868-push-dominoes) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0905-length-of-longest-fibonacci-subsequence) |
@@ -713,6 +714,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0650-2-keys-keyboard](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0650-2-keys-keyboard) |
 | [0670-maximum-swap](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0670-maximum-swap) |
 | [0797-rabbits-in-forest](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0797-rabbits-in-forest) |
+| [0826-soup-servings](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0826-soup-servings) |
 | [0870-magic-squares-in-grid](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0870-magic-squares-in-grid) |
 | [1240-stone-game-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1240-stone-game-ii) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1421-find-numbers-with-even-number-of-digits) |
@@ -1717,4 +1719,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2201-valid-arrangement-of-pairs](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2201-valid-arrangement-of-pairs) |
+## Probability and Statistics
+|  |
+| ------- |
+| [0826-soup-servings](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0826-soup-servings) |
 <!---LeetCode Topics End-->
