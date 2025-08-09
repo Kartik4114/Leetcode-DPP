@@ -703,6 +703,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0050-powx-n) |
 | [0189-rotate-array](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0189-rotate-array) |
+| [0231-power-of-two](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0231-power-of-two) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0241-different-ways-to-add-parentheses) |
 | [0263-ugly-number](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0263-ugly-number) |
 | [0264-ugly-number-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0264-ugly-number-ii) |
@@ -806,6 +807,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0050-powx-n](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0050-powx-n) |
+| [0231-power-of-two](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0231-power-of-two) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0241-different-ways-to-add-parentheses) |
 | [0273-integer-to-english-words](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0273-integer-to-english-words) |
 | [1197-parsing-a-boolean-expression](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1197-parsing-a-boolean-expression) |
@@ -1381,6 +1383,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0137-single-number-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0137-single-number-ii) |
 | [0191-number-of-1-bits](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0191-number-of-1-bits) |
 | [0222-count-complete-tree-nodes](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0222-count-complete-tree-nodes) |
+| [0231-power-of-two](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0231-power-of-two) |
 | [0338-counting-bits](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0338-counting-bits) |
 | [0476-number-complement](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0476-number-complement) |
 | [1435-xor-queries-of-a-subarray](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1435-xor-queries-of-a-subarray) |
