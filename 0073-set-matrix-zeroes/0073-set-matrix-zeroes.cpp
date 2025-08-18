@@ -5,15 +5,15 @@ public:
         int m=matrix.size();
         int n=matrix[0].size();
 
-        set<int> rows;
-        set<int> cols;
+        unordered_set<int> row;
+        unordered_set<int> col;
 
         for(int i=0;i<m;i++){
             for(int j=0;j<n;j++){
 
                 if(matrix[i][j]==0){
-                    rows.insert(i);
-                    cols.insert(j);
+                    row.insert(i);
+                    col.insert(j);
                 }
             }
         }
@@ -21,17 +21,14 @@ public:
         for(int i=0;i<m;i++){
             for(int j=0;j<n;j++){
 
-                if(rows.find(i)!=rows.end()){
+                if((row.find(i)!=row.end())) {
                     matrix[i][j]=0;
                 }
-                if(cols.find(j)!=cols.end()){
+
+                if((col.find(j)!=col.end())) {
                     matrix[i][j]=0;
                 }
             }
         }
-
-        // return matrix;
-
-        
     }
 };
