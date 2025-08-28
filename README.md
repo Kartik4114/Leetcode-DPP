@@ -32,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0350-intersection-of-two-arrays-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0368-largest-divisible-subset](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0368-largest-divisible-subset) |
 | [0399-evaluate-division](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0399-evaluate-division) |
+| [0410-split-array-largest-sum](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0410-split-array-largest-sum) |
 | [0416-partition-equal-subset-sum](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0416-partition-equal-subset-sum) |
 | [0494-target-sum](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0494-target-sum) |
 | [0496-next-greater-element-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0496-next-greater-element-i) |
@@ -393,6 +394,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0179-largest-number](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0179-largest-number) |
+| [0410-split-array-largest-sum](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0410-split-array-largest-sum) |
 | [0624-maximum-distance-in-arrays](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0624-maximum-distance-in-arrays) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0670-maximum-swap](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0670-maximum-swap) |
@@ -540,6 +542,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0035-search-insert-position](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0035-search-insert-position) |
 | [0222-count-complete-tree-nodes](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0222-count-complete-tree-nodes) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0410-split-array-largest-sum](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0410-split-array-largest-sum) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0540-single-element-in-a-sorted-array) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0729-my-calendar-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0729-my-calendar-i) |
@@ -651,6 +654,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0264-ugly-number-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0264-ugly-number-ii) |
 | [0338-counting-bits](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0338-counting-bits) |
 | [0368-largest-divisible-subset](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0368-largest-divisible-subset) |
+| [0410-split-array-largest-sum](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0410-split-array-largest-sum) |
 | [0416-partition-equal-subset-sum](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0416-partition-equal-subset-sum) |
 | [0494-target-sum](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0494-target-sum) |
 | [0542-01-matrix](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0542-01-matrix) |
@@ -768,6 +772,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 |  |
 | ------- |
+| [0410-split-array-largest-sum](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0410-split-array-largest-sum) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [1240-stone-game-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1240-stone-game-ii) |
 | [1435-xor-queries-of-a-subarray](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1435-xor-queries-of-a-subarray) |
