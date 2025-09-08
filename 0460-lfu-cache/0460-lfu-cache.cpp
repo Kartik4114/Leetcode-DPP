@@ -1,76 +1,73 @@
 class LFUCache {
-public:
+private:
     int cap;
     int size;
-    unordered_map<int,list<vector<int>> :: iterator> mp; // key -> address
-    map<int,list<vector<int>>> freq; // {key,value,counter}
+    unordered_map<int,list<vector<int>>::iterator> mp;
+    map<int,list<vector<int>>> freq;
 
-    LFUCache(int capacity) {
-        cap=capacity;
-        size=0;
-    }
-    
-    void makeMostFrequentlyUsed(int key) {
+    void mostFrequentlyUsed(int key){
 
-        auto vec = *(mp[key]);
+        auto &vec=*(mp[key]);
 
-        int value= vec[1];
-        int f    = vec[2];
+        int value=vec[1];
+        int f=vec[2];
 
         freq[f].erase(mp[key]);
 
-        if(freq[f].empty()) {
-            freq.erase(f);
-        }
+        if(freq[f].empty()) freq.erase(f);
         f++;
 
         freq[f].push_front({key,value,f});
         mp[key]=freq[f].begin();
 
     }
+
+public:
+    LFUCache(int capacity) {
+        cap=capacity;
+        size=0;
+    }
+    
     int get(int key) {
-        
+
         if(mp.find(key)==mp.end()) return -1;
 
-        auto &vec=(*mp[key]); // extracting direct vector 
+        auto &vec=*(mp[key]);
 
         int value=vec[1];
-        makeMostFrequentlyUsed(key);
+        mostFrequentlyUsed(key);
 
-        return value;
+        return value;  
     }
     
     void put(int key, int value) {
         
         if(mp.find(key)!=mp.end()){
-            auto &vec = *(mp[key]);
-            vec[1]=value;
-            makeMostFrequentlyUsed(key);
-        } else if(size<cap) {
             
+            auto &vec=*(mp[key]);
+            vec[1]=value;
+            mostFrequentlyUsed(key);
+
+        } else if(size<cap){
             size++;
             freq[1].push_front({key,value,1});
             mp[key]=freq[1].begin();
-            // cap--;
-        }
+        } else {
 
-        else {
-            auto &listToDel=freq.begin()->second;
+            auto &kaun_sa_list=freq.begin()->second;
 
-            int keyToDel=(listToDel.back())[0];
-            listToDel.pop_back();
+            int key_to_delete=kaun_sa_list.back()[0];
+            kaun_sa_list.pop_back();
 
-            if(listToDel.empty()) {
+            if(kaun_sa_list.empty()) {
                 freq.erase(freq.begin()->first);
             }
 
             freq[1].push_front({key,value,1});
-
-            mp.erase(keyToDel);
+            mp.erase(key_to_delete);
             mp[key]=freq[1].begin();
-            // cap++;
-        }
 
+        }
     }
 };
 
