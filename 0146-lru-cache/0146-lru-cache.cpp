@@ -1,26 +1,18 @@
 class LRUCache {
 public:
-    // Brute Force Approach :- TLE
-    //  Using Vector and then using erase and all funtion for deleting
-    // T.C :- O(n^2) , S.C :- O(n)
-
-    // OPTIMISED APPROACH :- USING DOUBLY LINKED LIST
-    // T.C :- O(1) , S.C :- O(n)
-
+    int size;
     list<int> dll;
-    map<int,pair<list<int>::iterator,int>> mp;
-    int n;
+    unordered_map<int,pair<list<int>::iterator,int>> mp;
+
     LRUCache(int capacity) {
-        n=capacity;
+        size=capacity;
     }
     
     void mostRecentlyUsed(int key){
 
         dll.erase(mp[key].first);
-
         dll.push_front(key);
         mp[key].first=dll.begin();
-
     }
     int get(int key) {
         
@@ -33,24 +25,23 @@ public:
     void put(int key, int value) {
         
         if(mp.find(key)!=mp.end()){
+
             mp[key].second=value;
             mostRecentlyUsed(key);
         } else {
+
             dll.push_front(key);
-            mp[key]= {dll.begin(),value};
-            n--;
+            mp[key]={dll.begin(),value};
+            size--;
         }
 
-        if(n<0){
+        if(size<0){
 
             int keyToDel=dll.back();
-            mp.erase(keyToDel);
-
             dll.pop_back();
-            n++;
+            mp.erase(keyToDel);
+            size++;
         }
-
-
     }
 };
 
