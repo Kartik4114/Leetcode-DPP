@@ -761,6 +761,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3243-count-the-number-of-powerful-integers](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3243-count-the-number-of-powerful-integers) |
 | [3275-minimum-number-of-pushes-to-type-word-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3275-minimum-number-of-pushes-to-type-word-i) |
 | [3321-type-of-triangle](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3321-type-of-triangle) |
+| [3462-vowels-game-in-a-string](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3462-vowels-game-in-a-string) |
 | [3535-find-the-count-of-monotonic-pairs-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3535-find-the-count-of-monotonic-pairs-i) |
 | [3548-find-the-count-of-good-integers](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3548-find-the-count-of-good-integers) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
@@ -1282,6 +1283,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3451-string-compression-iii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3451-string-compression-iii) |
 | [3453-generate-binary-strings-without-adjacent-zeros](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3453-generate-binary-strings-without-adjacent-zeros) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3455-minimum-length-of-string-after-operations) |
+| [3462-vowels-game-in-a-string](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3462-vowels-game-in-a-string) |
 | [3468-find-the-encrypted-string](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3468-find-the-encrypted-string) |
 | [3493-maximum-number-of-operations-to-move-ones-to-the-end](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3493-maximum-number-of-operations-to-move-ones-to-the-end) |
 | [3543-count-substrings-that-satisfy-k-constraint-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3543-count-substrings-that-satisfy-k-constraint-i) |
@@ -1674,6 +1676,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1240-stone-game-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1240-stone-game-ii) |
+| [3462-vowels-game-in-a-string](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3462-vowels-game-in-a-string) |
 ## Number Theory
 |  |
 | ------- |
@@ -1695,6 +1698,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 | [2533-bitwise-xor-of-all-pairings](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2533-bitwise-xor-of-all-pairings) |
+| [3462-vowels-game-in-a-string](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3462-vowels-game-in-a-string) |
 ## Rolling Hash
 |  |
 | ------- |
