@@ -173,6 +173,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2280-count-good-triplets-in-an-array](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2280-count-good-triplets-in-an-array) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2292-counting-words-with-a-given-prefix) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2306-create-binary-tree-from-descriptions) |
+| [2307-replace-non-coprime-numbers-in-array](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2307-replace-non-coprime-numbers-in-array) |
 | [2316-count-hills-and-valleys-in-an-array](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2316-count-hills-and-valleys-in-an-array) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
@@ -748,6 +749,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2155-find-missing-observations](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2155-find-missing-observations) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2202-sum-of-k-mirror-numbers](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2202-sum-of-k-mirror-numbers) |
+| [2307-replace-non-coprime-numbers-in-array](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2307-replace-non-coprime-numbers-in-array) |
 | [2415-count-the-number-of-ideal-arrays](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2415-count-the-number-of-ideal-arrays) |
 | [2448-count-number-of-bad-pairs](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2448-count-number-of-bad-pairs) |
 | [2645-pass-the-pillow](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2645-pass-the-pillow) |
@@ -1332,6 +1334,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2227-sum-of-subarray-ranges](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2227-sum-of-subarray-ranges) |
+| [2307-replace-non-coprime-numbers-in-array](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2307-replace-non-coprime-numbers-in-array) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2800-minimum-string-length-after-removing-substrings) |
@@ -1684,6 +1687,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1585-the-kth-factor-of-n](https://github.com/Kartik4114/Leetcode-DPP/tree/master/1585-the-kth-factor-of-n) |
+| [2307-replace-non-coprime-numbers-in-array](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2307-replace-non-coprime-numbers-in-array) |
 | [2415-count-the-number-of-ideal-arrays](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2415-count-the-number-of-ideal-arrays) |
 | [2716-prime-subtraction-operation](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2716-prime-subtraction-operation) |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/Kartik4114/Leetcode-DPP/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
