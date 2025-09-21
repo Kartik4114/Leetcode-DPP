@@ -509,6 +509,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0005-longest-palindromic-substring) |
 | [0031-next-permutation](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0031-next-permutation) |
 | [0042-trapping-rain-water](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0042-trapping-rain-water) |
 | [0075-sort-colors](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0075-sort-colors) |
@@ -648,6 +649,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0005-longest-palindromic-substring) |
 | [0022-generate-parentheses](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0042-trapping-rain-water) |
 | [0085-maximal-rectangle](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0085-maximal-rectangle) |
@@ -1190,6 +1192,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0005-longest-palindromic-substring](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0005-longest-palindromic-substring) |
 | [0008-string-to-integer-atoi](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0008-string-to-integer-atoi) |
 | [0022-generate-parentheses](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0022-generate-parentheses) |
 | [0038-count-and-say](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0038-count-and-say) |
