@@ -292,6 +292,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0127-word-ladder](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0127-word-ladder) |
 | [0128-longest-consecutive-sequence](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0128-longest-consecutive-sequence) |
 | [0146-lru-cache](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0146-lru-cache) |
+| [0166-fraction-to-recurring-decimal](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0166-fraction-to-recurring-decimal) |
 | [0208-implement-trie-prefix-tree](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0208-implement-trie-prefix-tree) |
 | [0264-ugly-number-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0264-ugly-number-ii) |
 | [0347-top-k-frequent-elements](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0347-top-k-frequent-elements) |
@@ -723,6 +724,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0048-rotate-image](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0050-powx-n) |
+| [0166-fraction-to-recurring-decimal](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0166-fraction-to-recurring-decimal) |
 | [0189-rotate-array](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0189-rotate-array) |
 | [0231-power-of-two](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0231-power-of-two) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0241-different-ways-to-add-parentheses) |
@@ -1199,6 +1201,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0022-generate-parentheses](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0022-generate-parentheses) |
 | [0038-count-and-say](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0038-count-and-say) |
 | [0127-word-ladder](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0127-word-ladder) |
+| [0166-fraction-to-recurring-decimal](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0166-fraction-to-recurring-decimal) |
 | [0179-largest-number](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0179-largest-number) |
 | [0208-implement-trie-prefix-tree](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0208-implement-trie-prefix-tree) |
 | [0214-shortest-palindrome](https://github.com/Kartik4114/Leetcode-DPP/tree/master/0214-shortest-palindrome) |
