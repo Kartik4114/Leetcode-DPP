@@ -61,12 +61,12 @@ public:
         
         // APPROACH 1:- USING RECURSION +MEMO
         // T.C :- O(N*N) ,S.C :- O(n) + O(n*n) (recursion stack space)
-        memset(memo,-1,sizeof(memo));
+        // memset(memo,-1,sizeof(memo));
         // return a1(triangle,0,0); 
 
         // APPROACH 2:- USING DP
         // T.C :- O(N*N) ,S.C :- O(n*n) 
-        // return a2(triangle);  
+        return a2(triangle);  
 
         // APPROACH 3:- USING SPACE OPTIMIZATION
         // T.C :- O(N*N) ,S.C :- O(n) 
