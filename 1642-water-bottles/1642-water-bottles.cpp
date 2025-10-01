@@ -22,7 +22,7 @@ public:
     int numWaterBottles(int numBottles, int numExchange) {
         
         // APPROACH 1:- T.C :- O(LOG(numbottles) base num Exchange);
-        // return a1(numBottles,numExchanges);
+        return a1(numBottles,numExchange);
 
         // APPROACH 2:- T.C :- O(1)
         return a2(numBottles,numExchange);
