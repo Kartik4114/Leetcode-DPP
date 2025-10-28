@@ -274,6 +274,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3535-find-the-count-of-monotonic-pairs-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3535-find-the-count-of-monotonic-pairs-i) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 | [3612-adjacent-increasing-subarrays-detection-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3612-adjacent-increasing-subarrays-detection-i) |
+| [3616-make-array-elements-equal-to-zero](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3616-make-array-elements-equal-to-zero) |
 | [3619-adjacent-increasing-subarrays-detection-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3619-adjacent-increasing-subarrays-detection-ii) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
@@ -650,6 +651,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3447-clear-digits](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3447-clear-digits) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3600-find-the-k-th-character-in-string-game-i) |
+| [3616-make-array-elements-equal-to-zero](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3616-make-array-elements-equal-to-zero) |
 ## Enumeration
 |  |
 | ------- |
@@ -833,6 +835,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3492-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3492-count-submatrices-with-equal-frequency-of-x-and-y) |
 | [3498-minimum-array-changes-to-make-differences-equal](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3498-minimum-array-changes-to-make-differences-equal) |
 | [3535-find-the-count-of-monotonic-pairs-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3535-find-the-count-of-monotonic-pairs-i) |
+| [3616-make-array-elements-equal-to-zero](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3616-make-array-elements-equal-to-zero) |
 | [3639-zero-array-transformation-i](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3639-zero-array-transformation-i) |
 | [3643-zero-array-transformation-ii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3643-zero-array-transformation-ii) |
 | [3647-zero-array-transformation-iii](https://github.com/Kartik4114/Leetcode-DPP/tree/master/3647-zero-array-transformation-iii) |
